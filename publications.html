@@ -1,0 +1,23 @@
+---
+layout: page
+title: Publications
+---
+
+<section class="section page-title-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+              <div class="d-flex align-items-center section-title justify-content-between">
+                <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
+                <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+              </div>
+            </div>
+          </div>
+
+        {{ page.url }}
+
+        {% for item in page.ref %}
+        {{ forloop.index }}. {{ item }}
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,76 @@
+---
+layout: page
+title: Team
+---
+
+<section class="section page-title-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- member list -->
+    <div class="row">
+
+      {% for member in site.team %}
+
+      <!-- member -->
+      <div data-category="" class="col-lg-4 col-sm-6 mb-5 filtr-item d-flex">
+        <div class="card border-1 align-items-center hover-shadow">
+          <div class="card-header text-center">
+            <img class="rounded w-50" src="/assets/images/team/members/{{ member.member_image }}" alt="{{ member.member_title }} {{ member.member_name }}">
+          </div>
+
+          <div class="card-body">
+            <a href="{{ member.url }}">
+              <h5 class="card-title">{{ member.member_title }} {{ member.member_name }}</h5>
+            </a>
+            <p class="m-0">{{ member.member_position }}</p>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+    </div>
+
+    {% for section in site.data.other_team_members %}
+
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+          <h4 class="mb-0 text-nowrap mr-3">{{ section.title }}</h4>
+        </div>
+      </div>
+      <div class="col-12 m-0">
+
+        <ul class="list-group experience mb-4 w-100">
+        {% for member in section.members %}
+
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-3">
+            {% if member.link %}
+              <a href="{{ member.link }}" target="_blank">{{ member.name }}</a>
+            {% else %}
+              {{ member.name }}
+            {% endif %}
+            </div>
+            <div class="col-md-9">{{ member.detail }}</div>
+          </div>
+        </li>
+
+        {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</section>
