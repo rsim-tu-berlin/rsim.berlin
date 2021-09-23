@@ -4,7 +4,7 @@ order: 7
 title: Georgii Mikriukov - RSiM
 #
 member_alias: georgii-mikriukov
-member_image: rsim-team-member.png
+member_image: georgii-mikriukov.png
 member_title:
 member_name: Georgii Mikriukov
 member_position: Researcher
