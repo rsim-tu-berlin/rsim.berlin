@@ -8,7 +8,7 @@ member_image: markus-muller.png
 member_title:
 member_name: Markus Müller
 member_position: Student Assistant
-member_email: a.aksoy [at] campus.tu-berlin.de
+member_email:
 member_site:
 
 member_address: |
