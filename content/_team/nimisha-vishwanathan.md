@@ -22,18 +22,22 @@ member_room_no: EN 604
 member_office_hours:
 
 member_experience:
-    title: Education
-    list:
-        - period: 2021-now
-          title: Post-Doctoral Researcher, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
-        - period: 2019-2021
-          title: Artificial Intelligence Engineer, KLA+, Chennai, India.
-        - period: 2013-2019
-          title: PhD., Image Processing and Computer Vision Lab,  Electrical Engineering Department, Indian Institute of Technology Madras, India.
-        - period: 2011- 2013
-          title: Masters in Technology (M.Tech), Signal Processing, Electronics and Communication Department, National Institute of Technology, Calicut, India.
-        - period: 2007-2011
-          title: Bachelor of Technology (B.Tech), Electronics and Communication, Amrita Viswa Vidyapeetham, Kollam, India
+  title:  Academic Experience
+  list:
+    - period: 2021-now
+      title: Post-Doctoral Researcher, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
+    - period: 2013-2019
+      title: PhD., Image Processing and Computer Vision Lab,  Electrical Engineering Department, Indian Institute of Technology Madras, India.
+    - period: 2011- 2013
+      title: Masters in Technology (M.Tech), Signal Processing, Electronics and Communication Department, National Institute of Technology, Calicut, India.
+    - period: 2007-2011
+      title: Bachelor of Technology (B.Tech), Electronics and Communication, Amrita Viswa Vidyapeetham, Kollam, India.
+
+member_experience_other:
+  title: Work Experience
+  list:
+      - period: 2019-2021
+        title: Artificial Intelligence Engineer, KLA+, Chennai, India.
 ---
 
   <h4 class="mt-4">Publications</h4>
