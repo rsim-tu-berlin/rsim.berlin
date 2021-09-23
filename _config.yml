@@ -1,3 +1,4 @@
+baseurl: /rsim.tu-berlin.de
 collections_dir: content
 collections:
   team:
