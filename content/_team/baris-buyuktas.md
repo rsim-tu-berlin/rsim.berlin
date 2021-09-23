@@ -35,7 +35,7 @@ member_experience_other:
     title: Work Experience
     list:
         - period: 2020-2021
-          title: Research Assistant, Boğaziçi University, Turkey.
+          title: Researcher, Faculty of Computer Engineering, Boğaziçi University, Turkey.
         - period: 2018-2020
           title: Teaching Assistant, Özyeğin University, Turkey.
 
