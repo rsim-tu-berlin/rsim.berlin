@@ -4,7 +4,7 @@ order: 15
 title: Markus Müller - RSiM
 #
 member_alias: markus-muller
-member_image: rsim-team-member.png
+member_image: markus-muller.png
 member_title:
 member_name: Markus Müller
 member_position: Student Assistant
@@ -24,6 +24,19 @@ member_office_hours:
 member_experience:
     title: Academic Experience
     list:
-        - period: 2021-Now
-          title: TBD.
+        - period: 2020
+          title: Semester Abroad, University of Queensland, Australia
+        - period: 2018-now
+          title: MSc in Biomedical Engineering, TU Berlin, Germany.
+        - period: 2014-2018
+          title: BSc in Mechanical Engineering, Brandenburg University of Technology Cottbus-Senftenberg, Germany.
+
+member_experience_other:
+    title: Work Experience
+    list:
+        - period: Jan 2017-Mar 2017
+          title: Student assistant at the Chair of Automation Technology, Brandenburgische Technische Universitaet, Germany.
+        - perion: Jul 2017-Oct 2017
+          title: Intern at Ibar Systemtechnik GmbH
+
 ---
