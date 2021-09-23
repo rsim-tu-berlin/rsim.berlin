@@ -13,8 +13,6 @@ collections:
     output: true
     permalink: /teaching/:path
   news:
-    output: true
     sort_by: date
-    permalink: /:collection/:title
   software:
     sort_by: date
