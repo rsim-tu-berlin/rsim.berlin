@@ -17,7 +17,8 @@ title: Team
     <!-- member list -->
     <div class="row">
 
-      {% for member in site.team %}
+      {% assign sorted_team = site.team | sort: "order" %}
+      {% for member in sorted_team %}
 
       <!-- member -->
       <div data-category="" class="col-lg-4 col-sm-6 mb-5 filtr-item d-flex">
@@ -27,7 +28,7 @@ title: Team
           </div>
 
           <div class="card-body">
-            <a href="{{ member.url }}">
+            <a href="{{ site.baseurl }}{{ member.url }}">
               <h5 class="card-title">{{ member.member_title }} {{ member.member_name }}</h5>
             </a>
             <p class="m-0">{{ member.member_position }}</p>
