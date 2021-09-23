@@ -36,7 +36,7 @@ member_experience_other:
     list:
         - period: Jan 2017-Mar 2017
           title: Student assistant at the Chair of Automation Technology, Brandenburgische Technische Universitaet, Germany.
-        - perion: Jul 2017-Oct 2017
+        - period: Jul 2017-Oct 2017
           title: Intern at Ibar Systemtechnik GmbH
 
 ---
