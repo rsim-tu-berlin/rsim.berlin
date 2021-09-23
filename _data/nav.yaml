@@ -1,0 +1,35 @@
+- name: Home
+  page: /
+  link: /
+- name: Team
+  page: /team
+  link: /team.html
+- name: Publications*
+  page: /publications
+  link: /publications.html
+  submenu:
+  - name: Journal Publications
+    page: /publications/journals
+    link: /publications/journals.html
+  - name: Conference Publications
+    page: /publications/conferences
+    link: /publications/conferences.html
+  - name: Books and Book Chapters
+    page: /publications/books
+    link: /publications/books.html
+- name: Teaching
+  page: /teaching
+  link: /teaching.html
+- name: News-WIP
+  page: /news
+  link: /news.html
+- name: Thesis*
+  page: /thesis
+  link: /thesis.html
+- name: Projects*
+  page: /projects
+  link: /projects.html
+- name: Software
+  page: /software
+  link: /software.html
+

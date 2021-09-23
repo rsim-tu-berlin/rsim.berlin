@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  {% include header.html %}
+  <body>
+    <!-- preloader start -->
+    <!-- <div class="preloader">
+      <img src="/assets/images/preloader.gif" alt="preloader">
+    </div> -->
+    <!-- preloader end -->
+
+    {% include page_header.html %}
+
+    <!-- course details -->
+    <section class="section page-title-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex align-items-center section-title justify-content-between">
+              <h2 class="mb-0 mr-3">{{ page.title }}</h2>
+              <!-- <div class="border-top w-100 border-primary d-none d-sm-block"></div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- course thumb -->
+        <!-- <div class="row">
+          <div class="col-12 mb-4">
+            <img src="/assets/images/courses/course-single.jpg" class="img-fluid w-100">
+          </div>
+        </div> -->
+
+        <!-- course info -->
+        <!-- <div class="row align-items-center mb-5">
+          <div class="col-xl-12 col-sm-6 mb-4 mb-xl-0">
+            <h2>{{ page.title }}</h2>
+          </div>
+        </div> -->
+        <div class="row align-items-left mb-5">
+          <div class="col-12">
+
+            <ul class="list-unstyled d-md-inline-flex d-sm-inline-flex ">
+
+              <li class="list-inline-item mr-4 mb-3 mb-sm-0 ">
+                <div class="d-flex align-top">
+                  <i class="ti-book text-primary icon-md mr-2"></i>
+                  <div class="text-left">
+                    <h6 class="mb-0">Semester:</h6>
+                    <p class="mb-0">{{ page.semester }}</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+                <div class="d-flex align-top">
+                  <i class="ti-alarm-clock text-primary icon-md mr-2"></i>
+                  <div class="text-left">
+                    <h6 class="mb-0">Date and Time:</h6>
+                    <p class="mb-0">{{ page.date_time }}</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+                <div class="d-flex align-top">
+                  <i class="ti-notepad text-primary icon-md mr-2"></i>
+                  <div class="text-left">
+                    <h6 class="mb-0">SWS/Credits Points (ECTS)</h6>
+                    <p class="mb-0">{{ page.credit_point }}</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+                <div class="d-flex ">
+                  <i class="ti-location-pin text-primary icon-md mr-2"></i>
+                  <div class="text-left">
+                    <h6 class="mb-0">Location</h6>
+                    <p class="mb-0">{{ page.location }}</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+                <div class="d-flex ">
+                  <i class="ti-user text-primary icon-md mr-2"></i>
+                  <div class="text-left">
+                    <h6 class="mb-0">Participants</h6>
+                    <p class="mb-0">{{ page.participants }}</p>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="row align-items-center mb-5">
+          <div class="col-12 mb-4 mb-xl-0 text-center">
+            <a href="{{ page.isis_link }}" class="btn btn-sm course-link rounded border-primary text-reset">Register course on ISIS</a>
+          </div>
+          <!-- border -->
+          <!-- <div class="col-12 mt-4 order-4">
+            <div class="border-bottom border-primary"></div>
+          </div> -->
+        </div>
+
+        <!-- course details -->
+        <div class="row">
+          <div class="col-12 mb-4">
+            <h3>About Course</h3>
+            <p>{{ page.description }}</p>
+          </div>
+        </div>
+
+        <!-- <div class="col-12 mb-5">
+          <h5 class="mb-3">Details about the course:</h5>
+          <ul class="list-styled">
+            <li><b>SWS/Credits Points (ECTS):</b> 6 SWS/9 ECTS</li>
+            <li><b>Participants:</b>15</li>
+          </ul>
+        </div> -->
+
+        <div class="col-12">
+          <h5 class="mb-3">Lecturers:</h5>
+
+          {% for lecturer in page.lecturers %}
+
+          <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <div class="media mb-2 mb-sm-0">
+              <!-- <img class="mr-4 img-fluid" src="/assets/images/{{ lecturer.image }}" alt="{{ lecturer.name }}"> -->
+              <div class="media-body">
+                <ul class="list-styled">
+                  <li class="mt-0">{{ lecturer.name }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+
+          <div class="border-bottom border-primary mt-4"></div>
+        </div>
+
+      </div>
+    </section>
+
+    {% include page_footer.html %}
+
+  </body>
+</html>
