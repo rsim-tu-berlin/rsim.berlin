@@ -46,7 +46,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       {% for subitem in item.submenu %}
-                      <a class="dropdown-item" href="{{ subitem.page }}">{{ subitem.name }}</a>
+                      <a class="dropdown-item" href="{{ site.baseurl }}{{ subitem.page }}">{{ subitem.name }}</a>
                       {% endfor %}
                     </div>
                   </li>
