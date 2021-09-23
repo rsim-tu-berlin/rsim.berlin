@@ -22,7 +22,7 @@ member_room_no: EN 604
 member_office_hours:
 
 member_experience:
-    title: Education
+    title: Academic Experience
     list:
         - period: 2018-Now
           title: Msc in Geoinformation and Geodesy, TU Berlin, Germany.

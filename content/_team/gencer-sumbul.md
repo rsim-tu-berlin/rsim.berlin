@@ -22,7 +22,7 @@ member_room_no: EN 602
 member_office_hours:
 
 member_experience:
-    title: Education
+    title: Academic Experience
     list:
         - period: 2018-now
           title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.

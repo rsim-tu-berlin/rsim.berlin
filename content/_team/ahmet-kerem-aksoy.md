@@ -22,7 +22,7 @@ member_room_no: EN 630
 member_office_hours:
 
 member_experience:
-  title: Education
+  title: Academic Experience
   list:
     - period: Apr 2021-Now
       title: MSc in Computer Science, Technische Universität Berlin, Germany.
