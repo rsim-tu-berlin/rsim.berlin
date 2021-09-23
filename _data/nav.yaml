@@ -4,7 +4,7 @@
 - name: Team
   page: /team
   link: /team.html
-- name: Publications*
+- name: Publications
   page: /publications
   link: /publications.html
   submenu:
@@ -20,13 +20,13 @@
 - name: Teaching
   page: /teaching
   link: /teaching.html
-- name: News-WIP
+- name: News
   page: /news
   link: /news.html
-- name: Thesis*
+- name: Thesis
   page: /thesis
   link: /thesis.html
-- name: Projects*
+- name: Projects
   page: /projects
   link: /projects.html
 - name: Software
