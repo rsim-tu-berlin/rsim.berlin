@@ -39,13 +39,13 @@ title: Teaching
               <!-- <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>{{ course.update_date }}</li> -->
               <!-- <li class="list-inline-item"><a class="text-color" href="#"></a></li> -->
             </ul>
-            <a href="{{ course.url }}">
+            <a href="{{ site.baseurl }}{{ course.url }}">
               <h4 class="card-title">{{ course.title }}</h4>
             </a>
             <p class="card-text mb-2"><i class="ti-book mr-1 text-color"></i>{{ course.semester }}</p>
             <p class="card-text mb-2"><i class="ti-alarm-clock mr-1 text-color"></i>{{ course.date_time }}</p>
             <p class="card-text mb-2"><i class="ti-location-pin mr-1 text-color"></i>{{ course.location }}</p>
-            <a href="{{ course.url }}" class="btn btn-primary btn-sm justify-content-center">Details</a>
+            <a href="{{ site.baseurl }}{{ course.url }}" class="btn btn-primary btn-sm justify-content-center">Details</a>
           </div>
         </div>
       </div>
