@@ -4,15 +4,31 @@ title: Projects
 ---
 
 <section class="section page-title-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-              <div class="d-flex align-items-center section-title justify-content-between">
-                <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
-                <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-              </div>
-            </div>
-          </div>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
     </div>
+
+    {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+    {% for project in sorted_projects %}
+
+    <div class="row m-4 p-2 w-100 border-bottom hover-shadow rounded">
+      <div class="col-3">
+        <img class="card-img-top news-img rounded-0" src="{{ site.baseurl }}/assets/images/projects/{{ project.main_page_image }}" alt="Post thumb">
+			</div>
+      <div class="col-9">
+        <h3>{{ project.code }}</h3>
+        <h4>{{ project.title }}</h4>
+        <p class="text-justify">{{ project.text }}</p>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
 </section>

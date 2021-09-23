@@ -14,5 +14,7 @@ collections:
     permalink: /teaching/:path
   news:
     sort_by: date
+  projects:
+    sort_by: date
   software:
     sort_by: date
