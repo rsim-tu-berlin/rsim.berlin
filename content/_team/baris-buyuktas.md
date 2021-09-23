@@ -26,8 +26,6 @@ member_experience:
     list:
         - period: 2021-now
           title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
-        - period: 2020-2021
-          title: PhD in Computer Engineering, Boğaziçi University, Turkey.
         - period: 2018-2020
           title: MSc in Electrical and Electronics Engineering, Özyeğin University, Turkey.
         - period: 2013-2018
