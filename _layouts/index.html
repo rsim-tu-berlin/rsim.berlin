@@ -6,7 +6,7 @@
     {% include page_header.html %}
 
     <!-- hero slider -->
-    <section class="hero-section bg-contain" data-background="/assets/images/backgrounds/Berlin_schwitzt_Teil_2.jpg">
+    <section class="hero-section bg-contain" data-background="{{ site.baseurl }}/assets/images/backgrounds/Berlin_schwitzt_Teil_2.jpg">
     <div class="container">
       <div class="hero">
         <!-- slider item -->
@@ -64,7 +64,7 @@
               <h4 class="mb-0 text-nowrap mr-3">Latest News</h4>
               <div class="border-top w-100 border-primary d-none d-sm-block"></div>
               <div>
-                <a href="/news" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
+                <a href="{{ site.baseurl }}/news" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@
           <article class="col-sm-12 col-xl-4 mb-xl-5 mb-lg-3 text-center text-sm-left">
             <!-- <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0"> -->
               <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-                <img class="card-img-top news-img rounded-0" src="/assets/images/news/{{ news.main_page_image }}" alt="Post thumb">
+                <img class="card-img-top news-img rounded-0" src="{{ site.baseurl }}/assets/images/news/{{ news.main_page_image }}" alt="Post thumb">
                 <div class="card-body">
                   <!-- post meta -->
                   <ul class="list-inline mb-3">
@@ -109,16 +109,16 @@
         <div class="col-12 text-center">
           <h4 class="section-title">Supported by</h4>
           <a class="navbar-brand mx-3" href="{{ site.data.config.erc_mainpage }}">
-            <img src="/assets/images/logo/ERC.png" alt="logo" height="100px">
+            <img src="{{ site.baseurl }}/assets/images/logo/ERC.png" alt="logo" height="100px">
           </a>
           <a class="navbar-brand mx-3" href="{{ site.data.config.bmbf_mainpage }}">
-            <img src="/assets/images/logo/bmbf.svg" alt="logo" height="100px">
+            <img src="{{ site.baseurl }}/assets/images/logo/bmbf.svg" alt="logo" height="100px">
           </a>
           <a class="navbar-brand mx-3" href="{{ site.data.config.bmwi_mainpage }}">
-            <img src="/assets/images/logo/BMWi.svg" alt="logo" height="100px">
+            <img src="{{ site.baseurl }}/assets/images/logo/BMWi.svg" alt="logo" height="100px">
           </a>
           <a class="navbar-brand mx-3" href="{{ site.data.config.dfg_mainpage }}">
-            <img src="/assets/images/logo/DFG.jpg" alt="logo" height="75px">
+            <img src="{{ site.baseurl }}/assets/images/logo/DFG.jpg" alt="logo" height="75px">
           </a>
         </div>
       </div>
