@@ -18,3 +18,5 @@ collections:
     sort_by: date
   software:
     sort_by: date
+  theses:
+    sort_by: date

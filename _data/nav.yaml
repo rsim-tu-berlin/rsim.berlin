@@ -23,9 +23,9 @@
 - name: News
   page: /news
   link: /news.html
-- name: Thesis
-  page: /thesis
-  link: /thesis.html
+- name: Theses
+  page: /theses
+  link: /theses.html
 - name: Projects
   page: /projects
   link: /projects.html
