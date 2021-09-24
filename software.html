@@ -41,18 +41,18 @@ title: Software
               {% if software.repositories.size > 1 %}
               <ul class="list-unstyled">
                 {% for repository in software.repositories %}
-                <li class=""><i class="fab fa-gitlab mr-2"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a></li>
+                <li class=""><i class="fab fa-gitlab mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a></li>
                 {% endfor %}
               </ul>
               {% else %}
               {% assign repository = software.repositories[0] %}
-                <i class="fab fa-gitlab mr-2"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a>
+                <i class="fab fa-gitlab mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a>
               {% endif %}
             </p>
 
             {% if software.accompanying_paper %}
             <p class="card-text">
-              <b>Accompanying Paper:</b> <i class="far fa-file-pdf mr-2"></i><a href="{{ software.accompanying_paper.link }}" target="_blank">{{ software.accompanying_paper.title  }}</a>
+              <b>Accompanying Paper:</b> <i class="far fa-file-pdf mx-1"></i><a href="{{ software.accompanying_paper.link }}" target="_blank">{{ software.accompanying_paper.title  }}</a>
             </p>
             {% endif %}
 
