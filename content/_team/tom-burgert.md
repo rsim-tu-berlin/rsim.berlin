@@ -7,7 +7,7 @@ member_alias: tom-burgert
 member_image: tom-burgert.jpg
 member_title:
 member_name: Tom Burgert
-member_position: Researcher
+member_position: Student Assistant
 member_email:
 member_site:
 
@@ -22,8 +22,17 @@ member_room_no: EN 603
 member_office_hours:
 
 member_experience:
-    title: Academic Experience
-    list:
-        - period: 2021-Now
-          title: TBD.
+  title: Academic Experience
+  list:
+    - period: Apr 2021-Now
+      title: MSc in Computer Science, Technische Universität Berlin, Germany.
+    - period: Oct 2017-Nov 2020
+      title: BSc in Computer Science, Technische Universität Berlin, Germany.
+
+member_experience_other:
+  title: Work Experience
+  list:
+    - period: Dec 2020-Now
+      title: Research Assistant, Remote Sensing Image Analysis Group at TU Berlin, Germany.
+
 ---
