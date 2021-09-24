@@ -24,15 +24,20 @@ member_office_hours:
 member_experience:
   title: Academic Experience
   list:
-    - period: Apr 2021-Now
+    - period: Oct 2018-Now
       title: MSc in Computer Science, Technische Universität Berlin, Germany.
-    - period: Oct 2017-Nov 2020
-      title: BSc in Computer Science, Technische Universität Berlin, Germany.
+    - period: Oct 2014-Oct 2018
+      title: BSc in Computer Science, Freie Universität Berlin, Germany.
 
 member_experience_other:
   title: Work Experience
   list:
-    - period: Dec 2020-Now
-      title: Research Assistant, Remote Sensing Image Analysis Group at TU Berlin, Germany.
-
+    - period: Jun 2020-Now
+      title: Student Research Assistant, Remote Sensing Image Analysis Group, TU Berlin, Germany.
+    - period: Sep 2018-Jan 2020
+      title: Working Student, Signatrix GmbH.
+    - period: May 2017-Mar 2019
+      title: International Tutor, FU Berlin, Germany.
+    - period: Dec 2014-Jul 2016
+      title: Student Assistant, Beuth-Hochschule Berlin.
 ---
