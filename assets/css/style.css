@@ -1053,7 +1053,7 @@ link:focus,
   object-fit: contain;
 }
 
-.fab {
+.fa, .far, .fas, .fab {
   color: #070784;
 }
 

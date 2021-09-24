@@ -76,7 +76,7 @@ title: Software
             {% assign contact_people = "" | split: "|" %}
             {% for person in software.contact_people %}
               {% if person.link %}
-                {% capture person_with_link %} <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>{% endcapture %}
+                {% capture person_with_link %} <a href="{{ site.baseurl }}{{ person.link }}" target="_blank">{{ person.name }}</a>{% endcapture %}
                 {% assign contact_people = contact_people | push: person_with_link %}
               {%  else %}
                 {% assign contact_people = contact_people | push: person.name %}

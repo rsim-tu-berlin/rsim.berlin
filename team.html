@@ -15,7 +15,7 @@ title: Team
     </div>
 
     <!-- member list -->
-    <div class="row">
+    <div class="row text-center">
 
       {% assign sorted_team = site.team | sort: "order" %}
       {% for member in sorted_team %}
@@ -54,14 +54,14 @@ title: Team
 
         <li class="list-group-item">
           <div class="row">
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-4">
             {% if member.link %}
               <a href="{{ member.link }}" target="_blank">{{ member.name }}</a>
             {% else %}
               {{ member.name }}
             {% endif %}
             </div>
-            <div class="col-md-9">{{ member.detail }}</div>
+            <div class="col-lg-9 col-sm-8">{{ member.detail }}</div>
           </div>
         </li>
 
