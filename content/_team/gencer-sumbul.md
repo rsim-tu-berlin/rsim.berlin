@@ -28,9 +28,12 @@ member_experience:
           title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
         - period: 2016-2018
           title: MSc in Computer Engineering, Department of Computer Engineering, Bilkent University, Turkey.
-        - period: 2005-2006
+        - period: 2015-2016
           title: MSc in Computer Engineering, Department of Computer Engineering, Boğaziçi University, Turkey.
         - period: 2009-2015
           title: BSc in Computer Engineering, Bilkent University, Turkey.
 
 ---
+
+  <h4 class="mt-4">Publications</h4>
+  <p>To view my publications, you can visit: <a href=" https://scholar.google.com/citations?hl=en&user=beJ28JMAAAAJ" target="_blank">https://scholar.google.com/citations?hl=en&user=beJ28JMAAAAJ</a>.</p>

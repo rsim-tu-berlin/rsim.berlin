@@ -21,7 +21,20 @@ member_phone: +49 30 314 73929
 member_room_no: EN 630
 member_office_hours:
 
+
 member_experience:
+  title: Academic Experience
+  list:
+    - period: 2015—2017
+      title: MSc in Information Management, Hochschule Anhalt, Köthen, Germany.
+    - period: 2015—2017
+      title: MEng in Integrated Systems of Manufacturing, Perm National Research Polytechnic University, Perm, Russia.
+    - period: 2011 — 2015
+      title: BEc in Economics and Management of Manufacturing, Perm National Research Polytechnic University, Perm, Russia.
+    - period: 2011-2015
+      title: BEng in Automation of Technological Processes and Manufacturing, Perm National Research Polytechnic University, Perm, Russia.
+
+member_experience_other:
     title: Work Experience
     list:
         - period: 2020-now

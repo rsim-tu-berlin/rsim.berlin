@@ -50,6 +50,12 @@ title: Software
               {% endif %}
             </p>
 
+            {% if software.accompanying_paper %}
+            <p class="card-text">
+              <b>Accompanying Paper:</b> <i class="far fa-file-pdf mr-2"></i><a href="{{ software.accompanying_paper.link }}" target="_blank">{{ software.accompanying_paper.title  }}</a>
+            </p>
+            {% endif %}
+
             {% if software.authors %}
             {% assign authors = "" | split: "|" %}
             {% for author in software.authors %}
