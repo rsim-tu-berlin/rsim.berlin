@@ -31,7 +31,7 @@ member_experience:
         - period: 2012-2015
           title: BSc in Mathematik at University of Bonn, Germany.
 
-member_experience_others:
+member_experience_other:
     title: Work Experience
     list:
         - period: 2018
