@@ -4,7 +4,7 @@ order: 2
 title: Dr. Mahdyar Ravanbakhsh - RSiM
 #
 member_alias: tai-minh-le
-member_image: rsim-team-member.png
+member_image: tai-minh-le.jpg
 member_title:
 member_name: Tai Minh Le
 member_position: Administrative Assistant
