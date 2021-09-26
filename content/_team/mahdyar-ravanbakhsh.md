@@ -22,7 +22,7 @@ member_room_no: EN 605
 member_office_hours:
 
 member_experience:
-    title: Academic Experience
+    title: Education and Academic Experience
     list:
         - period: 2019-now
           title: Post-Doctoral Researcher, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.

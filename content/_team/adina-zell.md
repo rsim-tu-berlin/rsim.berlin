@@ -22,7 +22,7 @@ member_room_no: EN 630
 member_office_hours:
 
 member_experience:
-    title: Academic Experience
+    title: Education
     list:
         - period: 2021-Now
           title: TBD.

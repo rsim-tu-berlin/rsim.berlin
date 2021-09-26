@@ -22,7 +22,7 @@ member_room_no: EN 630
 member_office_hours:
 
 member_experience:
-    title: Academic Experience
+    title: Education and Academic Experience
     list:
         - period: 2021-now
           title: Researcher in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.

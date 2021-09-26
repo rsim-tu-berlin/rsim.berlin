@@ -23,7 +23,7 @@ member_office_hours:
 
 
 member_experience:
-  title: Academic Experience
+  title: Education
   list:
     - period: 2015—2017
       title: MSc in Information Management, Hochschule Anhalt, Köthen, Germany.
