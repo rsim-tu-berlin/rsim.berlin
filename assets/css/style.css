@@ -1057,4 +1057,13 @@ link:focus,
   color: #070784;
 }
 
+.list-group-item.active {
+  background-color: #070784;
+  border-color: #070784;
+}
+
+a.blue-link:hover {
+  color: #fff;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

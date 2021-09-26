@@ -19,7 +19,7 @@ member_address: |
     D-10587 Berlin
 member_phone: +49 30 314 21418
 member_room_no: EN 628
-member_office_hours:
+member_office_hours: Tuesday and Thursday
 
 ---
 
