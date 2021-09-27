@@ -4,7 +4,7 @@ order: 11
 title: Kai Norman Clasen - RSiM
 #
 member_alias: kai-norman-clasen
-member_image: rsim-team-member.png
+member_image: kai-norman-clasen.jpg
 member_title:
 member_name: Kai Norman Clasen
 member_position: Researcher
@@ -24,6 +24,14 @@ member_office_hours:
 member_experience:
     title: Academic Experience
     list:
-        - period: 2021-Now
-          title: TBD.
+        - period: 2018-2021
+          title: MSc in Computer Engineering, Technische Universität Berlin, Germany.
+        - period: 2014-2018
+          title: BSc in Technische Informatik, Technische Universität Berlin, Germany.
+
+member_experience_other:
+    title: Work Experience
+    list:
+        - period: 2017-2018
+          title: Research Assistant with Teaching Tasks, Technische Universität Berlin, Germany
 ---
