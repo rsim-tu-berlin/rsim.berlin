@@ -1,6 +1,8 @@
 url: https://rsim-tu-berlin.github.io
 baseurl: /rsim.tu-berlin.de
 collections_dir: content
+include:
+  - "assets/data/bibtex"
 collections:
   team:
     output: true
@@ -19,4 +21,6 @@ collections:
   software:
     sort_by: date
   theses:
+    sort_by: date
+  publications:
     sort_by: date
