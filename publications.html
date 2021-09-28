@@ -4,20 +4,91 @@ title: Publications
 ---
 
 <section class="section page-title-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-              <div class="d-flex align-items-center section-title justify-content-between">
-                <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
-                <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+
+    {% assign pubsPerType = site.publications | group_by_exp:"pub", "pub.type" | sort: "name" | reverse %}
+    {% assign pubsPerYear = site.publications | group_by_exp:"pub", "pub.year" | sort: "name" | reverse %}
+
+    <div class="row">
+      <div class="col-12">
+        <!-- teacher category list -->
+        <ul class="list-inline text-center filter-controls mb-2">
+          <li class="list-inline-item m-3 text-uppercase active" data-filter="all">All</li>
+          {% for pubPerYear in pubsPerYear %}
+          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ pubPerYear.name }}">{{ pubPerYear.name }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <!-- teacher category list -->
+        <ul class="list-inline text-center filter-controls mb-2">
+          <li class="list-inline-item m-3 text-uppercase active" data-filter="all">All</li>
+          {% for pubPerType in pubsPerType %}
+          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ pubPerType.name }}">{{ pubPerType.name }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    {% assign counter = 0 %}
+
+    {% for pubPerYear in pubsPerYear %}
+    <ul class="list-group mb-3">
+      <li data-category="{{ pubPerYear.name }}" class="list-group-item">
+        <h4>{{ pubPerYear.name }}</h4>
+      </li>
+      {% assign pubsPerYearPerType = pubPerYear.items | group_by_exp:"pub", "pub.type" | sort: "type" | reverse %}
+        {% for pubPerType in pubsPerYearPerType %}
+        <li class="list-group-item pl-5">
+          <h4 class="text-capitalize">{{ pubPerType.name }}</h4>
+        </li>
+          {% for pub in pubPerType.items %}
+            {% assign counter = counter | plus:1 %}
+          <li data-category="{{ pubPerType.name }}" class="list-group-item pl-5">
+            <div class="row">
+              <div class="col-3">
+                <img class="w-100" src="{{ site.baseurl }}/assets/images/publications/default.png" />
+              </div>
+              <div class="col-9">
+                {{ pub.title }} <br /> {{ pub.authors }} <br /> {{ pub.published_at }}
+                <br /><br />
+
+                <a data-toggle="collapse" href="#collapseExample_{{ counter }}" role="button" aria-expanded="false" aria-controls="collapseExample_{{ counter }}">
+                  Bibtex
+                </a>
+                <a href="{{ pub.git }}"><i class="fas fa-file-pdf"></i>PDF</a>
+                <a href="{{ pub.git }}"><i class="fab fa-gitlab"></i>Git</a>
+
+                <div class="collapse" id="collapseExample_{{ counter }}">
+                  <div class="card card-body mb-0 pb-0">
+                    <pre><code>{{ pub.bibtex }}</code></pre>
+                  </div>
+                </div>
+
               </div>
             </div>
-          </div>
+          </li>
 
-        {{ page.url }}
 
-        {% for item in page.ref %}
-        {{ forloop.index }}. {{ item }}
+          {% endfor %}
         {% endfor %}
+    </ul>
+    {% endfor %}
+
+
+      {% for item in page.ref %}
+      {{ forloop.index }}{{ item }}
+      {% endfor %}
     </div>
 </section>
