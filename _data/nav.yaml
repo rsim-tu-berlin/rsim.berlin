@@ -9,14 +9,14 @@
   link: /publications.html
   submenu:
   - name: Journal Publications
-    page: /publications/journals
-    link: /publications/journals.html
+    page: /publications
+    link: /publications.html
   - name: Conference Publications
-    page: /publications/conferences
-    link: /publications/conferences.html
+    page: /publications
+    link: /publications.html
   - name: Books and Book Chapters
-    page: /publications/books
-    link: /publications/books.html
+    page: /publications
+    link: /publications.html
 - name: Teaching
   page: /teaching
   link: /teaching.html
