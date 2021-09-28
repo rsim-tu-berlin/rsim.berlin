@@ -36,4 +36,52 @@ title: Theses
       </div>
 
     </div>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          {% for thesis in site.theses %}
+          <a class="list-group-item list-group-item-action {% if forloop.index == 1 %}{% endif %}" id="list-{{ forloop.index }}-list" data-toggle="list" href="#list-{{ forloop.index }}" role="tab" aria-controls="{{ forloop.index }}">
+            {{ thesis.title }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+          {% for thesis in site.theses %}
+          <div class="tab-pane fade {% if forloop.index == 1 %}{% endif %}" id="list-{{ forloop.index }}" role="tabpanel" aria-labelledby="list-{{ forloop.index }}-list">
+            <h5>{{ thesis.title }}</h5>
+            <p class="text-justify">
+              {{ thesis.description }}
+            </p>
+
+            {% if thesis.contact %}
+            {% assign contact_people = "" | split: "|" %}
+            {% for person in thesis.contact %}
+            {% if person.link %}
+            {%    capture person_with_link %} <a href="{{ site.baseurl }}{{ person.link }}" target="_blank">{{ person.name }}</a>{% endcapture %}
+            {%    assign contact_people = contact_people | push: person_with_link %}
+            {% else %}
+            {%    assign contact_people = contact_people | push: person.name %}
+            {% endif %}
+
+            {% endfor %}
+            <p>
+              <b>Contact:</b> {{ contact_people | join: ", " }}
+            </p>
+            {% endif %}
+
+            <p class="small">
+            {% for ref in thesis.references %}
+              [{{ forloop.index }}] {{ ref.authors}}, "{{ ref.title }}", <i>{{ ref.published_in }}</i>, {{ ref.page_number}}, {{ ref.year }}. <br />
+            {% endfor %}
+            </p>
+          </div>
+          {% endfor %}
+          <!-- <div class="tab-pane fade" id="list-deep-learning" role="tabpanel" aria-labelledby="list-deep-learning-list">2</div> -->
+        </div>
+      </div>
+    </div>
+
 </section>
