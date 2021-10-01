@@ -1,5 +1,5 @@
-url: https://rsim-tu-berlin.github.io
-baseurl: /rsim.tu-berlin.de
+url: https://rsim.berlin
+baseurl: ""
 collections_dir: content
 include:
   - "assets/data/bibtex"
