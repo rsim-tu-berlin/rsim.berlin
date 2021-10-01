@@ -8,3 +8,8 @@ erc_mainpage: https://erc.europa.eu
 bmbf_mainpage: https://www.bmbf.de
 bmwi_mainpage: https://www.bmwi.de
 dfg_mainpage: https://www.dfg.de
+
+publications:
+  journals: "International Journals"
+  conferences: "International Conferences"
+  books: "Book Chapters"
