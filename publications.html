@@ -17,18 +17,17 @@ title: Publications
     {% assign pubsPerType = site.publications | group_by_exp:"pub", "pub.type" | sort: "name" | reverse %}
     {% assign pubsPerYear = site.publications | group_by_exp:"pub", "pub.year" | sort: "name" | reverse %}
 
-    <!-- <div class="row">
+    <div class="row">
       <div class="col-12">
-        <ul class="list-inline text-center filter-controls mb-2">
-          <li class="list-inline-item m-3 text-uppercase active" data-filter="all">All</li>
+        <ul class="list-inline text-center filter-controls m-4">
           {% for pubPerYear in pubsPerYear %}
-          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ pubPerYear.name }}">{{ pubPerYear.name }}</li>
+          <li class="list-inline-item m-3 text-uppercase"><a href="#{{ pubPerYear.name }}">{{ pubPerYear.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-12">
         <ul class="list-inline text-center filter-controls mb-2">
           <li class="list-inline-item m-3 text-uppercase active" data-filter="all">All</li>
@@ -56,7 +55,7 @@ title: Publications
           {% assign counter = counter | plus:1 %}
           <div class="row mb-5">
             <div class="col-2">
-              {% if pub.bibtex_link %}
+              {% if pub.image %}
               <img class="pl-3 w-100" src="{{ site.baseurl }}/assets/images/publications/{{ pub.image }}" />
               {% else %}
               <p class='w-100 h-100'></p>
