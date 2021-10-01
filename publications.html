@@ -17,7 +17,7 @@ title: Publications
     {% assign pubsPerType = site.publications | group_by_exp:"pub", "pub.type" | sort: "name" | reverse %}
     {% assign pubsPerYear = site.publications | group_by_exp:"pub", "pub.year" | sort: "name" | reverse %}
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-12">
         <ul class="list-inline text-center filter-controls m-4">
           {% for pubPerYear in pubsPerYear %}
@@ -25,7 +25,7 @@ title: Publications
           {% endfor %}
         </ul>
       </div>
-    </div>
+    </div> -->
 
     <!-- <div class="row">
       <div class="col-12">
@@ -43,7 +43,7 @@ title: Publications
       {% for pubPerYear in pubsPerYear %}
 
       <div data-category="{{ pubPerYear.name }}" class="col-lg-12 col-sm-12 mb-5">
-        <h4>{{ pubPerYear.name }}</h4>
+        <h4><a id="{{ pubPerYear.name }}"></a>{{ pubPerYear.name }}</h4>
 
         {% assign pubsPerYearPerType = pubPerYear.items | group_by_exp:"pub", "pub.type" | sort: "type" | reverse %}
         {% for pubPerType in pubsPerYearPerType %}
