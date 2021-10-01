@@ -7,7 +7,7 @@ published_at: IEEE Geoscience and Remote Sensing Letters, vol. 13, pp. 4462-4475
 bibtex: /assets/data/bibtex/2021-4-journals.bibtex
 
 image: 2021-4-journals.png
-bibtex_link: 2021-4-journals.bibtex
+bibtex_link: 2021-journals-4.bibtex
 pdf_link:
 git_link:
 

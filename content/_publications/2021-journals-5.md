@@ -4,5 +4,10 @@ title: "Metric-Learning based Deep Hashing Network for Content Based Retrieval o
 year: 2021
 authors: Subhankar Roy, Enver Sangineto, Begüm Demir and Nicu Sebe
 published_at: IEEE Geoscience and Remote Sensing Letters, vol. 18, no. 2, pp. 226-230, 2021
-bibtex: /assets/data/bibtex/2021-5-journals.bibtex
+
+image:
+bibtex_link: 2021-journals-5.bibtex
+pdf_link:
+git_link:
+
 ---
