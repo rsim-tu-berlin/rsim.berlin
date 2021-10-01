@@ -7,7 +7,7 @@ published_at: SPIE Image and Signal Processing for Remote Sensing, 111550S, 2019
 bibtex: /assets/data/bibtex/
 
 image: 2019-26-conferences.png
-bibtex_link: 2019-26-conferences.bibtex
-pdf_link: 2019-26-conferences.pdf
+bibtex_link: 2019-conferences-5.bibtex
+pdf_link: 2019-conferences-5.pdf
 git_link:
 ---

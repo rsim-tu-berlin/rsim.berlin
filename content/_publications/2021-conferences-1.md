@@ -6,7 +6,7 @@ authors: Gencer Sumbul, Begüm Demir
 published_at: IEEE International Geoscience and Remote Sensing Symposium, Brussels, Belgium, 2021
 
 image: 2021-1-conferences.png
-bibtex_link: 2021-1-conferences.bibtex
+bibtex_link: 2021-conferences-1.bibtex
 pdf_link: https://arxiv.org/abs/2106.00506
 git_link: https://git.tu-berlin.de/rsim/GT-DRL-CBIR
 

@@ -4,5 +4,9 @@ title: "An Unsupervised Multicode Hashing Method for Accurate and Scalable Remot
 year: 2019
 authors: Thomas Reato, Begüm Demir and Lorenzo Bruzzone
 published_at: IEEE Geoscience and Remote Sensing Letters, 16(2):276-280, 2019
-bibtex: /assets/data/bibtex/2019-10-journals.bibtex
+
+image:
+bibtex_link: 2019-journals-2.bibtex
+pdf_link:
+git_link:
 ---

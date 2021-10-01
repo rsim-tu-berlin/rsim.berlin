@@ -4,5 +4,9 @@ title: "RSVQA Meets BigearthNet: A New, Large-Scale, Visual Question Answering D
 year: 2021
 authors: Sylvain Lobry, Begüm Demir, Devis Tuia
 published_at: IEEE International Geoscience and Remote Sensing Symposium, Brussels, Belgium, 2021
-bibtex: /assets/data/bibtex/2021-4-conferences.bibtex 
+
+image:
+bibtex_link: 2021-conferences-3.bibtex
+pdf_link:
+git_link:
 ---

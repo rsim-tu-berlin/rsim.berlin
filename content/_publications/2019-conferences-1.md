@@ -7,7 +7,7 @@ published_at: IEEE International Geoscience and Remote Sensing Symposium, 5901-5
 bibtex: /assets/data/bibtex/
 
 image: 2019-22-conferences.png
-bibtex_link: 2019-22-conferences.bibtex
+bibtex_link: 2019-conferences-1.bibtex
 pdf_link: https://arxiv.org/abs/1902.06148
 git_link: https://git.tu-berlin.de/rsim/BigEarthNet-S2_tools
 

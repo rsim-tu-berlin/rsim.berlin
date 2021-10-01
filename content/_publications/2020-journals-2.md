@@ -4,5 +4,10 @@ title: "A Progressive Context Based Image Retrieval System for JPEG 2000 Compres
 year: 2020
 authors: Akshara Preethy Byju, Begüm Demir and Lorenzo Bruzzone
 published_at: IEEE Transactions on Geoscience and Remote Sensing, vol. 58, no. 8, pp. 5739-5751, 2020
-bibtex: /assets/data/bibtex/2020-7-journals.bibtex
+
+image:
+bibtex_link: 2020-journals-2.bibtex
+pdf_link:
+git_link:
+
 ---
