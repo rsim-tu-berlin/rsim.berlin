@@ -54,14 +54,14 @@ title: Publications
           {% for pub in sorted_pubs %}
           {% assign counter = counter | plus:1 %}
           <div class="row mb-5">
-            <div class="col-2">
+            <div class="col-lg-2 col-md-4">
               {% if pub.image %}
               <img class="publication-image pl-3 w-100" src="{{ site.baseurl }}/assets/images/publications/{{ pub.image }}" />
               {% else %}
               <p class='w-100 h-100'></p>
               {% endif %}
             </div>
-            <div class="col-10">
+            <div class="col-lg-10 col-md-8">
               <p class="font-weight-bold mb-0">{{ pub.title }}</p>
               <p>{{ pub.authors }}<br /><i>{{ pub.published_at }}</i>.</p>
               <p>
