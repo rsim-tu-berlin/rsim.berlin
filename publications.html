@@ -74,9 +74,9 @@ title: Publications
                 {% if pub.pdf_link %}
                 {%    assign check = pub.pdf_link | split:':' | first %}
                 {%    if check == 'https' or check == 'http' %}
-                <a href="{{ pub.pdf_link }}"><i class="fas fa-file-pdf m-2"></i>PDF</a>
+                <a href="{{ pub.pdf_link }}" target="_blank"><i class="fas fa-file-pdf m-2"></i>PDF</a>
                 {%    else %}
-                <a href="{{ site.baseurl }}/assets/data/pdf/{{ pub.pdf_link }}"><i class="fas fa-file-pdf m-2"></i>PDF</a>
+                <a href="{{ site.baseurl }}/assets/data/pdf/{{ pub.pdf_link }}" target="_blank"><i class="fas fa-file-pdf m-2"></i>PDF</a>
                 {%    endif %}
                 {% endif %}
                 {% if pub.git_link %}

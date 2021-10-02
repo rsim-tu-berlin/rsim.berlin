@@ -5,7 +5,7 @@ year: 2020
 authors: Jian Kang, Begüm Demir
 published_at: IEEE International Geoscience and Remote Sensing Symposium, Waikoloa, HI, USA, pp. 1687-1690, 2020
 
-image:
+image: 2020-conferences-4.png
 bibtex_link: 2020-conferences-4.bibtex
 pdf_link:
 git_link:
