@@ -2,7 +2,7 @@
 type: conferences
 title: "A Consensual Collaborative Learning Method for Remote Sensing Image Classification Under Noisy Multi-Labels"
 year: 2021
-authors: Ahmet Kerem Aksoy, Mahdyar Ravanbakhsh, Tristan Kreuziger, Begum Demir
+authors: Ahmet Kerem Aksoy, Mahdyar Ravanbakhsh, Tristan Kreuziger, Begüm Demir
 published_at: IEEE International Conference on Image Processing, Anchorage, Alaska, USA, 2021
 
 image: 2021-conferences-4.png
