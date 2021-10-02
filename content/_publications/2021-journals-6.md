@@ -8,5 +8,5 @@ published_at: IEEE Geoscience and Remote Sensing Magazine, vol. 9, no. 3, pp. 17
 image: 2021-6-journals.jpg
 bibtex_link: 2021-journals-6.bibtex
 pdf_link: https://arxiv.org/pdf/2105.07921.pdf
-git_link:
+git_link: https://git.tu-berlin.de/rsim/BigEarthNet-MM_19-classes_models
 ---
