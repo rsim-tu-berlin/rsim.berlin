@@ -8,7 +8,7 @@ bibtex: /assets/data/bibtex/2021-4-journals.bibtex
 
 image: 2021-4-journals.png
 bibtex_link: 2021-journals-4.bibtex
-pdf_link:
+pdf_link: https://bigearth.eu/assets/publications/pdfs/GRSL_Probabilistic_Latent_Semantic_Hashing_Codes_2020.pdf
 git_link:
 
 ---
