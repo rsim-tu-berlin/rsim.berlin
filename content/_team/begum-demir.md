@@ -15,7 +15,7 @@ member_address: |
     Technische Universität Berlin<br/><br/>
     Remote Sensing Image Analysis (RSiM) Group, Sekr. EN 5<br/>
     Faculty IV<br/>
-    Einsteinufer 17-6th floor<br/>
+    Einsteinufer 17<br/>
     D-10587 Berlin
 member_phone: +49 30 314 23771
 member_room_no: EN 627
