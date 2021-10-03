@@ -8,7 +8,7 @@ member_image: jun-xiang.jpg
 member_title:
 member_name: Jun Xiang
 member_position: Researcher
-member_email: jun.xiang@campus.tu-berlin.de
+member_email: jun.xiang [at] campus.tu-berlin.de
 member_site:
 
 member_address: |
