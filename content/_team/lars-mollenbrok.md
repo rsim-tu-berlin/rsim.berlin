@@ -18,7 +18,7 @@ member_address: |
     Einsteinufer 17<br/>
     D-10587 Berlin
 member_phone: +49 30 314 73927
-member_room_no: EN 602
+member_room_no: EN 603
 member_office_hours:
 
 member_experience:
