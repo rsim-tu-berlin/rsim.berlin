@@ -8,7 +8,7 @@ member_image: markus-muller.png
 member_title:
 member_name: Markus Müller
 member_position: Student Assistant
-member_email:
+member_email: markus.m.mueller@campus.tu-berlin.de
 member_site:
 
 member_address: |
@@ -26,7 +26,7 @@ member_experience:
     list:
         - period: 2020
           title: Semester Abroad, University of Queensland, Australia
-        - period: 2018-now
+        - period: 2018-Now
           title: MSc in Biomedical Engineering, TU Berlin, Germany.
         - period: 2014-2018
           title: BSc in Mechanical Engineering, Brandenburg University of Technology Cottbus-Senftenberg, Germany.
@@ -34,6 +34,8 @@ member_experience:
 member_experience_other:
     title: Work Experience
     list:
+        - period: Oct 2021-Now
+          title: Research Assistant, Remote Sensing Image Analysis Group at TU Berlin, Germany.
         - period: Jan 2017-Mar 2017
           title: Student assistant at the Chair of Automation Technology, Brandenburgische Technische Universitaet, Germany.
         - period: Jul 2017-Oct 2017
