@@ -24,7 +24,7 @@ member_office_hours:
 member_experience:
     title: Education and Academic Experience
     list:
-        - period: 2021-now
+        - period: Nov 2021-now
           title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
         - period: 2020-2021
           title: Researcher, Faculty of Computer Engineering, Boğaziçi University, Turkey.
