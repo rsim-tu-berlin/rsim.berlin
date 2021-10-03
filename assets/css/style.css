@@ -330,7 +330,7 @@ a h4:hover {
 
 .bg-cover {
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -704,7 +704,7 @@ link:focus,
 }
 
 .hero-section {
-  padding: 250px 0 290px;
+  padding: 200px 0 50px;
 }
 
 .hero-slider .prevArrow,
