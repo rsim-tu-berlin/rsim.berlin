@@ -16,7 +16,7 @@ member_address: |
     Remote Sensing Image Analysis (RSiM) Group, Sekr. EN 5<br/>
     Faculty IV<br/>
     Einsteinufer 17<br/>
-    D-10587 Berlin
+    10587 Berlin
 member_phone: +49 30 314 29193
 member_room_no: EN 605
 member_office_hours:
