@@ -14,96 +14,31 @@ title: Completed Theses
       </div>
     </div>
 
-    <h4>Master Theses</h4>
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <ul class="list-group">
-          <li class="list-group-item">Chen, Xuelei<br />	<b>Generative Adversarial Networks for Content-based Retrieval of Multispectral Images</b>, TU Berlin, 2019.</li>
+    {% for thesis_by_type in site.data.completed_theses %}
+    <h4>{{ thesis_by_type.title }}</h4>
+    <div class="col-lg-12 col-md-12">
+      <ul class="list-unstyled">
+      {% assign theses = thesis_by_type.theses %}
+        {% for thesis in theses %}
 
-          <li class="list-group-item">Möller, Peter<br />	<b>Deep Active Learning for Object Detection</b>, TU Berlin, 2019.</li>
-
-          <li class="list-group-item">Nayak, Sonali<br />	<b>Deep Captioning for Analysis of Remote Sensing Images in Large Archives</b>, TU Berlin, 2019.</li>
-
-          <li class="list-group-item">Reiche, Martin<br />	<b>Deep Generative Models for Nonlinear Inverse Problems and Phase Retrieval</b>, TU Berlin, 2019.</li>
-
-          <li class="list-group-item">Yessou, Hichame<br />	<b>Analysis of Deep Learning Loss Functions for Multi-Label Remote Sensing Image Classification</b>, TU Berlin, 2020.</li>
-
-          <li class="list-group-item">Bahr, Viktor Florian<br />	<b>An end-to-end framework for processing and analysis of big data in earth observation</b>, TU Berlin, 2020.</li>
-
-          <li class="list-group-item">Bank, Hasan<br />	<b>Deep Multi-Modal Hashing for Content-based Retrieval of Sentinel Images</b>, TU Berlin, 2020.</li>
-
-          <li class="list-group-item">Chowdhury, Ananya Bhanja<br />	<b>Explaining and Interpreting CNNS for Classification of High Dimensional Satellite Images</b>, TU Berlin, 2020.</li>
-
-          <li class="list-group-item">Clasen, Kai Norman<br />	<b>Large-Scale Contrastive Representation Learning for Content-based Remote Sensing Image Retrieval</b>, TU Berlin, 2021.</li>
-
-          <li class="list-group-item">Feng, Xiaoxin<br />	<b>Semi-supervised Learning for Remote Sensing Image Retrieval based on Graph CNNS</b>, TU Berlin, 2021.</li>
-        </ul>
-      </div>
-      <!-- <div class="col-lg-3 col-md-6">
-        <div class="list-group">
-          <a class="list-group-item">
-
-          </a>
-        </div>
-      </div> -->
-    </div>
-
-    <h4 class="pt-3">Bachelor Theses</h4>
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <ul class="list-group">
-          <li class="list-group-item">Zhang, Kexin<br />	<b>Super-Resolution of Multispectral Multiresolution Images by Generative Adversarial Networks,</b> TU Berlin, 2019.</li>
-          <li class="list-group-item">Aksoy, Ahmet Kerem<br />	<b>Collaborative Learning Models for Classification of Remote Sensing Images with Noisy Labels,</b> TU Berlin, 2020.</li>
-          <li class="list-group-item">Wagner, Matthias Jost<br />	<b>Image Search and Retrieval from Remote Sensing Archives based on Similarity Ranking Functions</b>, TU Berlin, 2020.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-9 col-md-6">
-        <div class="list-group" id="list-tab" role="tablist">
-          {% for thesis in site.theses %}
-          <a class="list-group-item list-group-item-action {% if forloop.index == 1 %}{% endif %}" id="list-{{ forloop.index }}-list" data-toggle="list" href="#list-{{ forloop.index }}" role="tab" aria-controls="{{ forloop.index }}">
-            {{ thesis.title }}
-          </a>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="tab-content" id="nav-tabContent">
-          {% for thesis in site.theses %}
-          <div class="tab-pane fade {% if forloop.index == 1 %}{% endif %}" id="list-{{ forloop.index }}" role="tabpanel" aria-labelledby="list-{{ forloop.index }}-list">
-            <h5>{{ thesis.title }}</h5>
-            <p class="text-justify">
-              {{ thesis.description }}
-            </p>
-
-            {% if thesis.contact %}
-            {% assign contact_people = "" | split: "|" %}
-            {% for person in thesis.contact %}
-            {% if person.link %}
-            {%    capture person_with_link %} <a href="{{ site.baseurl }}{{ person.link }}" target="_blank">{{ person.name }}</a>{% endcapture %}
-            {%    assign contact_people = contact_people | push: person_with_link %}
-            {% else %}
-            {%    assign contact_people = contact_people | push: person.name %}
-            {% endif %}
-
-            {% endfor %}
-            <p>
-              <b>Contact:</b> {{ contact_people | join: ", " }}
-            </p>
-            {% endif %}
-
-            <p class="small">
-            {% for ref in thesis.references %}
-              [{{ forloop.index }}] {{ ref.authors}}, "{{ ref.title }}", <i>{{ ref.published_in }}</i>, {{ ref.page_number}}, {{ ref.year }}. <br />
-            {% endfor %}
-            </p>
+        <li class="d-md-table m-4 p-2 w-100 border-bottom hover-shadow rounded">
+          <div class="row h-100">
+            <div class="col-lg-10">
+              <p class="mb-1">
+                <b>{{ thesis.title }}</b>, {{ thesis.institute }}, {{ thesis.year }}. <br />
+              {{ thesis.author }}
+              </p>
+            </div>
+            <div class="col-lg-2 text-xl-right my-auto" style="font-size: 24px;">
+              {% if thesis.pdf_file %}
+              <a href="{{ site.baseurl }}/assets/data/theses/pdfs/{{ thesis.pdf_file }}"><i class="fas fa-file-pdf"></i></a>
+              {% endif %}
+            </div>
           </div>
-          {% endfor %}
-          <!-- <div class="tab-pane fade" id="list-deep-learning" role="tabpanel" aria-labelledby="list-deep-learning-list">2</div> -->
-        </div>
-      </div>
-    </div>
+        </li>
 
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
 </section>

@@ -1,0 +1,70 @@
+- title: Master Theses
+  theses:
+    - author: Chen, Xuelei
+      title: Generative Adversarial Networks for Content-based Retrieval of Multispectral Images
+      institute: TU Berlin
+      year: 2019
+      pdf_file: Chen-2019.pdf
+    - author: Möller, Peter
+      title: Deep Active Learning for Object Detection
+      institute: TU Berlin
+      year: 2019
+      pdf_file:
+    - author: Nayak, Sonali
+      title: Deep Captioning for Analysis of Remote Sensing Images in Large Archives
+      institute: TU Berlin
+      year: 2019
+      pdf_file: Nayak-2019.pdf
+    - author: Reiche, Martin
+      title: Deep Generative Models for Nonlinear Inverse Problems and Phase Retrieval
+      institute: TU Berlin
+      year: 2019
+      pdf_file: Reiche-2019.pdf
+    - author: Yessou, Hichame
+      title: Analysis of Deep Learning Loss Functions for Multi-Label Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Yessou-2020.pdf
+    - author: Bahr, Viktor Florian
+      title: An End-to-End Framework for Processing and Analysis of Big Data in Earth Observation
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Bahr-2020.pdf
+    - author: Bank, Hasan
+      title: Deep Multi-Modal Hashing for Content-based Retrieval of Sentinel Images
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Bank-2020.pdf
+    - author: Chowdhury, Ananya Bhanja
+      title: Explaining and Interpreting CNNs for Classification of High Dimensional Satellite Images
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Chowdhury-2020.pdf
+    - author: Clasen, Kai Norman
+      title: Large-Scale Contrastive Representation Learning for Content-based Remote Sensing Image Retrieval
+      institute: TU Berlin
+      year: 2021
+      pdf_file: Clasen-2021.pdf
+    - author: Feng, Xiaoxin
+      title: Semi-supervised Learning for Remote Sensing Image Retrieval based on Graph CNNs
+      institute: TU Berlin
+      year: 2021
+      pdf_file: Feng-2021.pdf
+
+- title: Bachelor Theses
+  theses:
+    - author: Zhang, Kexin
+      title: Super-Resolution of Multispectral Multiresolution Images by Generative Adversarial Networks
+      institute: TU Berlin
+      year: 2019
+      pdf_file: Zhang-2019.pdf
+    - author: Aksoy, Ahmet Kerem
+      title: Collaborative Learning Models for Classification of Remote Sensing Images with Noisy Labels
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Aksoy-2020.pdf
+    - author: Wagner, Matthias Jost
+      title: Image Search and Retrieval from Remote Sensing Archives based on Similarity Ranking Functions
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Wagner-2020.pdf
