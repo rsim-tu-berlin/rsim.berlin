@@ -3,10 +3,10 @@ layout: team_member
 order: 2
 title: Dr. Mahdyar Ravanbakhsh - RSiM
 #
-member_alias: tai-minh-le
-member_image: tai-minh-le.jpg
+member_alias: minh-tai-le
+member_image: minh-tai-le.jpg
 member_title:
-member_name: Tai Minh Le
+member_name: Minh Tai Le
 member_position: Administrative Assistant
 member_email: sekr [at] rsim.tu-berlin.de
 member_site:
