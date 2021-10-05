@@ -7,8 +7,8 @@ banner_image: CV4RS-2.jpg
 semester: Winter semester 2021/22
 credit_point: 6 SWS/9 ECTS
 participants: 15
-date_time: Thursday 10:00-16:00
-location: H0106
+date_time: Friday 14:00-20:00
+location: H 0106
 isis_link: https://isis.tu-berlin.de/course/view.php?id=26214
 #
 description: |
