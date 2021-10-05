@@ -1,12 +1,12 @@
 ---
 layout: team_member
 order: 4
-title: Dr. Nimisha Vishwanathan - RSiM
+title: Dr. Nimisha Thekke Madam - RSiM
 #
-member_alias: nimisha-vishwanathan
-member_image: nimisha-vishwanathan.jpg
+member_alias: nimisha-thekke-madam
+member_image: nimisha-thekke-madam.jpg
 member_title: Dr.
-member_name: Nimisha Vishwanathan
+member_name: Nimisha Thekke Madam
 member_position: Researcher
 member_email: vishwanathan [at] tu-berlin.de
 member_site: https://nimiiit.github.io/

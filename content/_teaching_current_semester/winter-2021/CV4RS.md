@@ -24,6 +24,6 @@ description: |
 lecturers:
     - name: Prof. Dr. Begüm Demir
       image: team_1.jpg
-    - name: Dr. Nimisha Vishwanathan
-      image: nimisha_vishwanathan.png
+    - name: Dr. Nimisha Thekke Madam
+      image: nimisha-thekke-madam.png
 ---
