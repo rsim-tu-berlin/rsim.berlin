@@ -3,7 +3,7 @@ type: journals
 title: "Unsupervised Remote Sensing Image Retrieval using Probabilistic Latent Semantic Hashing"
 year: 2021
 authors: Ruben Fernandez-Beltrán, Begüm Demir, Filiberto Pla and Antonio Plaza
-published_at: IEEE Geoscience and Remote Sensing Letters, vol. 13, pp. 4462-4475, 2021
+published_at: IEEE Geoscience and Remote Sensing Letters, vol. 18, no. 2, pp. 256-260, 2021
 bibtex: /assets/data/bibtex/2021-4-journals.bibtex
 
 image: 2021-4-journals.png
