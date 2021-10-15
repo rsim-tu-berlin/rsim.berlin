@@ -8,7 +8,7 @@ member_image: nimisha-thekke-madam.jpg
 member_title: Dr.
 member_name: Nimisha Thekke Madam
 member_position: Researcher
-member_email: vishwanathan [at] tu-berlin.de
+member_email: mailto:nimisha.thekke.madam [at] tu-berlin.de
 member_site: https://nimiiit.github.io/
 
 member_address: |
