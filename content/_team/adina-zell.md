@@ -4,7 +4,7 @@ order: 13
 title: Adina Zell - RSiM
 #
 member_alias: adina-zell
-member_image: rsim-team-member.png
+member_image: adina-zell.png
 member_title:
 member_name: Adina Zell
 member_position: Student Assistant
@@ -22,8 +22,16 @@ member_room_no: EN 630
 member_office_hours:
 
 member_experience:
-    title: Education
-    list:
-        - period: 2021-Now
-          title: TBD.
+  title: Education
+  list:
+    - period: Oct 2019-Now
+      title: MSc in Computer Science, Technische Universität Berlin, Germany.
+    - period: Oct 2016- Oct 2019
+      title: BSc in Computer Science, Humboldt-Universität zu Berlin, Germany.
+
+member_experience_other:
+  title: Work Experience
+  list:
+    - period: Nov 2020-Now
+      title: Research Assistant, Remote Sensing Image Analysis Group at TU Berlin, Germany.
 ---
