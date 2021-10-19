@@ -111,6 +111,20 @@
           </div>
         </div>
 
+        <!-- announcements -->
+        {% if page.announcements %}
+        <div class="row">
+          <div class="col-12 mb-4">
+            <h3>Announcements</h3>
+            <ul class="list-unstyled">
+            {% for announcement in page.announcements %}
+            <li class="list-inline-item"><p>{{ announcement }}</p></li>
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endif %}
+
         <!-- <div class="col-12 mb-5">
           <h5 class="mb-3">Details about the course:</h5>
           <ul class="list-styled">
