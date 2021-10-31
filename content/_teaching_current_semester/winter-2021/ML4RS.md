@@ -19,8 +19,8 @@ description: |
     <br />
     If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
 
-announcements:
-  -
+# announcements:
+#   -
 
 # lecturers:
 lecturers:
