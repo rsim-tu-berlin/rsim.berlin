@@ -17,14 +17,14 @@ member_address: |
     Faculty IV<br/>
     Einsteinufer 17<br/>
     10587 Berlin
-member_phone: +49 30 314 73927
-member_room_no: EN 603
+member_phone: +49 30 314 73926
+member_room_no: EN 604
 member_office_hours:
 
 member_experience:
     title: Education
     list:
-        - period: Nov 2021-now
+        - period: 2021-now
           title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
         - period: 2015-2021
           title: MSc in Computer Science at University of Bonn, Germany.
