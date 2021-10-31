@@ -50,6 +50,11 @@
       institute: TU Berlin
       year: 2021
       pdf_file: Feng-2021.pdf
+    - author: Xiang, Jun
+      title: Deep Learning based Image Compression and Hashing in Large-Scale Remote Sensing Archives
+      institute: TU Berlin
+      year: 2021
+      pdf_file: Xiang-2021.pdf
 
 - title: Bachelor Theses
   theses:
