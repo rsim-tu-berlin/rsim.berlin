@@ -8,7 +8,7 @@ member_image: rsim-team-member.png
 member_title:
 member_name: Lars Möllenbrok
 member_position: Researcher
-member_email:
+member_email: lars.moellenbrok [at] tu-berlin.de
 member_site:
 
 member_address: |
