@@ -43,14 +43,20 @@
                 <ul class="list-unstyled">
 
                   <li class="mb-3"><i class="ti-email mr-2"></i>{{ page.member_email }}</li>
+
+                {% if page.member_phone %}
                   <li class="mb-3"><i class="ti-mobile mr-2"></i>{{ page.member_phone }}</li>
+                {% endif %}
 
                 {% if page.member_site %}
                   <li class="mb-3"><a class="text-color" href="{{ page.member_site }}"><i class="ti-world mr-2"></i>{{ page.member_site }}</a></li>
                 {% endif %}
 
                   <li class="mb-3 "><b>Address:</b> {{ page.member_address }}</li>
+
+                {% if page.member_room_no %}
                   <li class="mb-3 "><b>Room:</b> {{ page.member_room_no }}</li>
+                {% endif %}
 
                 {% if page.member_office_hours %}
                   <li class="mb-3 "><b>Office Hours:</b> <i class="ti-office mr-2"></i>{{ page.member_office_hours }}</li>
