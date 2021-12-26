@@ -24,7 +24,9 @@ member_office_hours:
 member_experience:
     title: Education and Academic Experience
     list:
-        - period: 2018-Now
+        - period: 2022-Now
+          title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
+        - period: 2018-2021
           title: Msc in Geoinformation and Geodesy, TU Berlin, Germany.
         - period: 2010-2012
           title: MSc in Library Information Management, Wuhan University, China.
