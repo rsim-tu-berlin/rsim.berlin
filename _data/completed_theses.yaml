@@ -12,7 +12,7 @@
       pdf_file:
     - author: Nayak, Sonali
       title: Deep Captioning for Analysis of Remote Sensing Images in Large Archives
-      institute: TU Berlin
+      institute: TU Berlinss
       year: 2019
       pdf_file: Nayak-2019.pdf
     - author: Reiche, Martin
@@ -55,6 +55,11 @@
       institute: TU Berlin
       year: 2021
       pdf_file: Xiang-2021.pdf
+    - author: Burgert, Tom
+      title: "Sample-based Hardness Scores in Deep Learning Curricula: A new Perspective on Learning with Noisy Labels"
+      institute: TU Berlin
+      year: 2022
+      pdf_file: Burgert-2022.pdf
 
 - title: Bachelor Theses
   theses:
