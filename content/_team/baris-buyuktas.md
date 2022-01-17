@@ -8,7 +8,7 @@ member_image: baris-buyuktas.jpg
 member_title:
 member_name: Barış Büyüktaş
 member_position: Researcher
-member_email:
+member_email: baris.bueyuektas@tu-berlin.de
 member_site:
 
 member_address: |
