@@ -35,7 +35,7 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 table td, table th {
