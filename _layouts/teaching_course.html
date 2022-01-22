@@ -93,6 +93,7 @@
             </ul>
           </div>
         </div>
+
         <div class="row align-items-center mb-5">
           <div class="col-12 mb-4 mb-xl-0 text-center">
             <a href="{{ page.isis_link }}" class="btn btn-sm course-link rounded border-primary text-reset">Register course on ISIS</a>
@@ -125,16 +126,9 @@
         </div>
         {% endif %}
 
-        <!-- <div class="col-12 mb-5">
-          <h5 class="mb-3">Details about the course:</h5>
-          <ul class="list-styled">
-            <li><b>SWS/Credits Points (ECTS):</b> 6 SWS/9 ECTS</li>
-            <li><b>Participants:</b>15</li>
-          </ul>
-        </div> -->
-
-        <div class="col-12">
-          <h5 class="mb-3">Lecturers:</h5>
+        <div class="row">
+          <div class="col-12 mb-4">
+            <h5 class="mb-3">Lecturers:</h5>
 
           {% for lecturer in page.lecturers %}
 
@@ -150,9 +144,16 @@
           </div>
 
           {% endfor %}
-
-          <div class="border-bottom border-primary mt-4"></div>
+          </div>
         </div>
+
+        {% if content %}
+        <div class="row">
+          <div class="col-12">
+            {{ content }}
+          </div>
+        </div>
+        {% endif %}
 
       </div>
     </section>
