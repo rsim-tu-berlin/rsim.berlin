@@ -57,7 +57,7 @@ table th {
 }
 </style>
 
-<h5 class="mb-3">Papers:</h5>
+<h5 class="mb-3">Course Schedule:</h5>
 
 | Date       | [Paper ID] Paper Info |
 |------------|-----------------------|
