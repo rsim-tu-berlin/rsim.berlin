@@ -22,8 +22,10 @@ member_room_no:
 member_office_hours:
 
 member_experience:
-  title: Education
+  title: Education and Academic Experience
   list:
+    - period: 2022-Now
+      title : Post-Doctoral Researcher, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
     - period: Sep 2015-Jul 2021
       title: PhD in Information Technology Research, University of Santiago de Compostela, Spain.
     - period: Sep 2014-Jun 2015
