@@ -26,8 +26,6 @@ member_experience:
     list:
         - period: Nov 2021-now
           title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
-        - period: 2020-2021
-          title: Researcher, Faculty of Computer Engineering, Boğaziçi University, Turkey.
         - period: 2018-2020
           title: MSc in Electrical and Electronics Engineering, Özyeğin University, Turkey.
         - period: 2013-2018
@@ -36,6 +34,8 @@ member_experience:
 member_experience_other:
     title: Work Experience
     list:
+        - period: 2020-2021
+          title: Researcher, Faculty of Computer Engineering, Boğaziçi University, Turkey.
         - period: 2018-2020
           title: Teaching Assistant, Özyeğin University, Turkey.
 
