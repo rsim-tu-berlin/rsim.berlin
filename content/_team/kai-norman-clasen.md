@@ -8,7 +8,7 @@ member_image: kai-norman-clasen.jpg
 member_title:
 member_name: Kai Norman Clasen
 member_position: Researcher
-member_email: k.clasen@campus.tu-berlin.de
+member_email: k.clasen@tu-berlin.de
 member_site:
 
 member_address: |
