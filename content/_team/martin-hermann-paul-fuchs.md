@@ -37,7 +37,7 @@ member_experience_other:
     - period: 12.2020-02.2021
       title: Internship, DB Netz AG at Deutsche Bahn, Germany.
     - period: 02.2018-11.2019
-      title: Working Student Assistant, Fachgebiet Nachrichtenübertragung at Technische Universität Berlin, Germany.
+      title: Student Assistant, Fachgebiet Nachrichtenübertragung at Technische Universität Berlin, Germany.
 
 
 ---
