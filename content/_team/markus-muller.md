@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 15
+order: 16
 title: Markus Müller - RSiM
 #
 member_alias: markus-muller
