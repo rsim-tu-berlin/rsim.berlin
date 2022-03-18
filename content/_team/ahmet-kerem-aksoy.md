@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 14
+order: 15
 title: Ahmet Kerem Aksoy - RSiM
 #
 member_alias: ahmet-kerem-aksoy
