@@ -7,7 +7,7 @@ member_alias: tom-burgert
 member_image: tom-burgert.jpg
 member_title:
 member_name: Tom Burgert
-member_position: Student Assistant
+member_position: Researcher
 member_email: tom.o.burgert [at] campus.tu-berlin.de
 member_site:
 
@@ -24,7 +24,9 @@ member_office_hours:
 member_experience:
   title: Education
   list:
-    - period: 2018-Now
+    - period: 2022-Now
+      title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
+    - period: 2018-2022
       title: MSc in Computer Science, Technische Universität Berlin, Germany.
     - period: 2014-2018
       title: BSc in Computer Science, Freie Universität Berlin, Germany.
