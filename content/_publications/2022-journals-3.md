@@ -7,6 +7,6 @@ published_at: "IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/
 
 image: 2022-journals-3.png
 bibtex_link:
-pdf_link: 
+pdf_link: https://ieeexplore.ieee.org/document/9736937
 git_link: https://git.tu-berlin.de/rsim/PLASTA-MTL
 ---
