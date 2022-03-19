@@ -7,7 +7,7 @@ published_at: International Conference on Acoustics, Speech, & Signal Processing
 
 image: 2022-conferences-1.png
 bibtex_link:
-pdf_link:
-git_link:
+pdf_link: https://arxiv.org/abs/2201.08125
+git_link: https://git.tu-berlin.de/rsim/duch
 
 ---
