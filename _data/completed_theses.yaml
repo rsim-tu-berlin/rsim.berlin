@@ -60,6 +60,11 @@
       institute: TU Berlin
       year: 2022
       pdf_file: Burgert-2022.pdf
+    - author: Ha Minh, Thieu
+      title: "Domain Adaptation for Tree Species Classification Using Remote Sensing Image"
+      institute: TU Berlin
+      year: 2022
+      pdf_file: 
 
 - title: Bachelor Theses
   theses:
