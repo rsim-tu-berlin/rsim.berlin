@@ -34,7 +34,7 @@ member_experience:
 member_experience_other:
   title: Work Experience
   list:
-    - period: 2020-Now
+    - period: 2020-2022
       title: Student Research Assistant, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
     - period: 2018-2020
       title: Working Student, Deep Learning Software Engineer, Signatrix GmbH, Berlin, Germany.
