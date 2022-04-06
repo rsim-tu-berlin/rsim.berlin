@@ -8,7 +8,7 @@ semester: Summer semester 2022
 credit_point: 6 SWS/9 ECTS
 participants: 15
 date_time: Friday 14:00-20:00
-location: TBA
+location: H2013
 isis_link: https://isis.tu-berlin.de/course/view.php?id=29348
 #
 description: |
