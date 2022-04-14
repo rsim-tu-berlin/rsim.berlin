@@ -32,6 +32,9 @@
 - name: Software
   page: /software
   link: /software.html
+- name: Jobs
+  page: /open-positions
+  link: /open-positions.html
 - name: Contact
   page: /contact
   link: /contact.html

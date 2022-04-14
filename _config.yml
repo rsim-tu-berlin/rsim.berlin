@@ -24,3 +24,5 @@ collections:
     sort_by: date
   publications:
     sort_by: date
+  open_positions:
+    sort_by: date
