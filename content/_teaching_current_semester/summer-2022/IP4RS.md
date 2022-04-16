@@ -19,8 +19,8 @@ description: |
   <br />
   If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
 
-# announcements:
-# -
+announcements:
+  - The course will be organized as an in-person course. The first introduction lecture will be given on April 22nd at 10am at A151.
 
 lecturers:
     - name: Prof. Dr. Begüm Demir
