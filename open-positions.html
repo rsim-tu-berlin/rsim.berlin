@@ -24,9 +24,9 @@ title: Open Positions
         <div class="col-9">
           <h4><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h4>
           <p class="text-justify">{{ project.description }}</p>
-          {{ if project.link }}
+          {% if project.link %}
           <p>For details, please click <a href="{{ project.link }}" target="_blank">here</a>.</p>
-          {{ endif }}
+          {% endif %}
         </div>
       </div>
 
