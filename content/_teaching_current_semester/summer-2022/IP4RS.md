@@ -20,6 +20,7 @@ description: |
   If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
 
 announcements:
+  - The IP4RS course will be given in-person in this semester. However, due to a very high number of registered students at ISIS, the first introduction lecture is decided to be given online through Zoom. For Zoom link, please visit <a href="https://isis.tu-berlin.de/course/view.php?id=29349" target="_blank">our ISIS link</a>.
   - The course will be organized as an in-person course. The first introduction lecture will be given on April 22nd at 10am at A151.
 
 lecturers:
