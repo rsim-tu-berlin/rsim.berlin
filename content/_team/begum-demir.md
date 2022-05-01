@@ -9,7 +9,7 @@ member_title: Prof. Dr.
 member_name: Begüm Demir
 member_position: Head of RSiM
 member_email: demir [at] tu-berlin.de
-member_site: https://begumdemir.com
+member_site:
 
 member_address: |
     Technische Universität Berlin<br/><br/>
@@ -43,6 +43,3 @@ member_experience:
     for Women in Research and Teaching (Berliner Programm zur Förderung der Chancengleichheit für Frauen in Forschung
     und Lehre - Berliner ChancengleichheitsProgramm – BCP).
   </div>
-
-  <h4 class="mt-4">Publications</h4>
-  <p>For the complete list of publications, please visit <a href="http://begumdemir.com/papers" target="_blank">http://begumdemir.com/papers</a>.</p>
