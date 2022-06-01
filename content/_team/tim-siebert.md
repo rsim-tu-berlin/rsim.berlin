@@ -8,7 +8,7 @@ member_image: tim-siebert.jpg
 member_title:
 member_name: Tim Siebert
 member_position: Student Assistant
-member_email: tim.siebert96@web.de
+member_email: t.siebert@campus.tu-berlin.de
 member_site:
 
 member_address: |
@@ -30,5 +30,10 @@ member_experience:
           title: BSc in Physics, Technische Universität Berlin, Germany.
         - period: Sep 2014 - Feb 2016
           title: Technical Training Light Aircraft Engineer.
+member_experience_other:
+    title: Work Experience
+    list:
+        - period: Jun 2022-Now
+          title: Research Assistant, Remote Sensing Image Analysis Group at TU Berlin, Germany.
 
 ---
