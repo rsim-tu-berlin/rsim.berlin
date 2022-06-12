@@ -8,7 +8,7 @@ member_image: tim-siebert.jpg
 member_title:
 member_name: Tim Siebert
 member_position: Student Assistant
-member_email: t.siebert@campus.tu-berlin.de
+member_email: t.siebert [at] campus.tu-berlin.de
 member_site:
 
 member_address: |
