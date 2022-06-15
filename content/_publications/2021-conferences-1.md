@@ -1,6 +1,6 @@
 ---
 type: conferences
-title: "A Novel Graph-Theoretic Deep Representation Learning Method For Multi-Label Remote Sensing Image Retrieval"
+title: "A Novel Graph-Theoretic Deep Representation Learning Method for Multi-Label Remote Sensing Image Retrieval"
 year: 2021
 authors: Gencer Sumbul, Begüm Demir
 published_at: IEEE International Geoscience and Remote Sensing Symposium, Brussels, Belgium, 2021
