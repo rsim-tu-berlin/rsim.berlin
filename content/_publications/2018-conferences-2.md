@@ -1,6 +1,6 @@
 ---
 type: conferences
-title: "A novel coarse-to-fine remote sensing image retrieval system in JPEG-2000 compressed domain"
+title: "A Novel Coarse-to-Fine Remote Sensing Image Retrieval System in JPEG-2000 Compressed Domain"
 year: 2018
 authors: Begüm Demir and Akshara Preethy Byju and Lorenzo Bruzzone
 published_at: SPIE Image and Signal Processing for Remote Sensing, 30, 2018
