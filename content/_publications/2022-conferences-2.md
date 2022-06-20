@@ -3,7 +3,7 @@ type: conferences
 title: "Deep Metric Learning-Based Semi-Supervised Regression With Alternate Learning"
 year: 2022
 authors: Adina Zell, Gencer Sumbul and Begüm Demіr
-published_at: IEEE International Conference on Image Processing (ICIP), under review, Bordeaux, France, 2022
+published_at: IEEE International Conference on Image Processing (ICIP), Bordeaux, France, 2022
 
 image: 2022-conferences-2.png
 bibtex_link:
