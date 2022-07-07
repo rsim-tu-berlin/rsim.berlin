@@ -8,7 +8,7 @@ member_image: ahmet-kerem-aksoy.jpg
 member_title:
 member_name: Ahmet Kerem Aksoy
 member_position: Student Assistant
-member_email: aksoy [at] tu-berlin.de
+member_email: a.aksoy [at] tu-berlin.de
 member_site:
 
 member_address: |
