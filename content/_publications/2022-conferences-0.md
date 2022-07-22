@@ -8,6 +8,6 @@ published_at: IEEE International Geoscience and Remote Sensing Symposium, Kuala 
 image: 2022-conferences-0.jpg
 bibtex_link:
 pdf_link:
-git_link: https://github.com/OnatV/ChangeRetrieval
+git_link: 
 
 ---
