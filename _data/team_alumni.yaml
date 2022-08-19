@@ -1,15 +1,21 @@
 - title: Former Members
   members:
     - name: Bernhard Föllmer
-      detail: Group member until December 2019
+      detail: "Research Associate (Project: BigEarth) until 2019"
     - name: Akshara Preethy Byju
-      detail: Group member until December 2020
+      detail: Doctoral Researcher until 2020
     - name: Sophia Biljan
-      detail: Group member until March 2020
+      detail: Student Assistant until 2020
     - name: Jose Luis Holgado Álvarez
-      detail: Group member until October 2020
+      detail: Student Assistant until 2020
     - name: Tristan Kreuziger
-      detail: Group member until April 2021
+      detail: "Research Associate (Project: IDEAL-VGI) until 2021"
+    - name: Georgii Mikriukov
+      detail: "Research Associate (Project: TreeSatAI) until 2022"
+    - name: Steve Ahlswede
+      detail: "Research Associate (Project: TreeSatAI) until 2022"
+    - name: Dr. Mahdyar Ravanbakhsh
+      detail: "Postdoctoral Researcher until 2022"
 - title: Former Guest Researchers
   members:
     - name: Álvaro Ordonez Iglesias
