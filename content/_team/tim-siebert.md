@@ -24,7 +24,9 @@ member_office_hours:
 member_experience:
     title: Education
     list:
-        - period: Oct 2018 - Now
+        - period: 2022 - Now
+          title: MSc in Mathematics, Technische Universität Berlin, Germany.
+        - period: Oct 2018 - 2022
           title: BSc in Mathematics, Technische Universität Berlin, Germany.
         - period: Apr 2016 - Oct 2018
           title: BSc in Physics, Technische Universität Berlin, Germany.
