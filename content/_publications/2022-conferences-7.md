@@ -7,7 +7,7 @@ published_at: International Conference on Very Large Databases, Sydney, Australi
 
 image: 2022-conferences-7.png
 bibtex_link:
-pdf_link:
+pdf_link: https://arxiv.org/abs/2208.10830
 git_link:
 
 ---
