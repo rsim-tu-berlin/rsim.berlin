@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 17
+order: 15
 title: Tim Siebert - RSiM
 #
 member_alias: tim-siebert

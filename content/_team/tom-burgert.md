@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 12
+order: 9
 title: Tom Burgert - RSiM
 #
 member_alias: tom-burgert

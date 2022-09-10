@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 16
+order: 14
 title: Julia Henkel - RSiM
 #
 member_alias: julia-henkel

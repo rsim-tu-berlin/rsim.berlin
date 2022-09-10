@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 11
+order: 8
 title: Kai Norman Clasen - RSiM
 #
 member_alias: kai-norman-clasen

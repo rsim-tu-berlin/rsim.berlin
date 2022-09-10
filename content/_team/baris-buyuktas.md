@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 9
+order: 6
 title: Barış Büyüktaş - RSiM
 #
 member_alias: baris-buyuktas

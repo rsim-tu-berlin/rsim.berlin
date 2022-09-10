@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 14
+order: 12
 title: Adina Zell - RSiM
 #
 member_alias: adina-zell

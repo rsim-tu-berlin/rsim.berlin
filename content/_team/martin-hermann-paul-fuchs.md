@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 13
+order: 10
 title: Martin Hermann Paul Fuchs - RSiM
 #
 member_alias: martin-hermann-paul-fuchs

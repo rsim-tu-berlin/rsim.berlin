@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 10
+order: 7
 title: Lars Möllenbrok - RSiM
 #
 member_alias: lars-mollenbrok

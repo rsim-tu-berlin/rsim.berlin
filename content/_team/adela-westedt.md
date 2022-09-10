@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 18
+order: 20
 title: Adela Westedt - RSiM
 #
 member_alias: adela-westedt
