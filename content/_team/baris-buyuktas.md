@@ -25,7 +25,7 @@ member_experience:
     title: Education and Academic Experience
     list:
         - period: Nov 2021-now
-          title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
+          title: PhD in The Berlin Institute for the Foundations of Learning and Data (BIFOLD), TU Berlin, Germany.
         - period: 2018-2020
           title: MSc in Electrical and Electronics Engineering, Özyeğin University, Turkey.
         - period: 2013-2018

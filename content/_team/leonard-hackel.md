@@ -25,7 +25,7 @@ member_experience:
   title: Education
   list:
     - period: From Oct 2022
-      title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
+      title: PhD in The Berlin Institute for the Foundations of Learning and Data (BIFOLD), TU Berlin, Germany.
     - period: Oct 2019 – Jul 2022
       title: MSc in Computer Engineering, Technische Universität Berlin, Germany.
     - period: Aug 2017 – Feb 2018
