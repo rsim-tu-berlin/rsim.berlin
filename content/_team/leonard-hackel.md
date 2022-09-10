@@ -24,7 +24,7 @@ member_office_hours:
 member_experience:
   title: Education
   list:
-    - period: Oct 2022 - Now
+    - period: From Oct 2022
       title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
     - period: Oct 2019 – Jul 2022
       title: MSc in Computer Engineering, Technische Universität Berlin, Germany.
