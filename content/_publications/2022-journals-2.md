@@ -3,7 +3,7 @@ type: journals
 title: "Multi-Label Noise Robust Collaborative Learning Model for Remote Sensing Image Classification"
 year: 2022
 authors: Ahmet Kerem Aksoy, Mahdyar Ravanbakhsh, Begüm Demir
-published_at: "IEEE Transactions on Neural Networks and Learning Systems, in minor revision, 2022"
+published_at: "IEEE Transactions on Neural Networks and Learning Systems, 2022"
 
 image: 2022-journals-2.png
 bibtex_link:
