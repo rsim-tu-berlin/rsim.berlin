@@ -27,5 +27,5 @@ lecturers:
     - name: Prof. Dr. Begüm Demir
       link_ext: begum-demir
     - name: Martin Hermann Paul Fuchs
-      link_ext: begum-demir
+      link_ext: martin-hermann-paul-fuchs
 ---
