@@ -8,7 +8,7 @@ member_image: rsim-team-member.png
 member_title:
 member_name: Yunya Gao
 member_position: Visiting Researcher
-member_email: yunya.gao@plus.ac.at
+member_email: yunya.gao [at] plus.ac.at
 member_site:
 
 member_address: |
