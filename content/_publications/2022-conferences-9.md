@@ -7,7 +7,7 @@ published_at: SPIE Image and Signal Processing for Remote Sensing, Berlin, 2022
 
 image: 2022-conferences-9.jpg
 bibtex_link:
-pdf_link:
-git_link:
+pdf_link: https://arxiv.org/abs/2210.02071
+git_link: https://git.tu-berlin.de/rsim/drainage-pipes-detection
 
 ---
