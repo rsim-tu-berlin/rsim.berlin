@@ -4,7 +4,7 @@ order: 11
 title: Leonard Hackel - RSiM
 #
 member_alias: leonard-hackel
-member_image: leonard-hackel.PNG
+member_image: leonard-hackel.jpg
 member_title:
 member_name: Leonard Hackel
 member_position: Researcher
