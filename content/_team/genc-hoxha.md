@@ -4,7 +4,7 @@ order: 4
 title: Dr. Genc Hoxha - RSiM
 #
 member_alias: genc-hoxha
-member_image: rsim-team-member.png
+member_image: genc-hoxha.jpg
 member_title: Dr.
 member_name: Genc Hoxha
 member_position: Researcher
@@ -32,5 +32,14 @@ member_experience:
           title: MSc in Telecommunication Engineering, University of Trento, Trento, Italy.
         - period: 2009-2014
           title: BSc in Electronics and Telecommunication Engineering, University of Trento, Trento, Italy.
+          
+member_experience_other:
+    title: Work Experience
+    list:
+        - period: 2019-2022
+          title: Teaching Assistant, Department of Information Engineering and Computer Science, University of Trento, Italy.
+
 
 ---
+  <h4 class="mt-4">Publications</h4>
+  <p>To view my publications, you can visit: <a href="https://https://scholar.google.com/citations?user=l2JMlnIAAAAJ&hl=en" target="_blank">https://scholar.google.com/citations?user=l2JMlnIAAAAJ&hl=en</a>.</p>
