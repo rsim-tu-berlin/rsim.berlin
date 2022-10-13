@@ -8,7 +8,7 @@ member_image: rsim-team-member.png
 member_title: Dr.
 member_name: Genc Hoxha
 member_position: Researcher
-member_email:
+member_email: genc.hoxha@tu-berlin.de
 member_site:
 
 member_address: |
