@@ -8,7 +8,7 @@ semester: Winter semester 2022/23
 credit_point: 6 SWS/9 ECTS
 participants: 15
 date_time: Thursday 14:00-20:00
-location: TBD
+location: A151
 isis_link: https://isis.tu-berlin.de/course/view.php?id=30750
 
 description: |
