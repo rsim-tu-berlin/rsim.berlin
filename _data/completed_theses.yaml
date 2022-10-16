@@ -65,6 +65,17 @@
       institute: TU Berlin
       year: 2022
       pdf_file: 
+    - author: Leonard Wayne Hackel
+      title:  Transformer-based Lightweight Visual Question Answering for Earth Observation
+      institute: TU Berlin
+      year: 2022
+      pdf_file:
+    - author: David Sebastian Hoffmann
+      title:  Multi-Modal Vision Transformers for Multi-Label Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2022
+      pdf_file:
+
 
 - title: Bachelor Theses
   theses:
