@@ -14,23 +14,27 @@ title: Open Positions
         </div>
       </div>
 
-      {% assign sorted_jobs = site.open_positions | sort: 'date' | reverse %}
-      {% for project in sorted_jobs %}
+      {% if site.open_positions.size > 0 %}
+        {% assign sorted_jobs = site.open_positions | sort: 'date' | reverse %}
+        {% for project in sorted_jobs %}
 
-      <div class="row m-4 p-2 w-100 border-bottom hover-shadow rounded">
-        <div class="col-3">
-          <img class="card-img-top news-img rounded-0" src="{{ site.baseurl }}{{ project.image }}" alt="Post thumb">
-              </div>
-        <div class="col-9">
-          <h4><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h4>
-          <p class="text-justify">{{ project.description }}</p>
-          {% if project.link %}
-          <p>For details, please click <a href="{{ project.link }}" target="_blank">here</a>.</p>
-          {% endif %}
+        <div class="row m-4 p-2 w-100 border-bottom hover-shadow rounded">
+          <div class="col-3">
+            <img class="card-img-top news-img rounded-0" src="{{ site.baseurl }}{{ project.image }}" alt="Post thumb">
+                </div>
+          <div class="col-9">
+            <h4><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h4>
+            <p class="text-justify">{{ project.description }}</p>
+            {% if project.link %}
+            <p>For details, please click <a href="{{ project.link }}" target="_blank">here</a>.</p>
+            {% endif %}
+          </div>
         </div>
-      </div>
-
-      {% endfor %}
-
+        {% endfor %}
+      {% else %}
+        <div class="col-12">
+          <p class="ml-2">No open positions available at the moment.</p>
+        </div>
+      {% endif %}
     </div>
 </section>
