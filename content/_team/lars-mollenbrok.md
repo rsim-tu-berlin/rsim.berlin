@@ -4,7 +4,7 @@ order: 7
 title: Lars Möllenbrok - RSiM
 #
 member_alias: lars-mollenbrok
-member_image: rsim-team-member.png
+member_image: lars-mollenbrok.jpg
 member_title:
 member_name: Lars Möllenbrok
 member_position: Researcher
