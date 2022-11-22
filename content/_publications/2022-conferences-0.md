@@ -7,7 +7,7 @@ published_at: IEEE International Geoscience and Remote Sensing Symposium, Kuala 
 
 image: 2022-conferences-0.jpg
 bibtex_link:
-pdf_link:
+pdf_link: https://depositonce.tu-berlin.de/items/7dd1809f-0fa9-4228-a070-fd2a105119bd
 git_link: 
 
 ---
