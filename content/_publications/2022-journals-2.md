@@ -7,6 +7,6 @@ published_at: "IEEE Transactions on Neural Networks and Learning Systems, doi:10
 
 image: 2022-journals-2.png
 bibtex_link:
-pdf_link: https://arxiv.org/abs/2012.10715
+pdf_link: https://ieeexplore.ieee.org/document/9926002
 git_link: https://git.tu-berlin.de/rsim/RCML
 ---
