@@ -1,3 +1,4 @@
+---
 type: journals
 title: "On the Effects of Different Types of Label Noise in Multi-Label Remote Sensing Image Classification"
 year: 2022
