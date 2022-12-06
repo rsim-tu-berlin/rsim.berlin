@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 17
+order: 18
 title: Yunya Gao - RSiM
 #
 member_alias: yunya-gao
