@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 16
+order: 17
 title: Mirko Paolo Barbato - RSiM
 #
 member_alias: mirko-paolo-barbato
