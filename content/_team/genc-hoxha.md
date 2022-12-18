@@ -8,7 +8,7 @@ member_image: genc-hoxha.jpg
 member_title: Dr.
 member_name: Genc Hoxha
 member_position: Researcher
-member_email: genc.hoxha@tu-berlin.de
+member_email: genc.hoxha [at] tu-berlin.de
 member_site:
 
 member_address: |
@@ -32,7 +32,7 @@ member_experience:
           title: MSc in Telecommunication Engineering, University of Trento, Trento, Italy.
         - period: 2009-2014
           title: BSc in Electronics and Telecommunication Engineering, University of Trento, Trento, Italy.
-          
+
 member_experience_other:
     title: Work Experience
     list:
