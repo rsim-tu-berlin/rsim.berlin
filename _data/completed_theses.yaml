@@ -64,14 +64,24 @@
       title: "Domain Adaptation for Tree Species Classification Using Remote Sensing Image"
       institute: TU Berlin
       year: 2022
-      pdf_file: 
-    - author: Hackel, Leonard Wayne 
+      pdf_file:
+    - author: Hackel, Leonard Wayne
       title:  Transformer-based Lightweight Visual Question Answering for Earth Observation
       institute: TU Berlin
       year: 2022
       pdf_file:
     - author: Hoffmann, David Sebastian
       title:  Multi-Modal Vision Transformers for Multi-Label Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2022
+      pdf_file:
+    - author: Happel, David
+      title: The effects of time series data augmentation in domain generalization for crop type mapping
+      institute: TU Berlin
+      year: 2022
+      pdf_file:
+    - author: Moran, Stephen
+      title: Physics-based Deep Learning for Precipitation Forecasting
       institute: TU Berlin
       year: 2022
       pdf_file:
