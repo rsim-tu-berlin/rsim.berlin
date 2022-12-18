@@ -8,7 +8,7 @@ semester: Winter semester 2022/23
 credit_point: 6 SWS/9 ECTS
 participants: 15
 date_time: Thursday 14:00-20:00
-location: A151
+location: EN610
 isis_link: https://isis.tu-berlin.de/course/view.php?id=30750
 
 description: |
@@ -25,7 +25,10 @@ description: |
 lecturers:
     - name: Prof. Dr. Begüm Demir
       link_ext: begum-demir
-    - name: Barış Büyüktaş
-      link_ext: baris-buyuktas
-
+    - name: Leonard Hackel
+      link_ext: leonard-hackel
+    - name: Dr. Genc Hoxha
+      link_ext: genc-hoxha
+    - name: Lars Möllenbrok
+      link_ext: lars-mollenbrok
 ---
