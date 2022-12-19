@@ -8,7 +8,7 @@ member_image: rsim-team-member.png
 member_title:
 member_name: Jakob Hackstein
 member_position: Student Assistant
-member_email:
+member_email: hackstein [at] campus.tu-berlin.de 
 member_site:
 
 member_address: |
