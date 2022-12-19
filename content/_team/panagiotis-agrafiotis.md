@@ -6,7 +6,7 @@ title: Dr. Panagiotis Agrafiotis - RSiM
 member_alias: panagiotis-agrafiotis
 member_image: panagiotis-agrafiotis.jpg
 member_title: Dr.
-member_name: Dr. Panagiotis Agrafiotis
+member_name: Panagiotis Agrafiotis
 member_position: Researcher
 member_email: pagraf@central.ntua.gr
 member_site:
