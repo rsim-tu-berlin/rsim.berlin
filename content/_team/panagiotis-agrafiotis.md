@@ -58,4 +58,4 @@ member_experience_other:
 ---
 
 <h4 class="mt-4">Publications</h4>
-  <p>To view my publications, you can visit: <a href="https://scholar.google.com/citations?user=l2JMlnIAAAAJ&hl=en" target="_blank">https://scholar.google.com/citations?user=oICDjl0AAAAJ&hl=en</a>.</p>
+  <p>To view my publications, you can visit: <a href="https://scholar.google.com/citations?user=oICDjl0AAAAJ&hl=en" target="_blank">https://scholar.google.com/citations?user=oICDjl0AAAAJ&hl=en</a>.</p>
