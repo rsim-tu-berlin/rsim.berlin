@@ -24,7 +24,7 @@ member_office_hours:
 member_experience:
     title: Education and Academic Experience
     list:
-        - period: Feb 2023 - Now
+        - period: Feb 2023-2023
           title: Post-Doctoral Researcher, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
         - period: 2021-2022
           title: Post-Doctoral Researcher, School of Rural, Surveying and Geoinformatics Engineering, National Technical University of Athens, Greece.
