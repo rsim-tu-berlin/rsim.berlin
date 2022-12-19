@@ -8,7 +8,7 @@ member_image: panagiotis-agrafiotis.jpg
 member_title: Dr.
 member_name: Panagiotis Agrafiotis
 member_position: Researcher
-member_email: pagraf@central.ntua.gr
+member_email: 
 member_site:
 
 member_address: |
