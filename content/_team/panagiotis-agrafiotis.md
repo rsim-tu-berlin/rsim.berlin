@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 4.2
+order: 4.1
 title: Dr. Panagiotis Agrafiotis - RSiM
 #
 member_alias: panagiotis-agrafiotis
@@ -8,7 +8,7 @@ member_image: panagiotis-agrafiotis.jpg
 member_title: Dr.
 member_name: Panagiotis Agrafiotis
 member_position: Researcher
-member_email: 
+member_email:
 member_site:
 
 member_address: |
@@ -17,8 +17,8 @@ member_address: |
     Faculty IV<br/>
     Einsteinufer 17<br/>
     10587 Berlin
-member_phone: 
-member_room_no: 
+member_phone:
+member_room_no:
 member_office_hours:
 
 member_experience:

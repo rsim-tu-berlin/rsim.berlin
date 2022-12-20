@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 4
+order: 4.2
 title: Dr. Yeti Gürbüz - RSiM
 #
 member_alias: yeti-gurbuz
@@ -17,8 +17,8 @@ member_address: |
     Faculty IV<br/>
     Einsteinufer 17<br/>
     10587 Berlin
-member_phone: 
-member_room_no: 
+member_phone:
+member_room_no:
 member_office_hours:
 
 member_experience:
