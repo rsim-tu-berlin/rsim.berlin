@@ -39,7 +39,7 @@ member_experience_other:
         - period: 2021-2023
           title: Research Scientist, METU Center for Image Analysis, Middle East Technical University, Ankara, Turkey.
         - period: 2011-2021
-          title: Research and Teaching Assistant, Deptartment of Electrical and Electronics Engineering, Middle East Technical University, Ankara, Turkey.
+          title: Research and Teaching Assistant, Department of Electrical and Electronics Engineering, Middle East Technical University, Ankara, Turkey.
 
 ---
 
