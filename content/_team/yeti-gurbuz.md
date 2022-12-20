@@ -4,7 +4,7 @@ order: 4
 title: Dr. Yeti Gürbüz - RSiM
 #
 member_alias: yeti-gurbuz
-member_image: yeti-gurbuz.jpg
+member_image: rsim-team-member.png
 member_title: Dr.
 member_name: Yeti Gürbüz
 member_position: Researcher
@@ -43,5 +43,3 @@ member_experience_other:
 
 ---
 
-<h4 class="mt-4">Publications</h4>
-  <p>To view my publications, you can visit: <a href="https://scholar.google.com.tr/citations?user=t3YY0FYAAAAJ&hl=en" target="_blank">https://scholar.google.com.tr/citations?user=t3YY0FYAAAAJ&hl=en</a>.</p>
