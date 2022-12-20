@@ -18,6 +18,8 @@ collections:
     sort_by: date
   projects:
     sort_by: date
+  projects_completed:
+    sort_by: date
   software:
     sort_by: date
   theses:
