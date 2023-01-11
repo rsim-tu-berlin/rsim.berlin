@@ -1,6 +1,6 @@
 ---
 date: 2022-12-05
-title: "The TreeSatAI Benchmark Archive"
+title: "TreeSatAI Benchmark Archive"
 abstract:
 
 text: |
