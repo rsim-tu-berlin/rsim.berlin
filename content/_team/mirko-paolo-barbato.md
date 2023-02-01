@@ -32,7 +32,5 @@ member_experience:
           title: Master Degree in Computer Science, Università degli studi Milano Bicocca.
         - period: Sep 2014 – Oct 2017
           title: Bachelor Degree in Computer Science, Università degli studi Milano Bicocca.
-        - period: Sep 2014 - Feb 2016
-          title: Technical Training Light Aircraft Engineer.
 
 ---
