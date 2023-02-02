@@ -27,7 +27,7 @@ member_experience:
       - period: Feb 2023 - Now
         title: Visiting PhD Researcher, RSiM, TU Berlin
       - period: 2020 - Now
-        title: PhD student in Computer Science, Control, and Geoinformation, Tor Vergata University of Rome
+        title: PhD student in Computer Science, Control and Geoinformation, Tor Vergata University of Rome
       - period: 2018 - 2020
         title: Master's degree in Environmental Engineering, Tor Vergata University of Rome
       - period: 2013 - 2018
