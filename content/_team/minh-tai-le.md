@@ -1,7 +1,7 @@
 ---
 layout: team_member
 order: 2
-title: Dr. Mahdyar Ravanbakhsh - RSiM
+title: Minh Tai Le - RSiM
 #
 member_alias: minh-tai-le
 member_image: minh-tai-le.jpg
