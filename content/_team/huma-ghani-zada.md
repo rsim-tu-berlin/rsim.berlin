@@ -8,7 +8,7 @@ member_image: rsim-team-member.png
 member_title:
 member_name: Huma Ghani Zada
 member_position: System Administrator
-member_email: 
+member_email: huma.ghani.zada@tu-berlin.de
 member_site:
 
 member_address: |
