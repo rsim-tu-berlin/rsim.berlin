@@ -4,7 +4,7 @@ order: 19
 title: Veronica Morelli - RSiM
 #
 member_alias: veronica-morelli
-member_image: rsim-team-member.png
+member_image: veronica-morelli.jpg
 member_title:
 member_name: Veronica Morelli
 member_position: Visiting Student Assistant
