@@ -8,7 +8,7 @@ member_image: david-mickisch.jpg
 member_title:
 member_name: David Mickisch
 member_position: Researcher
-member_email:
+member_email: mickisch [at] tu-berlin.de
 member_site:
 
 member_address: |
