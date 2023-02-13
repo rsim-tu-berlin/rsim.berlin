@@ -4,7 +4,7 @@ order: 12.1
 title: David Mickisch - RSiM
 #
 member_alias: david-mickisch
-member_image: rsim-team-member.png
+member_image: david-mickisch.jpg
 member_title:
 member_name: David Mickisch
 member_position: Researcher
