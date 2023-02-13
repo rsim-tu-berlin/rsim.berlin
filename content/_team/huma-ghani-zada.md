@@ -4,7 +4,7 @@ order: 20
 title: Huma Ghani Zada - RSiM
 #
 member_alias: huma-ghani-zada
-member_image: rsim-team-member.png
+member_image: huma-ghani-zada.jpg
 member_title:
 member_name: Huma Ghani Zada
 member_position: System Administrator
