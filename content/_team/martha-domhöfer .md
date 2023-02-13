@@ -11,15 +11,23 @@ member_position: Researcher
 member_email:
 member_site:
 
-member_address:
-member_phone:
-member_room_no:
+member_address: |
+    Technische Universität Berlin<br/><br/>
+    Remote Sensing Image Analysis (RSiM) Group, Sekr. EN 5<br/>
+    Faculty IV<br/>
+    Einsteinufer 17<br/>
+    10587 Berlin
+member_phone: +49 30 314 19003809
+member_room_no: EN 603
 member_office_hours:
 
 member_experience:
-    title: Education
-    # list:
-    #     - period:
-    #       title:
+    title: Education and Academic Experience
+    list:
+        - period: 2021-2022
+          title: MSc in Modelling for Science and Engineering, Universitat Autònoma de Barcelona, Spain.
+        - period: 2015-2020
+          title: BSc in Cognitive Science, Universität Osnabrück, Germany.
+
 
 ---
