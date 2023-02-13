@@ -24,6 +24,8 @@ member_office_hours:
 member_experience:
     title: Education and Academic Experience
     list:
+        - period: 2023-now
+          title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
         - period: 2021-2022
           title: MSc in Modelling for Science and Engineering, Universitat Autònoma de Barcelona, Spain.
         - period: 2015-2020
