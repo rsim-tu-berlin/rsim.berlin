@@ -4,7 +4,7 @@ order: 12.2
 title: Martha Domhöfer  - RSiM
 #
 member_alias: martha-Domhofer
-member_image: rsim-team-member.png
+member_image: martha-domhoefer.jpg
 member_title:
 member_name: Martha Domhöfer
 member_position: Researcher
