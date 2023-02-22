@@ -6,7 +6,9 @@ title: Leonard Hackel - RSiM
 member_alias: leonard-hackel
 member_image: leonard-hackel.jpg
 member_title:
-member_name: Leonard Hackel
+member_first_name: Leonard
+member_last_name: Hackel
+member_group: Researchers
 member_position: Researcher
 member_email: l.hackel [at] tu-berlin.de
 member_site:

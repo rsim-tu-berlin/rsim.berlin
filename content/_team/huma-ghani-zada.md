@@ -6,7 +6,9 @@ title: Huma Ghani Zada - RSiM
 member_alias: huma-ghani-zada
 member_image: huma-ghani-zada.jpg
 member_title:
-member_name: Huma Ghani Zada
+member_first_name: Huma Ghani
+member_last_name: Zada
+member_group: Administration
 member_position: System Administrator
 member_email: huma.ghani.zada [at] tu-berlin.de
 member_site:

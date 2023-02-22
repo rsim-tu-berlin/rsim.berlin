@@ -15,11 +15,23 @@ title: Team
     </div>
 
     <!-- member list -->
+
+    {% assign sorted_team = site.team | group_by: "member_group" | sort: "order" %}
+    {% for pos in sorted_team %}
+
     <div class="row text-center">
+      {% if pos.name != "Administration" %}
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h4 class="mb-0 text-nowrap mr-3">{{ pos.name }}</h4>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+      {% endif %}
 
-      {% assign sorted_team = site.team | sort: "order" %}
+      {% assign sorted_team = pos.items | sort: "member_last_name" %}
+
       {% for member in sorted_team %}
-
       <!-- member -->
       <div data-category="" class="col-lg-4 col-sm-6 mb-5 filtr-item d-flex">
         <div class="card border-1 align-items-center hover-shadow">
@@ -29,7 +41,7 @@ title: Team
 
           <div class="card-body">
             <a href="{{ site.baseurl }}{{ member.url }}">
-              <h5 class="card-title">{{ member.member_title }} {{ member.member_name }}</h5>
+              <h5 class="card-title">{{ member.member_title }} {{ member.member_first_name }} {{ member.member_last_name }}</h5>
             </a>
             <p class="m-0">{{ member.member_position }}</p>
           </div>
@@ -38,6 +50,7 @@ title: Team
 
       {% endfor %}
     </div>
+    {% endfor %}
 
     {% for section in site.data.team_externals %}
 

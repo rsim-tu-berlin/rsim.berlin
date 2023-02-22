@@ -6,7 +6,9 @@ title: Julia Henkel - RSiM
 member_alias: julia-henkel
 member_image: julia-henkel.PNG
 member_title:
-member_name: Julia Henkel
+member_first_name: Julia
+member_last_name: Henkel
+member_group: Student Assistants
 member_position: Student Assistant
 member_email: henkel [at] campus.tu-berlin.de
 member_site:

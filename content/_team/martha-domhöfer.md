@@ -6,7 +6,9 @@ title: Martha Domhöfer  - RSiM
 member_alias: martha-Domhofer
 member_image: martha-domhoefer.jpg
 member_title:
-member_name: Martha Domhöfer
+member_first_name: Martha
+member_last_name: Domhöfer
+member_group: Researchers
 member_position: Researcher
 member_email: m.domhoefer [at] tu-berlin.de
 member_site:

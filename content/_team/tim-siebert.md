@@ -6,7 +6,9 @@ title: Tim Siebert - RSiM
 member_alias: tim-siebert
 member_image: tim-siebert.jpg
 member_title:
-member_name: Tim Siebert
+member_first_name: Tim
+member_last_name: Siebert
+member_group: Student Assistants
 member_position: Student Assistant
 member_email: t.siebert [at] campus.tu-berlin.de
 member_site:

@@ -6,7 +6,9 @@ title: Dr. Panagiotis Agrafiotis - RSiM
 member_alias: panagiotis-agrafiotis
 member_image: panagiotis-agrafiotis.jpg
 member_title: Dr.
-member_name: Panagiotis Agrafiotis
+member_first_name: Panagiotis
+member_last_name: Agrafiotis
+member_group: Researchers
 member_position: Researcher
 member_email: agrafiotis@tu-berlin.de
 member_site:
@@ -24,7 +26,7 @@ member_office_hours:
 member_experience:
     title: Education and Academic Experience
     list:
-        - period: Feb 2023-2023
+        - period: 2023-Now
           title: Post-Doctoral Researcher, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
         - period: 2021-2022
           title: Post-Doctoral Researcher, School of Rural, Surveying and Geoinformatics Engineering, National Technical University of Athens, Greece.

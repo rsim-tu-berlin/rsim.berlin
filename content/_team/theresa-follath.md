@@ -6,7 +6,9 @@ title: Theresa Follath - RSiM
 member_alias: theresa-follath
 member_image: rsim-team-member.png
 member_title:
-member_name: Theresa Follath
+member_first_name: Theresa
+member_last_name: Follath
+member_group: Student Assistants
 member_position: Student Assistant
 member_email: follath [at] campus.tu-berlin.de
 member_site:

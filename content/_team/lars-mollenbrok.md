@@ -6,7 +6,9 @@ title: Lars Möllenbrok - RSiM
 member_alias: lars-mollenbrok
 member_image: lars-mollenbrok.jpg
 member_title:
-member_name: Lars Möllenbrok
+member_first_name: Lars
+member_last_name: Möllenbrok
+member_group: Researchers
 member_position: Researcher
 member_email: lars.moellenbrok [at] tu-berlin.de
 member_site:

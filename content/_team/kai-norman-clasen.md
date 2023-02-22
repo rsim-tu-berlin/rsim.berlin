@@ -6,7 +6,9 @@ title: Kai Norman Clasen - RSiM
 member_alias: kai-norman-clasen
 member_image: kai-norman-clasen.jpg
 member_title:
-member_name: Kai Norman Clasen
+member_first_name: Kai Norman
+member_last_name: Clasen
+member_group: Researchers
 member_position: Researcher
 member_email: k.clasen [at] tu-berlin.de
 member_site:

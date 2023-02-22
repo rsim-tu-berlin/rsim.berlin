@@ -6,7 +6,9 @@ title: David Mickisch - RSiM
 member_alias: david-mickisch
 member_image: david-mickisch.jpg
 member_title:
-member_name: David Mickisch
+member_first_name: David
+member_last_name: Mickisch
+member_group: Researchers
 member_position: Researcher
 member_email: mickisch [at] tu-berlin.de
 member_site:
@@ -30,7 +32,7 @@ member_experience:
           title: MSc in Mathematics, University of Bonn, Germany.
         - period: 2008-2011
           title: BSc in Mathematics, University of Munich (LMU), Germany.
-       
+
 
 member_experience_other:
     title: Work Experience

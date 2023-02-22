@@ -6,7 +6,9 @@ title: Ahmet Kerem Aksoy - RSiM
 member_alias: ahmet-kerem-aksoy
 member_image: ahmet-kerem-aksoy.jpg
 member_title:
-member_name: Ahmet Kerem Aksoy
+member_first_name: Ahmet Kerem
+member_last_name: Aksoy
+member_group: Student Assistants
 member_position: Student Assistant
 member_email: a.aksoy [at] tu-berlin.de
 member_site:

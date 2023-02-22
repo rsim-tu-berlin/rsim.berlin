@@ -6,7 +6,9 @@ title: Martin Hermann Paul Fuchs - RSiM
 member_alias: martin-hermann-paul-fuchs
 member_image: martin-hermann-paul-fuchs.png
 member_title:
-member_name: Martin Hermann Paul Fuchs
+member_first_name: Martin Hermann Paul
+member_last_name: Fuchs
+member_group: Researchers
 member_position: Researcher
 member_email: m.fuchs [at] tu-berlin.de
 member_site:

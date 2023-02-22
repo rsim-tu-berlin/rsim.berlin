@@ -6,7 +6,9 @@ title: Minh Tai Le - RSiM
 member_alias: minh-tai-le
 member_image: minh-tai-le.jpg
 member_title:
-member_name: Minh Tai Le
+member_first_name: Minh Tai
+member_last_name: Le
+member_group: Administration
 member_position: Administrative Assistant
 member_email: sekr [at] rsim.tu-berlin.de
 member_site:

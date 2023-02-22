@@ -6,7 +6,9 @@ title: Giorgia Guerrisi - RSiM
 member_alias: giorgia-guerrisi
 member_image: giorgia-guerrisi.jpg
 member_title:
-member_name: Giorgia Guerrisi
+member_first_name: Giorgia
+member_last_name: Guerrisi
+member_group: Visiting Researchers
 member_position: Visiting Researcher
 member_email: giorgia.guerrisi [at] uniroma2.it
 member_site:

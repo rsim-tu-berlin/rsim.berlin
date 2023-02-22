@@ -6,7 +6,9 @@ title: Dr. Yeti Gürbüz - RSiM
 member_alias: yeti-gurbuz
 member_image: rsim-team-member.png
 member_title: Dr.
-member_name: Yeti Gürbüz
+member_first_name: Yeti
+member_last_name: Gürbüz
+member_group: Researchers
 member_position: Researcher
 member_email:
 member_site:
@@ -24,7 +26,7 @@ member_office_hours:
 member_experience:
     title: Education and Academic Experience
     list:
-        - period: Jan 2023-2023
+        - period: 2023-Now
           title: Post-Doctoral Researcher, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
         - period: 2014-2022
           title: PhD in Signal Processing, Department of Electrical and Electronics Engineering, Middle East Technical University, Ankara, Turkey.

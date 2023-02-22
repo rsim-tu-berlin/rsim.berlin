@@ -6,7 +6,10 @@ title: Prof. Dr. Begüm Demir - RSiM
 member_alias: begum-demir
 member_image: begum-demir.jpg
 member_title: Prof. Dr.
-member_name: Begüm Demir
+member_name:
+member_first_name: Begüm
+member_last_name: Demir
+member_group: Administration
 member_position: Head of RSiM
 member_email: demir [at] tu-berlin.de
 member_site:

@@ -6,7 +6,9 @@ title: Gencer Sümbül - RSiM
 member_alias: gencer-sumbul
 member_image: gencer-sumbul.jpg
 member_title:
-member_name: Gencer Sümbül
+member_first_name: Gencer
+member_last_name: Sümbül
+member_group: Researchers
 member_position: Researcher
 member_email: gencer.suembuel [at] tu-berlin.de
 member_site: http://www.user.tu-berlin.de/gencersumbul/

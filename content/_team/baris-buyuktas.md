@@ -6,7 +6,9 @@ title: Barış Büyüktaş - RSiM
 member_alias: baris-buyuktas
 member_image: baris-buyuktas.jpg
 member_title:
-member_name: Barış Büyüktaş
+member_first_name: Barış
+member_last_name: Büyüktaş
+member_group: Researchers
 member_position: Researcher
 member_email: baris.bueyuektas [at] tu-berlin.de
 member_site:

@@ -6,7 +6,9 @@ title: Dr. Genc Hoxha - RSiM
 member_alias: genc-hoxha
 member_image: genc-hoxha.jpg
 member_title: Dr.
-member_name: Genc Hoxha
+member_first_name: Genc
+member_last_name: Hoxha
+member_group: Researchers
 member_position: Researcher
 member_email: genc.hoxha [at] tu-berlin.de
 member_site:
