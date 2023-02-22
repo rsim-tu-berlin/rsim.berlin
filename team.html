@@ -43,7 +43,9 @@ title: Team
             <a href="{{ site.baseurl }}{{ member.url }}">
               <h5 class="card-title">{{ member.member_title }} {{ member.member_first_name }} {{ member.member_last_name }}</h5>
             </a>
+            {% if group.name == "Administration" %}
             <p class="m-0">{{ member.member_position }}</p>
+            {% endif %}
           </div>
         </div>
       </div>
