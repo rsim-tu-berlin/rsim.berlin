@@ -16,20 +16,20 @@ title: Team
 
     <!-- member list -->
 
-    {% assign sorted_team = site.team | group_by: "member_group" | sort: "order" %}
-    {% for pos in sorted_team %}
+    {% assign sorted_groups = site.team | group_by: "member_group" | sort: "name" %}
+    {% for group in sorted_groups %}
 
     <div class="row text-center">
-      {% if pos.name != "Administration" %}
+      {% if group.name != "Administration" %}
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h4 class="mb-0 text-nowrap mr-3">{{ pos.name }}</h4>
+          <h4 class="mb-0 text-nowrap mr-3">{{ group.name }}</h4>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
         </div>
       </div>
       {% endif %}
 
-      {% assign sorted_team = pos.items | sort: "member_last_name" %}
+      {% assign sorted_team = group.items | sort: "member_last_name" %}
 
       {% for member in sorted_team %}
       <!-- member -->
