@@ -4,7 +4,7 @@ order: 16.1
 title: Jakob Hackstein - RSiM
 #
 member_alias: jakob-hackstein
-member_image: rsim-team-member.png
+member_image: jakob-hackstein.jpg
 member_title:
 member_first_name: Jakob
 member_last_name: Hackstein
