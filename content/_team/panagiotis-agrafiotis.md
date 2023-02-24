@@ -8,7 +8,7 @@ member_image: panagiotis-agrafiotis.jpg
 member_title: Dr.
 member_first_name: Panagiotis
 member_last_name: Agrafiotis
-member_group: Researchers
+member_group: Research Associates
 member_position: Researcher
 member_email: agrafiotis@tu-berlin.de
 member_site:
