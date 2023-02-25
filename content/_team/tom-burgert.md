@@ -8,7 +8,7 @@ member_image: tom-burgert.jpg
 member_title:
 member_first_name: Tom
 member_last_name: Burgert
-member_group: Researchers
+member_group: Research Associates
 member_position: Researcher
 member_email: t.burgert [at] tu-berlin.de
 member_site:
