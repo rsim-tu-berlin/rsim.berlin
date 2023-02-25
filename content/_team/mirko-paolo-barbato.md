@@ -8,7 +8,7 @@ member_image: mirko-paolo-barbato.jpg
 member_title:
 member_first_name: Mirko Paolo
 member_last_name: Barbato
-member_group: Guest Researchers
+member_group: Visiting Researchers
 member_position: Visiting Researcher
 member_email: m.barbato2 [at] campus.unimib.it
 member_site:
