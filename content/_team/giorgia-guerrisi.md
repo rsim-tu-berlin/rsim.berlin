@@ -8,7 +8,7 @@ member_image: giorgia-guerrisi.jpg
 member_title:
 member_first_name: Giorgia
 member_last_name: Guerrisi
-member_group: Visiting Researchers
+member_group: Guest Researchers
 member_position: Visiting Researcher
 member_email: giorgia.guerrisi [at] uniroma2.it
 member_site:
