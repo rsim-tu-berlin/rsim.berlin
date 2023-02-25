@@ -8,7 +8,7 @@ member_image: rsim-team-member.png
 member_title: Dr.
 member_first_name: Yeti
 member_last_name: Gürbüz
-member_group: Researchers
+member_group: Research Associates
 member_position: Researcher
 member_email:
 member_site:
