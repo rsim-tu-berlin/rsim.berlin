@@ -8,7 +8,7 @@ member_image: lars-mollenbrok.jpg
 member_title:
 member_first_name: Lars
 member_last_name: Möllenbrok
-member_group: Researchers
+member_group: Research Associates
 member_position: Researcher
 member_email: lars.moellenbrok [at] tu-berlin.de
 member_site:
