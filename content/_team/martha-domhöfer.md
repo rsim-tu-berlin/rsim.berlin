@@ -8,7 +8,7 @@ member_image: martha-domhoefer.jpg
 member_title:
 member_first_name: Martha
 member_last_name: Domhöfer
-member_group: Researchers
+member_group: Research Associates
 member_position: Researcher
 member_email: m.domhoefer [at] tu-berlin.de
 member_site:
