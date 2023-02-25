@@ -8,7 +8,7 @@ member_image: genc-hoxha.jpg
 member_title: Dr.
 member_first_name: Genc
 member_last_name: Hoxha
-member_group: Researchers
+member_group: Research Associates
 member_position: Researcher
 member_email: genc.hoxha [at] tu-berlin.de
 member_site:
