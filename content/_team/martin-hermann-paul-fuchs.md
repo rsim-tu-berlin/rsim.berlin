@@ -8,7 +8,7 @@ member_image: martin-hermann-paul-fuchs.png
 member_title:
 member_first_name: Martin Hermann Paul
 member_last_name: Fuchs
-member_group: Researchers
+member_group: Research Associates
 member_position: Researcher
 member_email: m.fuchs [at] tu-berlin.de
 member_site:
