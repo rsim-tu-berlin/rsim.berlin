@@ -8,7 +8,7 @@ member_image: gencer-sumbul.jpg
 member_title:
 member_first_name: Gencer
 member_last_name: Sümbül
-member_group: Researchers
+member_group: Research Associates
 member_position: Researcher
 member_email: gencer.suembuel [at] tu-berlin.de
 member_site: http://www.user.tu-berlin.de/gencersumbul/
