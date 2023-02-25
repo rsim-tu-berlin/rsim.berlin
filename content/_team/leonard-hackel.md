@@ -8,7 +8,7 @@ member_image: leonard-hackel.jpg
 member_title:
 member_first_name: Leonard
 member_last_name: Hackel
-member_group: Researchers
+member_group: Research Associates
 member_position: Researcher
 member_email: l.hackel [at] tu-berlin.de
 member_site:
