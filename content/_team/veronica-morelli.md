@@ -8,7 +8,7 @@ member_image: veronica-morelli.jpg
 member_title:
 member_first_name: Veronica
 member_last_name: Morelli
-member_group: Visiting Researchers
+member_group: Guest Researchers
 member_position: Visiting Student Assistant
 member_email: v.morelli5 [at] campus.unimib.it
 member_site:
