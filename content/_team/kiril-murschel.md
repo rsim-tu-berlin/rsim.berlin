@@ -4,7 +4,7 @@ order: 16.2
 title: Kiril Murschel - RSiM
 #
 member_alias: kiril-murschel
-member_image: 
+member_image: rsim-team-member.png
 member_title:
 member_first_name: Kiril
 member_last_name: Murschel
