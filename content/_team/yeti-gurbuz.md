@@ -10,7 +10,7 @@ member_first_name: Yeti
 member_last_name: Gürbüz
 member_group: Research Associates
 member_position: Researcher
-member_email:
+member_email: y.guerbuez [at] tu-berlin.de
 member_site:
 
 member_address: |
