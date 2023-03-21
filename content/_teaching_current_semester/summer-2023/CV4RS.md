@@ -6,7 +6,7 @@ title: Project Computer Vision for Remote Sensing (CV4RS)
 banner_image: CV4RS-2.jpg
 semester: Summer semester 2023
 credit_point: 6 SWS/9 ECTS
-participants: 15
+participants: 9
 date_time: Thursday 14:00-20:00
 location: MAR 0.003
 isis_link: https://isis.tu-berlin.de/course/view.php?id=33249
