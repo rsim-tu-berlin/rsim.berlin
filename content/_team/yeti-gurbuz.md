@@ -4,7 +4,7 @@ order: 4.2
 title: Dr. Yeti Gürbüz - RSiM
 #
 member_alias: yeti-gurbuz
-member_image: rsim-team-member.png
+member_image: yeti-gurbuz.jpg
 member_title: Dr.
 member_first_name: Yeti
 member_last_name: Gürbüz
