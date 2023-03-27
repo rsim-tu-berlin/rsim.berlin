@@ -15,7 +15,7 @@ description: |
   This course will introduce fundamental concepts and techniques in the content of remote sensing and image processing for Earth observation from space. The course starts by introducing core concepts in remote sensing (describing the processes by which images are captured by sensors mounted on satellite and airborne platforms and key characteristics of the acquired images). Then, fundamental methodologies for processing, analyzing, and visualizing remotely sensed imagery are introduced. Topics include representation of high-dimensional remote sensing images, time and frequency domain representations, filtering and enhancement. Practical applications will be provided throughout the course.
   <br />
   <br />
-  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/verzeichnis/veranstaltungen/modul.html?modulversion=16927&version=2&sprache=2" target="_blank">Moses</a> page. <br />
+  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=40937&version=3&sprache=2" target="_blank">Moses</a> page. <br />
   <br />
   If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
 
