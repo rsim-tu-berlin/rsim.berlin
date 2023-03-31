@@ -15,7 +15,7 @@ description: |
   The seminar aims to deepen the understanding of the participants in current research problems at the intersection of deep learning and computer vision. This year’s topics include: data augmentation techniques, semi-supervised learning, self-supervised learning, architectural differences between CNNs and vision transformer, explainable AI, memorization and generalization, the lottery ticket hypothesis, texture bias in CNNs and special aspects of learning (spurious correlation, double decent, curriculum learning).
   <br />
   <br />
-  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?number=41089&version=1&sprache=2" target="_blank">Moses</a> page. 
+  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?number=41089&version=1&sprache=2" target="_blank">Moses</a> page. <br />
    <br />
   If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
 
