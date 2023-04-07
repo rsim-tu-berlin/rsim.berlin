@@ -21,13 +21,13 @@ description: |
 
 
 lecturers:
-    - name: Prof. Dr. Begüm Demir
+    - name: Prof. Dr. Begüm Demir (for general inquiries)
       link_ext: begum-demir
-    - name: Kai Norman Clasen
+    - name: Kai Norman Clasen (for labs)
       link_ext: kai-norman-clasen
-    - name: Tom Burgert
+    - name: Tom Burgert (for labs)
       link_ext: tom-burgert
-    - name: Leonard Hackel
+    - name: Leonard Hackel (for labs)
       link_ext: leonard-hackel
 
 ---
