@@ -82,6 +82,9 @@ title: Publications
                 {% if pub.git_link %}
                 <a href="{{ pub.git_link }}" target="_blank"><i class="fab fa-gitlab m-2"></i>Git</a>
                 {% endif %}
+                {% if pub.guide_link %}
+                <a href="{{ pub.guide_link }}" target="_blank"><i class="fas fa-link m-2"></i>Guide</a>
+                {% endif %}
               </p>
 
               <!-- <div class="collapse" id="collapseExample_{{ counter }}">
