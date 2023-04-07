@@ -128,7 +128,11 @@
 
         <div class="row">
           <div class="col-12 mb-4">
-            <h5 class="mb-3">Lecturers:</h5>
+            {% assign contact_title = "Contact Person" %}
+            {% if page.lecturers.size > 1 %}
+            {%    assign contact_title = "Contact Persons" %}
+            {% endif %}
+            <h5 class="mb-3">{{ contact_title }}:</h5>
 
           {% for lecturer in page.lecturers %}
 
