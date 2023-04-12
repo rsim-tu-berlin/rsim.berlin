@@ -10,7 +10,7 @@ member_first_name: Panagiotis
 member_last_name: Agrafiotis
 member_group: Research Associates
 member_position: Researcher
-member_email: agrafiotis@tu-berlin.de
+member_email: agrafiotis [at] tu-berlin.de
 member_site:
 
 member_address: |
