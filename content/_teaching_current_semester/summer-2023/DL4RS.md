@@ -4,6 +4,7 @@ layout: teaching_course
 update_date: 2023-03-31
 title: Seminar Recent Trends in Deep Learning for Computer Vision
 banner_image: DL4RS.jpg
+image_copyright: gemmo.ai
 semester: Summer semester 2023
 credit_point: 2 SWS/3 ECTS
 participants: 18
