@@ -41,12 +41,20 @@ title: Software
               {% if software.repositories.size > 1 %}
               <ul class="list-unstyled">
                 {% for repository in software.repositories %}
-                <li class=""><i class="fab fa-gitlab mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a></li>
+                {% assign icon = "gitlab" %}
+                {% if repository.type == "github" %}
+                {%   assign icon = "github" %}
+                {% endif %}
+                <li class=""><i class="fab fa-{{ icon }} mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a></li>
                 {% endfor %}
               </ul>
               {% else %}
               {% assign repository = software.repositories[0] %}
-                <i class="fab fa-gitlab mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a>
+                {% assign icon = "gitlab" %}
+                {% if repository.type == "github" %}
+                {%   assign icon = "github" %}
+                {% endif %}
+                <i class="fab fa-{{ icon }} mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a>
               {% endif %}
             </p>
 
