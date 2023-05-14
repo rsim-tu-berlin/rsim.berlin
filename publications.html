@@ -68,11 +68,9 @@ title: Publications
                 {% endif %}
               </p>
 
-              <!-- <div class="collapse" id="collapseExample_{{ counter }}">
-                <div class="card card-body mb-0 pb-0">
-                  <pre><code>{{ pub.bibtex }}</code></pre>
-                </div>
-              </div> -->
+              {% if pub.authors contains "*" %}
+              <p class="font-italic mb-0 small text-black-50">* Equal contribution</p>
+              {% endif %}
 
             </div>
           </div>
