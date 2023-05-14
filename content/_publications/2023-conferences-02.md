@@ -5,9 +5,9 @@ year: 2023
 authors: Rodrigo Pardo Meza, Jorge-Arnulfo Quiané-Ruiz, Begüm Demir, and Volker Markl
 published_at: EGU General Assembly, Vienna, Austria, 2023
 
-image: 
+image: 2023-conferences-02.png
 bibtex_link:
 pdf_link: https://meetingorganizer.copernicus.org/EGU23/EGU23-17046.html
-git_link: 
+git_link:
 
 ---
