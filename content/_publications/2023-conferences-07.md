@@ -1,14 +1,14 @@
 ---
 type: conferences
-title: "HYSPECNET-11K: A Large-Scale Hyperspectral Dataset for Benchmarking Learning-based Hyperspectral Image Compression Methods"
+title: "HySpecNet-11k: A Large-Scale Hyperspectral Dataset for Benchmarking Learning-Based Hyperspectral Image Compression Methods"
 year: 2023
 authors: Martin Hermann Paul Fuchs, Begüm Demir
 published_at: IEEE International Geoscience and Remote Sensing Symposium, Pasadena, California, 2023
 
-image:
+image: 2023-conferences-07.png
 bibtex_link:
 pdf_link:
-git_link:
+git_link: https://git.tu-berlin.de/rsim/hsi-compression
 
 ---
 
