@@ -5,10 +5,10 @@ year: 2023
 authors: Barış Büyüktaş, Gencer Sumbul, Begüm Demir
 published_at: IEEE International Geoscience and Remote Sensing Symposium, Pasadena, California, 2023
 
-image:
+image: 2023-conferences-08.png
 bibtex_link:
-pdf_link:
-git_link:
+pdf_link: https://arxiv.org/abs/2306.00792
+git_link: https://git.tu-berlin.de/rsim/MM-FL
 
 ---
 
