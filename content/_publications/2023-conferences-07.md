@@ -7,7 +7,7 @@ published_at: IEEE International Geoscience and Remote Sensing Symposium, Pasade
 
 image: 2023-conferences-07.png
 bibtex_link:
-pdf_link:
+pdf_link: https://arxiv.org/abs/2306.00385
 git_link: https://git.tu-berlin.de/rsim/hsi-compression
 
 ---
