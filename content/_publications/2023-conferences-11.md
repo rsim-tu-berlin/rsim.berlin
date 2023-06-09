@@ -7,7 +7,7 @@ published_at: IEEE International Geoscience and Remote Sensing Symposium, Pasade
 
 image: 2023-conferences-11.png
 bibtex_link:
-pdf_link:
+pdf_link: https://arxiv.org/abs/2306.00758
 git_link: https://git.tu-berlin.de/rsim/lit4rsvqa
 
 ---
