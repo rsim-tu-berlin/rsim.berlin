@@ -7,7 +7,7 @@ published_at: IEEE International Geoscience and Remote Sensing Symposium, Pasade
 
 image:
 bibtex_link:
-pdf_link:
+pdf_link: https://arxiv.org/abs/2306.06908
 git_link:
 
 ---
