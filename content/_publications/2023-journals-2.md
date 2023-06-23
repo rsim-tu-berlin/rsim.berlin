@@ -2,7 +2,7 @@
 type: journals
 title: "Generative Reasoning Integrated Label Noise Robust Deep Image Representation Learning"
 year: 2023
-authors: Gencer Sumbul and Begüm Demir
+authors: Gencer Sumbul, Begüm Demir
 published_at: "IEEE Transactions on Image Processing, 2023"
 
 image: 2023-journals-2.png
