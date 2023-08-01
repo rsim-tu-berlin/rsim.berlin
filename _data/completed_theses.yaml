@@ -85,6 +85,11 @@
       institute: TU Berlin
       year: 2022
       pdf_file:
+    - author: Schwarz, Kim
+      title: Graph Data Augmentation in Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2023
+      pdf_file:
 
 
 - title: Bachelor Theses
