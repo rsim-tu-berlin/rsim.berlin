@@ -5,7 +5,7 @@ title: Gencer Sümbül - RSiM
 #
 member_alias: gencer-sumbul
 member_image: gencer-sumbul.jpg
-member_title:
+member_title: Dr.
 member_first_name: Gencer
 member_last_name: Sümbül
 member_group: Research Associates
@@ -26,7 +26,9 @@ member_office_hours:
 member_experience:
     title: Education and Academic Experience
     list:
-        - period: 2018-now
+        - period: 2023-now
+          title: Post-Doctoral Researcher, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
+        - period: 2018-2023
           title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
         - period: 2016-2018
           title: MSc in Computer Engineering, Department of Computer Engineering, Bilkent University, Turkey.
