@@ -8,7 +8,7 @@ semester: Winter semester 2023/24
 credit_point: 6 SWS/9 ECTS
 participants: 9
 date_time: Thursday 14:00-20:00
-location: BH-N 128
+location: EN 148
 isis_link: https://isis.tu-berlin.de/course/view.php?id=34889
 
 description: |
