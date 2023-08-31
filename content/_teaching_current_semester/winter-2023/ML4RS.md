@@ -8,7 +8,7 @@ semester: Winter semester 2023/24
 credit_point: 2 SWS/3 ECTS
 participants: 16
 date_time: Thursday 10:00 - 12:00
-location: MA 001
+location: EN 148
 isis_link: https://isis.tu-berlin.de/course/view.php?id=34888
 #
 description: |
@@ -24,8 +24,6 @@ description: |
 
 # lecturers:
 lecturers:
-    - name: Prof. Dr. Begüm Demir
-      link_ext: begum-demir
     - name: Martin Hermann Paul Fuchs
       link_ext: martin-hermann-paul-fuchs
 ---
