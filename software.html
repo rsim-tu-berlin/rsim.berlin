@@ -17,7 +17,8 @@ title: Software
     <div class="row">
       <div class="col-12">
         <p>This page lists the open-source software libraries developed and maintained at our group. For the
-          repositories related to our papers, please visit our publication page.</p>
+          repositories related to our papers, please visit our <a href="{{ site.baseurl }}/publications">publication
+            page</a>.</p>
       </div>
     </div>
 
@@ -35,6 +36,8 @@ title: Software
             {% assign repo_title = "Repository:" %}
             {% if software.repositories.size == 1 %}
             {% assign repository = software.repositories[0] %}
+            {% endif %}
+
             {% assign icon = "gitlab" %}
             {% assign stars = repository.stars %}
             {% if repository.type == "github" %}
