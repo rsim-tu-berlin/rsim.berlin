@@ -16,7 +16,8 @@ title: Software
 
     <div class="row">
       <div class="col-12">
-        <p>This page lists software developed and maintained at RSiM. All the codes are publicly available for private use and research only.</p>
+        <p>This page lists the open-source software libraries developed and maintained at our group. For the
+          repositories related to our papers, please visit our publication page.</p>
       </div>
     </div>
 
@@ -24,43 +25,64 @@ title: Software
 
       <ul class="list-unstyled">
 
-      {% assign sorted_software = site.software | sort: 'date' | reverse %}
-      {% for software in sorted_software %}
-        <li class="d-md-table m-4 p-2 w-100 border-bottom hover-shadow rounded">
+        {% assign sorted_software = site.software | sort: 'date' | reverse %}
+        {% for software in sorted_software %}
+        <li class="d-md-table m-2 p-4 w-100 border shadow rounded">
           <div>
             <!-- post meta -->
             <h4 class="card-title">{{ software.title }}</h4>
-            <p class="card-text text-justify">{{ software.description }}</p>
 
             {% assign repo_title = "Repository:" %}
+            {% if software.repositories.size == 1 %}
+            {% assign repository = software.repositories[0] %}
+            {% assign icon = "gitlab" %}
+            {% assign stars = repository.stars }
+            {% if repository.type == "github" %}
+            {% assign icon = "github" %}
+            {% endif %}
+
+            <p class="card-text">
+              {% if software.repositories.size == 1 %}
+              <i class="fab fa-{{ icon }} mx-1"></i>
+              <a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a>
+              <img src="{{ stars }}?logo={{ icon }}" alt="stars" class="ml-2" />
+              {% endif %}
+            </p>
+
+            <p class="card-text text-justify">{{ software.description }}</p>
+            {% assign repo_title = "Repository:" %}
             {% if software.repositories.size > 1 %}
-            {%    assign repo_title = "Repositories" %}
+            {% assign repo_title = "Repositories" %}
             {% endif %}
 
             <p class="card-text"><b>{{ repo_title }}</b>
               {% if software.repositories.size > 1 %}
-              <ul class="list-unstyled">
-                {% for repository in software.repositories %}
-                {% assign icon = "gitlab" %}
-                {% if repository.type == "github" %}
-                {%   assign icon = "github" %}
-                {% endif %}
-                <li class=""><i class="fab fa-{{ icon }} mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a></li>
-                {% endfor %}
-              </ul>
-              {% else %}
-              {% assign repository = software.repositories[0] %}
-                {% assign icon = "gitlab" %}
-                {% if repository.type == "github" %}
-                {%   assign icon = "github" %}
-                {% endif %}
-                <i class="fab fa-{{ icon }} mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a>
+            <ul class="list-unstyled">
+              {% for repository in software.repositories %}
+              {% assign icon = "gitlab" %}
+              {% if repository.type == "github" %}
+              {% assign icon = "github" %}
               {% endif %}
+              <li class=""><i class="fab fa-{{ icon }} mx-1"></i><a href="{{ repository.link }}" target="_blank">{{
+                  repository.name }}</a></li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            {% assign repository = software.repositories[0] %}
+            {% assign icon = "gitlab" %}
+            {% if repository.type == "github" %}
+            {% assign icon = "github" %}
+            {% endif %}
+            <i class="fab fa-{{ icon }} mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name
+              }}</a>
+            {% endif %}
             </p>
 
             {% if software.accompanying_paper %}
             <p class="card-text">
-              <b>Accompanying Paper:</b> <i class="far fa-file-pdf mx-1"></i><a href="{{ software.accompanying_paper.link }}" target="_blank">{{ software.accompanying_paper.title  }}</a>
+              <b>Accompanying Paper:</b> <i class="far fa-file-pdf mx-1"></i><a
+                href="{{ software.accompanying_paper.link }}" target="_blank">{{ software.accompanying_paper.title
+                }}</a>
             </p>
             {% endif %}
 
@@ -68,10 +90,11 @@ title: Software
             {% assign authors = "" | split: "|" %}
             {% for author in software.authors %}
             {% if author.link %}
-            {%    capture author_with_link %} <a href="{{ author.link }}" target="_blank">{{ author.name }}</a> {% endcapture %}
-            {%    assign authors = authors | push: author_with_link %}
+            {% capture author_with_link %} <a href="{{ author.link }}" target="_blank">{{ author.name }}</a> {%
+            endcapture %}
+            {% assign authors = authors | push: author_with_link %}
             {% else %}
-            {%    assign authors = authors | push: author.name %}
+            {% assign authors = authors | push: author.name %}
             {% endif %}
 
             {% endfor %}
@@ -83,12 +106,13 @@ title: Software
             <!-- Contact People -->
             {% assign contact_people = "" | split: "|" %}
             {% for person in software.contact_people %}
-              {% if person.link %}
-                {% capture person_with_link %} <a href="{{ site.baseurl }}{{ person.link }}" target="_blank">{{ person.name }}</a>{% endcapture %}
-                {% assign contact_people = contact_people | push: person_with_link %}
-              {%  else %}
-                {% assign contact_people = contact_people | push: person.name %}
-              {% endif %}
+            {% if person.link %}
+            {% capture person_with_link %} <a href="{{ site.baseurl }}{{ person.link }}" target="_blank">{{ person.name
+              }}</a>{% endcapture %}
+            {% assign contact_people = contact_people | push: person_with_link %}
+            {% else %}
+            {% assign contact_people = contact_people | push: person.name %}
+            {% endif %}
             {% endfor %}
 
             <!-- commented area -->
@@ -96,7 +120,7 @@ title: Software
             <p class="card-text">
               {% assign person_title = "Person" %}
               {% if software.contact_people.size > 1 %}
-              {%    assign person_title = "People"   %}
+              {% assign person_title = "People" %}
               {% endif %}
               <b>Contact {{ person_title }}:</b> {{ contact_people | join: ", " }}
             </p>
@@ -105,7 +129,7 @@ title: Software
           </div>
 
         </li>
-      {% endfor %}
+        {% endfor %}
 
       </ul>
 
