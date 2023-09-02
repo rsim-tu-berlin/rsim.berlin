@@ -36,7 +36,7 @@ title: Software
             {% if software.repositories.size == 1 %}
             {% assign repository = software.repositories[0] %}
             {% assign icon = "gitlab" %}
-            {% assign stars = repository.stars }
+            {% assign stars = repository.stars %}
             {% if repository.type == "github" %}
             {% assign icon = "github" %}
             {% endif %}

@@ -8,34 +8,35 @@
   page: /publications
   link: /publications.html
   # submenu:
-  # - name: Journal Publications
-  #   page: /publications
-  #   link: /publications.html
-  # - name: Conference Publications
-  #   page: /publications
-  #   link: /publications.html
-  # - name: Books and Book Chapters
-  #   page: /publications
-  #   link: /publications.html
+  #   - name: Journal Publications
+  #     page: /publications
+  #     link: /publications.html
+  #   - name: Conference Publications
+  #     page: /publications
+  #     link: /publications.html
+  #   - name: Books and Book Chapters
+  #     page: /publications
+  #     link: /publications.html
 - name: Teaching
-  page: /teaching
-  link: /teaching.html
-# - name: News
-#   page: /news
-#   link: /news.html
-- name: Theses
-  page: /theses
-  link: /theses.html
+  submenu:
+    - name: Courses
+      page: /courses
+      link: /courses.html
+    - name: Theses
+      page: /theses
+      link: /theses.html
 - name: Projects
   page: /projects
   link: /projects.html
 - name: Software
   page: /software
   link: /software.html
+- name: Datasets
+  page: /datasets
+  link: /datasets.html
 - name: Jobs
   page: /open-positions
   link: /open-positions.html
 - name: Contact
   page: /contact
   link: /contact.html
-

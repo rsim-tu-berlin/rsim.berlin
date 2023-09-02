@@ -24,6 +24,8 @@ collections:
     sort_by: date
   theses:
     sort_by: date
+  datasets:
+    sort_by: date
   publications:
     sort_by: date
   open_positions:
