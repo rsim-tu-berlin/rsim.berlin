@@ -17,8 +17,9 @@ title: Software
     <div class="row">
       <div class="col-12">
         <p>This page lists the open-source software libraries developed and maintained at our group. For the
-          repositories related to our papers, please visit our <a href="{{ site.baseurl }}/publications">publication
-            page</a>.</p>
+          repositories related to our papers, please visit our <a
+            href="{{ site.baseurl }}/publications">Publications</a>
+          page.</p>
       </div>
     </div>
 
@@ -40,25 +41,32 @@ title: Software
 
             {% assign icon = "gitlab" %}
             {% assign stars = repository.stars %}
+            {% assign badge = repository.badge %}
             {% if repository.type == "github" %}
             {% assign icon = "github" %}
             {% endif %}
 
             <p class="card-text">
               {% if software.repositories.size == 1 %}
-              <i class="fab fa-{{ icon }} mx-1"></i>
-              <a href="{{ repository.link }}" target="_blank">{{ repository.name }}</a>
-              <img src="{{ stars }}?logo={{ icon }}" alt="stars" class="ml-2" />
+              <a href="{{ repository.link }}" target="_blank">
+                <img src="{{ badge }}" alt="badge" class="ml-2" />
+              </a>
+              {% if stars and stars != '' %}
+              <a href="{{ repository.link }}" target="_blank">
+                <img src="{{ stars }}?logo={{ icon }}" alt="stars" class="ml-2" />
+              </a>
+              {% endif %}
               {% endif %}
             </p>
 
             <p class="card-text text-justify">{{ software.description }}</p>
-            {% assign repo_title = "Repository:" %}
+
+            <!-- {% assign repo_title = "Repository:" %}
             {% if software.repositories.size > 1 %}
             {% assign repo_title = "Repositories" %}
-            {% endif %}
+            {% endif %} -->
 
-            <p class="card-text"><b>{{ repo_title }}</b>
+            <!-- <p class="card-text"><b>{{ repo_title }}</b>
               {% if software.repositories.size > 1 %}
             <ul class="list-unstyled">
               {% for repository in software.repositories %}
@@ -79,17 +87,17 @@ title: Software
             <i class="fab fa-{{ icon }} mx-1"></i><a href="{{ repository.link }}" target="_blank">{{ repository.name
               }}</a>
             {% endif %}
-            </p>
+            </p> -->
 
-            {% if software.accompanying_paper %}
+            <!-- {% if software.accompanying_paper %}
             <p class="card-text">
               <b>Accompanying Paper:</b> <i class="far fa-file-pdf mx-1"></i><a
                 href="{{ software.accompanying_paper.link }}" target="_blank">{{ software.accompanying_paper.title
                 }}</a>
             </p>
-            {% endif %}
+            {% endif %} -->
 
-            {% if software.authors %}
+            <!-- {% if software.authors %}
             {% assign authors = "" | split: "|" %}
             {% for author in software.authors %}
             {% if author.link %}
@@ -104,10 +112,10 @@ title: Software
             <p class="card-text">
               <b>Author(s):</b> {{ authors | join: ", " }}
             </p>
-            {% endif %}
+            {% endif %} -->
 
             <!-- Contact People -->
-            {% assign contact_people = "" | split: "|" %}
+            <!-- {% assign contact_people = "" | split: "|" %}
             {% for person in software.contact_people %}
             {% if person.link %}
             {% capture person_with_link %} <a href="{{ site.baseurl }}{{ person.link }}" target="_blank">{{ person.name
@@ -116,10 +124,10 @@ title: Software
             {% else %}
             {% assign contact_people = contact_people | push: person.name %}
             {% endif %}
-            {% endfor %}
+            {% endfor %} -->
 
             <!-- commented area -->
-            {% comment %}
+            <!-- {% comment %}
             <p class="card-text">
               {% assign person_title = "Person" %}
               {% if software.contact_people.size > 1 %}
@@ -127,7 +135,7 @@ title: Software
               {% endif %}
               <b>Contact {{ person_title }}:</b> {{ contact_people | join: ", " }}
             </p>
-            {% endcomment %}
+            {% endcomment %} -->
 
           </div>
 
