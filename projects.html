@@ -19,8 +19,12 @@ title: Projects
 
     <div class="row m-4 p-2 w-100 hover-shadow rounded">
       <div class="col-3">
-        <img class="card-img-top news-img rounded-0" src="{{ site.baseurl }}/assets/images/projects/{{ project.main_page_image }}" alt="Post thumb">
-			</div>
+        {% assign project_main_page_image = project.main_page_image %}
+        {% if project_main_page_image and project_main_page_image != '' %}
+        <img class="card-img-top news-img rounded-0"
+          src="{{ site.baseurl }}/assets/images/projects/{{ project_main_page_image  }}" alt="Post thumb">
+        {% endif %}
+      </div>
       <div class="col-9">
         <h3>{{ project.code }}</h3>
         <h4>{{ project.title }}</h4>
@@ -44,8 +48,12 @@ title: Projects
 
     <div class="row m-4 p-2 w-100 hover-shadow rounded">
       <div class="col-3">
-        <img class="card-img-top news-img rounded-0" src="{{ site.baseurl }}/assets/images/projects/{{ project.main_page_image }}" alt="Post thumb">
-			</div>
+        {% assign project_main_page_image = project.main_page_image %}
+        {% if project_main_page_image and project_main_page_image != '' %}
+        <img class="card-img-top news-img rounded-0"
+          src="{{ site.baseurl }}/assets/images/projects/{{ project_main_page_image  }}" alt="Post thumb">
+        {% endif %}
+      </div>
       <div class="col-9">
         <h3>{{ project.code }}</h3>
         <h4>{{ project.title }}</h4>
