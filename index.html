@@ -3,21 +3,25 @@ layout: index
 title: Home
 ---
 
-    <!-- hero slider -->
-    <section class="hero-section bg-cover" data-background="{{ site.baseurl }}/assets/images/backgrounds/Berlin_schwitzt_Teil_2.jpg">
-        <div class="container">
-          <div class="hero">
-            <!-- slider item -->
-            <div class="hero-slider-item">
-              <div class="row">
-                <div class="col-lg-8 col-md-10 col-sm-4">
-                  <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Welcome to RSiM <br /> Remote Sensing Image Analysis Group</h1>
-                  <p class="text-muted mb-4 m-sm-0" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4"></p>
-                </div>
-              </div>
-            </div>
-            <!-- slider item -->
-            <!-- <div class="hero-slider-item">
+<!-- hero slider -->
+<section class="hero-section bg-cover"
+  data-background="{{ site.baseurl }}/assets/images/backgrounds/Berlin_schwitzt_Teil_2.jpg">
+  <div class="container">
+    <div class="hero">
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 col-sm-4">
+            <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3"
+              data-animation-in="fadeInLeft" data-delay-in=".1">Welcome to RSiM <br /> Remote Sensing Image Analysis
+              Group</h1>
+            <p class="text-muted mb-4 m-sm-0" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3"
+              data-animation-in="fadeInLeft" data-delay-in=".4"></p>
+          </div>
+        </div>
+      </div>
+      <!-- slider item -->
+      <!-- <div class="hero-slider-item">
               <div class="row">
                 <div class="col-md-8">
                   <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Your bright future is our mission</h1>
@@ -29,8 +33,8 @@ title: Home
                 </div>
               </div>
             </div> -->
-            <!-- slider item -->
-            <!-- <div class="hero-slider-item">
+      <!-- slider item -->
+      <!-- <div class="hero-slider-item">
               <div class="row">
                 <div class="col-md-8">
                   <h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Your bright future is our mission</h1>
@@ -41,143 +45,122 @@ title: Home
                   <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Apply now</a>
                 </div>
               </div> -->
-            </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- /hero slider -->
+
+<!-- blog -->
+<section class="section pt-5 pb-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h4 class="mb-0 text-nowrap mr-3">About</h4>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <p class="text-justify">
+            The Remote Sensing Image Analysis (RSiM) group at <a href="{{ site.data.config.tu_berlin_eecs_mainpage }}"
+              target="_blank">the Faculty of EECS</a>, <a href="{{ site.data.config.tu_berlin_mainpage}}"
+              target="_blank">TU Berlin</a> and the Big Data Analytics
+            for Earth Observation (BigEarth) group at <a href="{{ site.data.config.bifold_mainpage}}"
+              target="_blank">BIFOLD</a> are led by Prof. Begüm Demir. Our groups perform research
+            in the field of processing and analysis of remote sensing images for Earth observation with
+            interdisciplinary approaches associated to remote sensing, machine learning, signal & image processing and
+            big data management.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- blog -->
+<section class="section pt-5 pb-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h4 class="mb-0 text-nowrap mr-3">Latest News</h4>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="{{ site.baseurl }}/news" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see
+              all</a>
           </div>
         </div>
-        </section>
-        <!-- /hero slider -->
+      </div>
+    </div>
+    <div class="row justify-content-center">
 
-        <!-- blog -->
-        <section class="section pt-5 pb-1">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-8">
+      {% assign sorted_news = site.news | sort: 'date' | reverse %}
+      {% for news in sorted_news limit:6 %}
 
-                <div class="d-flex align-items-center section-title justify-content-between">
-                  <h4 class="mb-0 text-nowrap mr-3">About</h4>
-                  <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-                </div>
-                <div class="d-flex align-items-center section-title justify-content-between">
-                  <p class="text-justify">
-                    RSiM group led by Prof. Begüm Demir is part
-                    of <a href="{{ site.data.config.tu_berlin_eecs_mainpage }}" target="_blank">the Faculty of EECS</a> at
-                    the <a href="{{ site.data.config.tu_berlin_mainpage}}" target="_blank">TU Berlin</a>.
-                    Our group performs research in the field of processing and analysis of remote sensing images
-                    for Earth observation with interdisciplinary approaches associated to remote sensing, machine learning,
-                    signal & image processing and big data management.
-                  </p>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4">
+      <article class="col-sm-12 col-xl-4 mb-xl-5 mb-lg-3 text-center text-sm-left">
+        <!-- <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0"> -->
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top news-img rounded-0"
+            src="{{ site.baseurl }}/assets/images/news/{{ news.main_page_image }}" alt="Post thumb">
 
-                <div class="d-flex align-items-center section-title justify-content-between">
-                  <h4 class="mb-0 text-nowrap mr-3">Contact</h4>
-                  <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-                </div>
-
-                <div class="d-flex align-items-center section-title justify-content-between">
-                    <ul class="list-unstyled">
-                      <li class="mb-2">Administration: <a class="blue-link" href="{{ site.baseurl }}/team/members/minh-tai-le">Minh Tai Le</a></li>
-                      <li class="mb-2"><i class="fas fa-building"></i> Einsteinufer 17, Sekr. EN5, Room EN 628</li>
-                      <li class="mb-2"><i class="fas fa-phone small"></i> +49 30 314 21418</li>
-                      <li class="mb-2"><i class="fas fa-at"></i> sekr 'at' rsim.tu-berlin.de</li>
-                      <li class="mb-2"><i class="fas fa-clock"></i> Office Hours: Tuesday and Thursday</li>
-                    </ul>
-                </div>
-
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-12">
-              </div>
-              <div class="col-12 col-sm-12">
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- blog -->
-        <section class="section pt-5 pb-1">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="d-flex align-items-center section-title justify-content-between">
-                  <h4 class="mb-0 text-nowrap mr-3">Latest News</h4>
-                  <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0 w-100">
+                <div class="d-flex align-items-center justify-content-between">
                   <div>
-                    <a href="{{ site.baseurl }}/news" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
+                    {{ news.date | date: "%Y-%m-%d"}}
+                  </div>
+                  <div>
+                    {% if news.image_copyright %}
+                    <!-- <div class="card-img-overlay text-white"> -->
+                    <p class="m-0 p-0 small text-right">© {{ news.image_copyright }}</p>
+                    <!-- </div> -->
+                    {% endif %}
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="row justify-content-center">
 
-              {% assign sorted_news = site.news | sort: 'date' | reverse %}
-              {% for news in sorted_news limit:6 %}
-
-              <article class="col-sm-12 col-xl-4 mb-xl-5 mb-lg-3 text-center text-sm-left">
-                <!-- <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0"> -->
-                  <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-                    <img class="card-img-top news-img rounded-0" src="{{ site.baseurl }}/assets/images/news/{{ news.main_page_image }}" alt="Post thumb">
-
-                    <div class="card-body">
-                      <!-- post meta -->
-                      <ul class="list-inline mb-3">
-                        <!-- post date -->
-                        <li class="list-inline-item mr-3 ml-0 w-100">
-                          <div class="d-flex align-items-center justify-content-between">
-                            <div>
-                              {{ news.date | date: "%Y-%m-%d"}}
-                            </div>
-                            <div>
-                              {% if news.image_copyright %}
-                              <!-- <div class="card-img-overlay text-white"> -->
-                                <p class="m-0 p-0 small text-right">© {{ news.image_copyright }}</p>
-                              <!-- </div> -->
-                              {% endif %}
-                            </div>
-                          </div>
-
-                        </li>
-                        <!-- author -->
-                        <!-- <li class="list-inline-item mr-3 ml-0">By Somrat Sorkar</li> -->
-                      </ul>
-                      <h4 class="card-title">{{ news.title }}</h4>
-                      <p class="card-text">{{ news.text }}</p>
-                    </div>
-                  </div>
-              </article>
-
-              {% endfor %}
-
-            </div>
+              </li>
+              <!-- author -->
+              <!-- <li class="list-inline-item mr-3 ml-0">By Somrat Sorkar</li> -->
+            </ul>
+            <h4 class="card-title">{{ news.title }}</h4>
+            <p class="card-text">{{ news.text }}</p>
           </div>
-        </section>
-        <!-- /blog -->
-
-        <!-- funds -->
-        <section class="section bg-cover pt-5 pb-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-center pb-5">
-              <h4 class="section-title">Supported by</h4>
-              <a class="navbar-brand mx-3" href="{{ site.data.config.erc_mainpage }}" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/logo/ERC.png" alt="logo" height="100px">
-              </a>
-              <a class="navbar-brand mx-3" href="{{ site.data.config.bmbf_mainpage }}" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/logo/bmbf.svg" alt="logo" height="100px">
-              </a>
-              <a class="navbar-brand mx-3" href="{{ site.data.config.bmwi_mainpage }}" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/logo/BMWK.svg" alt="logo" height="100px">
-              </a>
-              <a class="navbar-brand mx-3" href="{{ site.data.config.dfg_mainpage }}" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/logo/DFG-logo.jpg" alt="logo" height="100px">
-              </a>
-              <a class="navbar-brand mx-3" href="{{ site.data.config.esa_mainpage }}" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/logo/esa-logo.svg" alt="logo" height="100px">
-              </a>
-              </div>
-            </div>
         </div>
-        </section>
-        <!-- /funds -->
+      </article>
+
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- funds -->
+<section class="section bg-cover pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center pb-5">
+        <h4 class="section-title">Supported by</h4>
+        <a class="navbar-brand mx-3" href="{{ site.data.config.erc_mainpage }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/images/logo/ERC.png" alt="logo" height="100px">
+        </a>
+        <a class="navbar-brand mx-3" href="{{ site.data.config.bmbf_mainpage }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/images/logo/bmbf.svg" alt="logo" height="100px">
+        </a>
+        <a class="navbar-brand mx-3" href="{{ site.data.config.bmwi_mainpage }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/images/logo/BMWK.svg" alt="logo" height="100px">
+        </a>
+        <a class="navbar-brand mx-3" href="{{ site.data.config.dfg_mainpage }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/images/logo/DFG-logo.jpg" alt="logo" height="100px">
+        </a>
+        <a class="navbar-brand mx-3" href="{{ site.data.config.esa_mainpage }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/images/logo/esa-logo.svg" alt="logo" height="100px">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /funds -->

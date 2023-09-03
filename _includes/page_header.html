@@ -1,71 +1,76 @@
-
-
-
-    <!-- page header -->
-    <header class="fixed-top header">
-        <!-- top header -->
-        <div class="top-header py-2 bg-white">
-          <div class="container">
-            <div class="row no-gutters">
-              <div class="col-lg-8 text-center text-lg-left">
-                <div class="text-color mr-3 pt-1">
-                TU Berlin / Faculty of EECS / Remote Sensing Image Analysis Group
-                </div>
-              </div>
-              <div class="col-lg-4 text-center text-lg-right">
-                <ul class="list-inline d-inline">
-                  <!-- <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="{{ site.baseurl }}/contact"><i class="fas fa-map-marker-alt"></i> How to find us</a></li> -->
-                </ul>
-              </div>
-            </div>
+<!-- page header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <!-- <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-8 text-center text-lg-left">
+          <div class="text-color mr-3 pt-1">
+            Remote Sensing Image Analysis Group
           </div>
         </div>
-
-        <!-- navbar -->
-        <div class="navigation w-100 bg-white">
-          <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark p-0">
-              <a class="navbar-brand" href="{{ site.data.config.tu_berlin_mainpage }}"><img src="{{ site.baseurl }}/assets/images/logo/TU-Berlin.svg" alt="logo" height="70px"></a>
-              <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/images/logo/RSiM_Logo_1.png" alt="logo" height="50px"></a>
-              <button class="navbar-toggler rounded-1 border-1" style="border-color: 1px solid #000;" type="button" data-toggle="collapse" data-target="#navigation"
-                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navigation">
-                <ul class="navbar-nav ml-auto text-center">
-
-                  {% for item in site.data.nav %}
-
-                  {% if item.submenu %}
-
-                  <li class="nav-item dropdown view">
-                    <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}{{ item.page }}" id="navbarDropdown" role="button" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">
-                      {{ item.name }}
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      {% for subitem in item.submenu %}
-                      <a class="dropdown-item" href="{{ site.baseurl }}{{ subitem.page }}">{{ subitem.name }}</a>
-                      {% endfor %}
-                    </div>
-                  </li>
-
-                  {% else %}
-
-                  <li class="nav-item {% if page.url == item.link %} active{% endif %} @@{{ item.name }}">
-                    <a class="nav-link" href="{{ site.baseurl }}{{ item.page }}">
-                      {{ item.name }}
-                    </a>
-                  </li>
-
-                  {% endif %}
-
-                  {% endfor %}
-
-                </ul>
-              </div>
-            </nav>
-          </div>
+        <div class="col-lg-4 text-center text-lg-right">
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="{{ site.baseurl }}/contact"><i class="fas fa-map-marker-alt"></i> How to find us</a></li>
+          </ul>
         </div>
-    </header>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- navbar -->
+  <div class="navigation w-100 bg-white">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="{{ site.data.config.tu_berlin_mainpage }}">
+          <img src="{{ site.baseurl }}/assets/images/logo/TU-Berlin.svg" alt="TU Berlin" height="50px">
+        </a>
+        <a class="navbar-brand" href="{{ site.data.config.bifold_mainpage }}">
+          <img class="mr-3 mb-3" src="{{ site.baseurl }}/assets/images/logo/bifold.png" alt="BIFOLD" height="40px" />
+        </a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/assets/images/logo/RSiM_Logo_1.png" alt="RSiM" height="30px">
+        </a>
+        <button class="navbar-toggler rounded-1 border-1" style="border-color: 1px solid #000;" type="button"
+          data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav text-center">
+
+            {% for item in site.data.nav %}
+
+            {% if item.submenu %}
+
+            <li class="nav-item dropdown view m-0">
+              <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}{{ item.page }}" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ item.name }}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                {% for subitem in item.submenu %}
+                <a class="dropdown-item" href="{{ site.baseurl }}{{ subitem.page }}">{{ subitem.name }}</a>
+                {% endfor %}
+              </div>
+            </li>
+
+            {% else %}
+
+            <li class="nav-item {% if page.url == item.link %} active{% endif %} @@{{ item.name }}">
+              <a class="nav-link" href="{{ site.baseurl }}{{ item.page }}">
+                {{ item.name }}
+              </a>
+            </li>
+
+            {% endif %}
+
+            {% endfor %}
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
