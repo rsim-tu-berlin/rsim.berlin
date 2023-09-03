@@ -18,7 +18,7 @@ title: Open Positions
     {% assign sorted_jobs = site.open_positions | sort: 'date' | reverse %}
     {% for project in sorted_jobs %}
 
-    <div class="row m-4 p-2 w-100 border-bottom hover-shadow rounded">
+    <div class="row m-3 p-4 w-100 border shadow rounded">
       <div class="col-12">
         <h4><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h4>
         <p class="text-justify">{{ project.description }}</p>

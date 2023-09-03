@@ -670,7 +670,7 @@ link:focus,
   box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
   border-bottom: 5px solid #070784;
   padding: 15px;
-  top: 96px;
+  /* top: 96px; */
   border-radius: 0;
   display: block;
   visibility: hidden;
@@ -1019,7 +1019,7 @@ link:focus,
 }
 
 .footer {
-  border-color: #494a43 !important;
+  /* border-color: #494a43 !important; */
   padding-top: 20px;
   padding-bottom: 20px;
 }

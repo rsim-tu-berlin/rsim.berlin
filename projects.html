@@ -17,7 +17,7 @@ title: Projects
     {% assign sorted_projects = site.projects | sort: 'date' %}
     {% for project in sorted_projects %}
 
-    <div class="row m-4 p-2 w-100 hover-shadow rounded">
+    <div class="row m-3 p-4 w-100 border shadow rounded">
       <div class="col-3">
         {% assign project_main_page_image = project.main_page_image %}
         {% if project_main_page_image and project_main_page_image != '' %}
@@ -34,7 +34,7 @@ title: Projects
 
     {% endfor %}
 
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
           <h3 class="mb-0 text-nowrap mr-3">Completed Projects</h3>
@@ -46,7 +46,7 @@ title: Projects
     {% assign sorted_projects = site.projects_completed | sort: 'date' | reverse %}
     {% for project in sorted_projects %}
 
-    <div class="row m-4 p-2 w-100 hover-shadow rounded">
+    <div class="row m-3 p-4 w-100 border shadow rounded">
       <div class="col-3">
         {% assign project_main_page_image = project.main_page_image %}
         {% if project_main_page_image and project_main_page_image != '' %}
