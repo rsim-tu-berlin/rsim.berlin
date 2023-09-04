@@ -7,6 +7,6 @@ published_at: "IEEE Geoscience and Remote Sensing Letters, 2023"
 
 image: 2023-journals-3.png
 bibtex_link:
-pdf_link: https://ieeexplore.ieee.org/document/10220096
+pdf_link: https://arxiv.org/abs/2212.01165
 git_link: 
 ---
