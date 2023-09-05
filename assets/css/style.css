@@ -206,6 +206,10 @@ h6,
   border-color: #ffab08;
 }
 
+.dropdown-toggle::after {
+  border: 0px;
+}
+
 .btn-secondary {
   background: #fff;
   color: #070784;
