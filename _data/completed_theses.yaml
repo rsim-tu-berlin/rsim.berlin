@@ -76,7 +76,7 @@
       year: 2022
       pdf_file:
     - author: Happel, David
-      title: The effects of time series data augmentation in domain generalization for crop type mapping
+      title: The Effects of Time Series Data Augmentation in Domain Generalization for Crop Type Mapping
       institute: TU Berlin
       year: 2022
       pdf_file:
@@ -87,6 +87,11 @@
       pdf_file:
     - author: Schwarz, Kim
       title: Graph Data Augmentation in Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2023
+      pdf_file:
+    - author: Skowronek, Hanno
+      title: Multi-Scale Search and Retrieval for Large-Scale Remote Sensing Imagery
       institute: TU Berlin
       year: 2023
       pdf_file:
