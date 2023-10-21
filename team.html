@@ -46,6 +46,15 @@ title: Team
             {% if group.name == "Administration" %}
             <p class="m-0">{{ member.member_position }}</p>
             {% endif %}
+
+            <!-- add tags below -->
+            {% if member.member_tags %}
+            <div class="mt-3">
+              {% for tag in member.member_tags %}
+              <span class="badge badge-pill tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>

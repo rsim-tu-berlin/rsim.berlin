@@ -106,6 +106,19 @@
             </ul>
             {% endif %}
 
+            {% if page.member_interests %}
+            <h4 class="mb-4">{{ page.member_interests.title }}</h4>
+
+            <!-- Member interests -->
+            <ul class="list-group interest">
+              {% for interest in page.member_interests.list %}
+              <li class="list-group-item">
+                {{ interest }}
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+
             <!-- custom content -->
             {{ content }}
 
