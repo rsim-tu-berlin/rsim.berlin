@@ -6,3 +6,6 @@ _site/
 
 # Mac hidden files
 .DS_Store
+
+# Git config file
+.gitconfig
