@@ -1103,4 +1103,28 @@ a.blue-link:hover {
   color: #fff;
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+/* tag css - start */
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #070784;
+  background-color: #fff;
+  border: 1px solid #070784;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 9px;
+  margin-bottom: 5px;
+}
+
+ul.list-group.interest {
+  padding-left: 20px;
+}
+
+ul.list-group.interest .list-group-item {
+  display: list-item;
+  border: 0px;
+  padding: 0px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  list-style: square outside none;
+}
