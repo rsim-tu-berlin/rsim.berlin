@@ -41,5 +41,16 @@ member_experience_other:
     - period: 02.2018-11.2019
       title: Student Assistant, Fachgebiet Nachrichtenübertragung at Technische Universität Berlin, Germany.
 
-
+member_tags:
+  - Hyperspectral Imaging
+  - Hyperspectral Image Compression
+    
+member_interests:
+  title: Research Interests
+  list:
+    - Hyperspectral Imaging
+    - Hyperspectral Image Compression
+    - Deep Learning
+    - Computer Vision
+    - Remote Sensing
 ---
