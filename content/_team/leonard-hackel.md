@@ -50,6 +50,7 @@ member_experience_other:
 member_tags:
   - Multi-Modal Learning
   - Visual Question Answering
+  - Efficient Computing
     
 member_interests:
   title: Research Interests
