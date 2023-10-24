@@ -46,4 +46,16 @@ member_experience_other:
       title: Student Assistant, IAT Ingenieurgesellschaft für Automobiltechnik mbH.
     - period: Apr 2016 - Sep 2016
       title: Student Assistant, Charité HCS Berlin.
+      
+member_tags:
+  - Multi-Modal Learning
+  - Visual Question Answering
+    
+member_interests:
+  title: Research Interests
+  list:
+    - Multi-Modal Learning
+    - Visual Question Answering
+    - Efficient Computing
+    - Remote Sensing
 ---
