@@ -41,7 +41,19 @@ member_experience_other:
         - period: 2019-2022
           title: Teaching Assistant, Department of Information Engineering and Computer Science, University of Trento, Italy.
 
-
+member_tags:
+  - Cross-Modal Image Retrieval
+  - Multitemporal Image Analysis
+  - Active Learning
+    
+member_interests:
+  title: Research Interests
+  list:
+    - Remote Sensing
+    - Machine Learning
+    - Natural Language Processing
+    - Representation Learning
+    - Deep Metric Learning
 ---
   <h4 class="mt-4">Publications</h4>
   <p>To view my publications, you can visit: <a href="https://scholar.google.com/citations?user=l2JMlnIAAAAJ&hl=en" target="_blank">https://scholar.google.com/citations?user=l2JMlnIAAAAJ&hl=en</a>.</p>
