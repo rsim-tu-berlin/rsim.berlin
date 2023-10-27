@@ -37,6 +37,17 @@ member_experience:
         - period: 2009-2015
           title: BSc in Computer Engineering, Bilkent University, Turkey.
 
+member_tags:
+  - Image Representation Learning
+  - Multi-Modal Learning
+  - Image Retrieval
+    
+member_interests:
+  title: Research Interests
+  list:
+    - Image Representation Learning
+    - Multi-Modal Learning
+    - Image Retrieval
 ---
 
   <h4 class="mt-4">Publications</h4>
