@@ -55,8 +55,20 @@ member_experience_other:
         - period: Jun 2015-Jul 2017
           title: Graduate Research Assistant, Institute of Comm. and Computer Systems.
         - period: Oct 2015-Nov 2015
-          title: Graduate Research Assistant, Cyprus University of Technology .
-
+          title: Graduate Research Assistant, Cyprus University of Technology.
+          
+member_tags:
+  - Image-Based Bathymetry
+  - Multi-Modal Learning
+  - Multi-Task Learning
+    
+member_interests:
+  title: Research Interests
+  list:
+    - Image-Based Bathymetry Mapping
+    - Multi-Task Learning
+    - Multi-Scale Learning
+    - Semi-Supervised Learning
 ---
 
 <h4 class="mt-4">Publications</h4>
