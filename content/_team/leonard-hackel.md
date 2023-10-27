@@ -59,4 +59,6 @@ member_interests:
     - Visual Question Answering
     - Efficient Computing
     - Remote Sensing
+    - Deep Learning
+    - Computer Vision
 ---
