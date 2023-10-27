@@ -40,6 +40,22 @@ member_experience_other:
       title: Student Research Assistant, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
     - period: 2018-2020
       title: Working Student, Deep Learning Software Engineer, Signatrix GmbH, Berlin, Germany.
-
-
+      
+member_tags:
+  - Self-Supervised Learning
+  - Noise-Robust Learning
+  - Multi-Label Classification
+    
+member_interests:
+  title: Research Interests
+  list:
+    - Self-Supervised Learning
+    - Semi-Supervised Learning
+    - Noise-Robust Learning
+    - Multi-Label Classification
+    - Texture Bias in CNN Predictions
+    - Explanation Methods
+    - Deep Learning
+    - Computer Vision
+    - Remote Sensing
 ---
