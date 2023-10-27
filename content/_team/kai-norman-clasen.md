@@ -38,4 +38,17 @@ member_experience_other:
     list:
         - period: 2017-2018
           title: Research Assistant with Teaching Tasks, Technische Universität Berlin, Germany
+          
+member_tags:
+  - Multi-Modal Learning
+  - Data Management
+  - Reproducibility
+    
+member_interests:
+  title: Research Interests
+  list:
+    - Remote Sensing
+    - Machine Learning
+    - Reproducibility
+    - Data Management
 ---
