@@ -52,13 +52,13 @@ title: Publications
               {% endif %}
             </div>
             <div class="col-lg-9 col-md-8">
-              <p class="font-weight-bold mb-0">
-                {% if pub.pdf_link %}
-                <a href="{{ pub.pdf_link }}" target="_blank"><h5>{{ pub.title }}</h5></a>
-                {% else %}
+              {% if pub.pdf_link %}
+              <a href="{{ pub.pdf_link }}" target="_blank">
                 <h5>{{ pub.title }}</h5>
-                {% endif %}
-              </p>
+              </a>
+              {% else %}
+              <h5>{{ pub.title }}</h5>
+              {% endif %}
               <p>{{ pub.authors }}<br /><i>{{ pub.published_at }}</i>.</p>
               <p>
                 <!-- <a data-toggle="collapse" href="#collapseExample_{{ counter }}" role="button" aria-expanded="false" aria-controls="collapseExample_{{ counter }}">
