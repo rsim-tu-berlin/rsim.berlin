@@ -44,4 +44,17 @@ member_experience_other:
         - period: 2016-2017
           title: Data Scientist, DatatroniQ GmbH, Germany.
 
+member_tags:
+  - Efficient Retrieval
+  - Self-Supervised Learning
+  - Crop Type Mapping
+    
+member_interests:
+  title: Research Interests
+  list:
+    - Deep Learning
+    - Remote Sensing
+    - Efficient Retrieval
+    - Self-Supervised Learning
+    - Crop Type Mapping
 ---
