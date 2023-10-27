@@ -34,6 +34,15 @@ title: Publications
           {% assign sorted_pubs = pubPerType.items | sort: "path" | reverse %}
           {% for pub in sorted_pubs %}
           {% assign counter = counter | plus:1 %}
+          <!-- pub pdf link --> 
+          {% if pub.pdf_link %}
+          {%    assign check = pub.pdf_link | split:':' | first %}
+          {%    if check == 'https' or check == 'http' %}
+          {%      assign pub.pdf_link = pub.pdf_link %}
+          {%    else %}
+          {%      assign pub.pdf_link = site.baseurl | append: '/assets/data/pdf/' | append: pub.pdf_link %}
+          {%    endif %}
+          {% endif %}
           <div class="row mb-5">
             <div class="col-lg-3 col-md-4">
               {% if pub.image %}
@@ -43,7 +52,13 @@ title: Publications
               {% endif %}
             </div>
             <div class="col-lg-9 col-md-8">
-              <p class="font-weight-bold mb-0">{{ pub.title }}</p>
+              <p class="font-weight-bold mb-0">
+                {% if pub.pdf_link %}
+                <a href="{{ pub.pdf_link }}" target="_blank"><h5>{{ pub.title }}</h5></a>
+                {% else %}
+                <h5>{{ pub.title }}</h5>
+                {% endif %}
+              </p>
               <p>{{ pub.authors }}<br /><i>{{ pub.published_at }}</i>.</p>
               <p>
                 <!-- <a data-toggle="collapse" href="#collapseExample_{{ counter }}" role="button" aria-expanded="false" aria-controls="collapseExample_{{ counter }}">
@@ -53,12 +68,7 @@ title: Publications
                 <a href="{{ site.baseurl }}/assets/data/bibtex/{{ pub.bibtex_link }}"><i class="fas fa-sticky-note m-2"></i>Bibtex</a>
                 {% endif %}
                 {% if pub.pdf_link %}
-                {%    assign check = pub.pdf_link | split:':' | first %}
-                {%    if check == 'https' or check == 'http' %}
                 <a href="{{ pub.pdf_link }}" target="_blank"><i class="fas fa-file-pdf m-2"></i>PDF</a>
-                {%    else %}
-                <a href="{{ site.baseurl }}/assets/data/pdf/{{ pub.pdf_link }}" target="_blank"><i class="fas fa-file-pdf m-2"></i>PDF</a>
-                {%    endif %}
                 {% endif %}
                 {% if pub.git_link %}
                 <a href="{{ pub.git_link }}" target="_blank"><i class="fab fa-gitlab m-2"></i>Git</a>
