@@ -42,4 +42,17 @@ member_experience_other:
           title: Internship at Bundesamt für Sicherheit in der Informationstechnik, Germany
         - period: 2016-2017
           title: Student Research Assistant at Computer Vision Group, University of Bonn, Germany.
+
+member_tags:
+  - Continual Learning
+  - Active Learning
+    
+member_interests:
+  title: Research Interests
+  list:
+    - Continual Learning
+    - Active Learning
+    - Deep Learning
+    - Computer Vision
+    - Remote Sensing
 ---
