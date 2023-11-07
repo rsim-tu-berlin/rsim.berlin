@@ -11,7 +11,7 @@ member_last_name: Agrafiotis
 member_group: Research Associates
 member_position: Researcher
 member_email: agrafiotis [at] tu-berlin.de
-member_site:
+member_site: https://www.user.tu-berlin.de/pagraf/
 
 member_address: |
     Technische Universität Berlin<br/><br/>
