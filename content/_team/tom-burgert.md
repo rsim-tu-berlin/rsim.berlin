@@ -4,7 +4,7 @@ order: 9
 title: Tom Burgert - RSiM
 #
 member_alias: tom-burgert
-member_image: tom-burgert.jpg
+member_image: tom-burgert1.png
 member_title:
 member_first_name: Tom
 member_last_name: Burgert
