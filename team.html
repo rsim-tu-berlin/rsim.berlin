@@ -1,7 +1,58 @@
 ---
 layout: page
 title: Team
+
+carousel:
+  - image: /assets/images/team/group/TU Berlin FG Remote Sensing Image Analysis Teamfoto-6963.jpg
+    color: lightblue
+    header: Team as of 2023
+  - image: /assets/images/team/group/2f0dba07-8f80-4a94-a4d2-efd5aadf2a71.JPG
+    color: firebrick
+    header: Space Center in California, USA
+  - image: /assets/images/team/group/IMG_9298_1.jpg
+    color: violet
+    header: IGARSS 2023 in California, USA
 ---
+
+<style>
+  /* only on non-mobile */
+  @media (min-width: 576px) {
+    .carousel-item img {
+      width: auto !important;
+      margin: 0 auto;
+      height: 400px;
+      max-height: 400px;
+    }
+  }
+
+  ol.carousel-indicators {
+    position: absolute;
+    bottom: 20;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    z-index: 15;
+    list-style: none;
+    text-align: center;
+  }
+
+  ol.carousel-indicators li,
+  ol.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.5;
+    background-color: lightblue;
+  }
+
+  ol.carousel-indicators li.active {
+    opacity: 1;
+    background-color: darkblue;
+  }
+</style>
+
 
 <section class="section page-title-section">
   <div class="container">
@@ -9,6 +60,57 @@ title: Team
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
           <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="width: 70%;">
+      <!-- bootstrap carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide pb-5 align-items-center" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          {% for item in page.carousel %}
+          <li data-target="#carouselExampleIndicators" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
+          {% endfor %}
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          {% for item in page.carousel %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <img class="d-block mx-auto w-100" src="{{ site.baseurl }}{{ item.image }}" data-color="{{ item.color }}"
+              alt="{{ item.header }}"> <!-- data-color="firebrick|violet" -->
+            <!-- <div class="carousel-caption d-md-block" style="background-color: white; opacity: 0.5;">
+              <h5>{{ item.header }}</h5>
+            </div> -->
+          </div>
+          {% endfor %}
+        </div>
+        <!-- Controls -->
+        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
+      </div>
+    </div>  
+      
+    <!-- ------------------ -->
+    <!-- Do not touch below -->
+    <!-- ------------------ -->
+    <div class="row">
+      <div class="col-4">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h4 class="mb-0 text-nowrap mr-3">Head</h4>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h4 class="mb-0 text-nowrap mr-3">Administration</h4>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
         </div>
       </div>
@@ -37,13 +139,15 @@ title: Team
         <div class="card border-1 align-items-center hover-shadow">
           <div class="card-header text-center">
             <a href="{{ site.baseurl }}{{ member.url }}">
-              <img class="rounded w-50" src="{{ site.baseurl }}/assets/images/team/members/{{ member.member_image }}" alt="{{ member.member_title }} {{ member.member_name }}">
+              <img class="rounded w-50" src="{{ site.baseurl }}/assets/images/team/members/{{ member.member_image }}"
+                alt="{{ member.member_title }} {{ member.member_name }}">
             </a>
           </div>
 
           <div class="card-body">
             <a href="{{ site.baseurl }}{{ member.url }}">
-              <h5 class="card-title">{{ member.member_title }} {{ member.member_first_name }} {{ member.member_last_name }}</h5>
+              <h5 class="card-title">{{ member.member_title }} {{ member.member_first_name }} {{ member.member_last_name
+                }}</h5>
             </a>
             {% if group.name == "Administration" %}
             <p class="m-0">{{ member.member_position }}</p>
@@ -76,22 +180,22 @@ title: Team
       <div class="col-12 m-0">
 
         <ul class="list-group experience mb-4 w-100">
-        {% for member in section.members %}
+          {% for member in section.members %}
 
-        <li class="list-group-item">
-          <div class="row">
-            <div class="col-lg-3 col-sm-4">
-            {% if member.link %}
-              <a href="{{ member.link }}" target="_blank">{{ member.name }}</a>
-            {% else %}
-              {{ member.name }}
-            {% endif %}
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-lg-3 col-sm-4">
+                {% if member.link %}
+                <a href="{{ member.link }}" target="_blank">{{ member.name }}</a>
+                {% else %}
+                {{ member.name }}
+                {% endif %}
+              </div>
+              <div class="col-lg-9 col-sm-8">{{ member.detail }}</div>
             </div>
-            <div class="col-lg-9 col-sm-8">{{ member.detail }}</div>
-          </div>
-        </li>
+          </li>
 
-        {% endfor %}
+          {% endfor %}
         </ul>
 
       </div>
