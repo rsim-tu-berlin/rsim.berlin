@@ -22,8 +22,10 @@ title: Projects
         {% assign project_image = project.image %}
         {% if project_image and project_image != '' %}
         <img class="card-img-top news-img rounded-0"
-          src="{{ site.baseurl }}/assets/images/projects/{{ project_image.name }}" alt="Post thumb">
-        <p class="text-justify">{{ project_image.copyright }}</p>
+          src="{{ site.baseurl }}/assets/images/projects/{{ project_image.name }}" alt="{{ project.code }}" />
+          {% if project_image.copyright %}
+        <p class="m-0 p-0 small text-right">Image: {{ project_image.copyright }}</p>
+          {% endif %}
         {% endif %}
       </div>
       <div class="col-9">
