@@ -8,17 +8,17 @@ member_image: leonard-hackel.jpg
 member_title:
 member_first_name: Leonard
 member_last_name: Hackel
-member_group: Research Associates
+member_group: 3_Research Associates
 member_position: Researcher
 member_email: l.hackel [at] tu-berlin.de
 member_site:
 
 member_address: |
-    Technische Universität Berlin<br/><br/>
-    Remote Sensing Image Analysis (RSiM) Group, Sekr. EN 5<br/>
-    Faculty IV<br/>
-    Einsteinufer 17<br/>
-    10587 Berlin
+  Technische Universität Berlin<br/><br/>
+  Remote Sensing Image Analysis (RSiM) Group, Sekr. EN 5<br/>
+  Faculty IV<br/>
+  Einsteinufer 17<br/>
+  10587 Berlin
 member_phone: +49 30 314 19003809
 member_room_no: EN 603
 member_office_hours:
@@ -46,12 +46,12 @@ member_experience_other:
       title: Student Assistant, IAT Ingenieurgesellschaft für Automobiltechnik mbH.
     - period: Apr 2016 - Sep 2016
       title: Student Assistant, Charité HCS Berlin.
-      
+
 member_tags:
   - Multi-Modal Learning
   - Visual Question Answering
   - Efficient Computing
-    
+
 member_interests:
   title: Research Interests
   list:

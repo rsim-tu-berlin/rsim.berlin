@@ -8,17 +8,17 @@ member_image: martin-hermann-paul-fuchs.png
 member_title:
 member_first_name: Martin Hermann Paul
 member_last_name: Fuchs
-member_group: Research Associates
+member_group: 3_Research Associates
 member_position: Researcher
 member_email: m.fuchs [at] tu-berlin.de
 member_site:
 
 member_address: |
-    Technische Universität Berlin<br/><br/>
-    Remote Sensing Image Analysis (RSiM) Group, Sekr. EN 5<br/>
-    Faculty IV<br/>
-    Einsteinufer 17<br/>
-    10587 Berlin
+  Technische Universität Berlin<br/><br/>
+  Remote Sensing Image Analysis (RSiM) Group, Sekr. EN 5<br/>
+  Faculty IV<br/>
+  Einsteinufer 17<br/>
+  10587 Berlin
 member_phone: +49 30 314 73927
 member_room_no: EN 602
 member_office_hours:
@@ -44,7 +44,7 @@ member_experience_other:
 member_tags:
   - Hyperspectral Imaging
   - Hyperspectral Image Compression
-    
+
 member_interests:
   title: Research Interests
   list:

@@ -8,7 +8,9 @@ member_image: baris-buyuktas.jpg
 member_title:
 member_first_name: Barış
 member_last_name: Büyüktaş
-member_group: Research Associates
+
+member_group: 3_Research Associates # 1 for head, 2 for admins, 3 for PhD Research Associates , 4 for student assistants
+
 member_position: Researcher
 member_email: baris.bueyuektas [at] tu-berlin.de
 member_site:

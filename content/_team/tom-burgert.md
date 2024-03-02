@@ -8,17 +8,17 @@ member_image: tom-burgert1.png
 member_title:
 member_first_name: Tom
 member_last_name: Burgert
-member_group: Research Associates
+member_group: 3_Research Associates
 member_position: Researcher
 member_email: t.burgert [at] tu-berlin.de
 member_site:
 
 member_address: |
-    Technische Universität Berlin<br/><br/>
-    Remote Sensing Image Analysis (RSiM) Group, Sekr. EN 5<br/>
-    Faculty IV<br/>
-    Einsteinufer 17<br/>
-    10587 Berlin
+  Technische Universität Berlin<br/><br/>
+  Remote Sensing Image Analysis (RSiM) Group, Sekr. EN 5<br/>
+  Faculty IV<br/>
+  Einsteinufer 17<br/>
+  10587 Berlin
 member_phone: +49 30 314 73928
 member_room_no: EN 601
 member_office_hours:
@@ -40,12 +40,12 @@ member_experience_other:
       title: Student Research Assistant, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
     - period: 2018-2020
       title: Working Student, Deep Learning Software Engineer, Signatrix GmbH, Berlin, Germany.
-      
+
 member_tags:
   - Self-Supervised Learning
   - Noise-Robust Learning
   - Multi-Label Classification
-    
+
 member_interests:
   title: Research Interests
   list:

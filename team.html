@@ -124,105 +124,19 @@ carousel:
     {% assign sorted_groups = site.team | group_by: "member_group" | sort: "name" %}
     {% for group in sorted_groups %}
 
-      {% if group.name == "Administration" %}
+    {% assign group_name_words = group.name | split: "_" %}
+    {% assign group_name = group_name_words[1] %}
+
       <div class="row">
         <div class="col-lg-4 col-sm-12 mt-3">
-
           <div class="d-flex align-items-center section-title justify-content-between">
-            <h4 class="mb-0 text-nowrap mr-2">Head</h4>
+            <h4 class="mb-0 text-nowrap mr-2">{{ group_name }}</h4>
             <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           </div>
-          {% assign sorted_team = group.items | sort: "member_last_name" %}
-          {% for member in sorted_team %}
-          {% assign check_position = member.member_position | split:' ' | first %}
-          {% if check_position == "Head" %}
-          <!-- member -->
-          <div class="d-flex col-lg-12 col-md-12 col-sm-6 p-0 filtr-item">
-            <div class="card border-1 align-items-center hover-shadow">
-              <div class="card-header text-center">
-                <a href="{{ site.baseurl }}{{ member.url }}">
-                  <img class="rounded w-50" src="{{ site.baseurl }}/assets/images/team/members/{{ member.member_image }}"
-                    alt="{{ member.member_title }} {{ member.member_name }}">
-                </a>
-              </div>
-    
-              <div class="card-body text-center">
-                <a href="{{ site.baseurl }}{{ member.url }}">
-                  <h5 class="card-title">{{ member.member_title }} {{ member.member_first_name }} {{ member.member_last_name
-                    }}</h5>
-                </a>
-                {% if group.name == "Administration" %}
-                <p class="m-0">{{ member.member_position }}</p>
-                {% endif %}
-    
-                <!-- add tags below -->
-                {% if member.member_tags %}
-                <div class="mt-3">
-                  {% for tag in member.member_tags %}
-                  <span class="badge badge-pill tag">{{ tag }}</span>
-                  {% endfor %}
-                </div>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-          {% endif %}
-          {% endfor %} 
-        </div>        
-        <div class="col-lg-4 col-sm-12 mt-3">
-          <div class="d-flex align-items-center section-title justify-content-between">
-            <h4 class="mb-0 text-nowrap mr-2">{{ group.name }}</h4>
-            <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-          </div>
-          {% assign sorted_team = group.items | sort: "member_last_name" %}
-          {% for member in sorted_team %}
-          {% assign check_position = member.member_position | split:' ' | first %}
-          {% if check_position != "Head" %}
-          <!-- member -->
-          <div class="col-lg-12 col-md-12 col-sm-12 p-0 filtr-item">
-            <div class="card border-1 align-items-center hover-shadow">
-              <div class="card-header text-center">
-                <a href="{{ site.baseurl }}{{ member.url }}">
-                  <img class="rounded w-50" src="{{ site.baseurl }}/assets/images/team/members/{{ member.member_image }}"
-                    alt="{{ member.member_title }} {{ member.member_name }}">
-                </a>
-              </div>
-    
-              <div class="card-body">
-                <a href="{{ site.baseurl }}{{ member.url }}">
-                  <h5 class="card-title">{{ member.member_title }} {{ member.member_first_name }} {{ member.member_last_name
-                    }}</h5>
-                </a>
-                {% if group.name == "Administration" %}
-                <p class="m-0">{{ member.member_position }}</p>
-                {% endif %}
-    
-                <!-- add tags below -->
-                {% if member.member_tags %}
-                <div class="mt-3">
-                  {% for tag in member.member_tags %}
-                  <span class="badge badge-pill tag">{{ tag }}</span>
-                  {% endfor %}
-                </div>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-          {% endif %}
-          {% endfor %} 
         </div>
       </div>
-      {% else %}
-      <div class="row">
-        <div class="col-12 mt-5">
-          <div class="d-flex align-items-center section-title justify-content-between">
-            <h4 class="mb-0 text-nowrap mr-2">{{ group.name }}</h4>
-            <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-          </div>
-        </div>
-      </div>      
-      
-      <div class="row">
+    
+    <div class="row">
       {% assign sorted_team = group.items | sort: "member_last_name" %}     
       {% for member in sorted_team %}
         <!-- member -->
@@ -240,7 +154,7 @@ carousel:
                 <h5 class="card-title">{{ member.member_title }} {{ member.member_first_name }} {{ member.member_last_name
                   }}</h5>
               </a>
-              {% if group.name == "Administration" %}
+              {% if group_name == "Administration" or "Head" %}
               <p class="m-0">{{ member.member_position }}</p>
               {% endif %}
 
@@ -256,11 +170,10 @@ carousel:
           </div>
         </div>
       {% endfor %}
-      </div>
-      {% endif %}
-    
+    </div>
     {% endfor %}
 
+    <!-- external members -->
     {% for section in site.data.team_externals %}
 
     <div class="row">
