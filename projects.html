@@ -19,10 +19,11 @@ title: Projects
 
     <div class="row m-3 p-4 w-100 border shadow rounded">
       <div class="col-3">
-        {% assign project_main_page_image = project.main_page_image %}
-        {% if project_main_page_image and project_main_page_image != '' %}
+        {% assign project_image = project.image %}
+        {% if project_image and project_image != '' %}
         <img class="card-img-top news-img rounded-0"
-          src="{{ site.baseurl }}/assets/images/projects/{{ project_main_page_image  }}" alt="Post thumb">
+          src="{{ site.baseurl }}/assets/images/projects/{{ project_image.name }}" alt="Post thumb">
+        <p class="text-justify">{{ project_image.copyright }}</p>
         {% endif %}
       </div>
       <div class="col-9">
