@@ -32,6 +32,8 @@ member_experience:
 member_experience_other:
   title: Work Experience
   list:
+    - period: 2024-Now
+      title: Administrative Assistant, Technische Universität Berlin, Germany.
     - period: 2021-2023
       title: Freelance English Teacher, Berlin, Germany.
     - period: 2019-2020
