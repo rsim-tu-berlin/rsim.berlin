@@ -4,7 +4,7 @@ order: 20
 title: Bethany Witte - RSiM
 #
 member_alias: bethany-witte
-member_image: rsim-team-member.png
+member_image: bethany-witte.jpeg
 member_title:
 member_first_name: Bethany
 member_last_name: Witte
@@ -20,7 +20,7 @@ member_address: |
   Einsteinufer 17<br/>
   10587 Berlin
 member_phone: +493031477283
-member_room_no: EN 605
+member_room_no: EN 629
 member_office_hours:
 
 member_experience:
