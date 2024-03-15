@@ -24,4 +24,16 @@ member_room_no: EN 605
 member_office_hours:
 
 member_experience:
+  title: Education
+  list:
+    - period: 2016-2020
+      title: BA in French at University of Liverpool, Liverpool, England.
+
+member_experience_other:
+  title: Work Experience
+  list:
+    - period: 2021-2023
+      title: Freelance English Teacher, Berlin, Germany.
+    - period: 2019-2020
+      title: Charity Secretary, Just Love Liverpool, Liverpool, England.
 ---
