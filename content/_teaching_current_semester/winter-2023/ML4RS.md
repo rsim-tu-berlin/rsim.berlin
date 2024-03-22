@@ -5,11 +5,11 @@ update_date: 2024-03-22
 title: Seminar Recent Trends in Deep Learning for Computer Vision
 banner_image: DL4RS.jpg
 image_copyright: gemmo.ai
-semester: Summer semester 2024
+semester: Summer semester 24
 credit_point: 2 SWS/3 ECTS
 participants: 18
 date_time: Wednesday 14:00-16:00
-location: MAR 0.001
+location: EN 148
 isis_link: https://isis.tu-berlin.de/course/view.php?id=38098
 
 description: |
