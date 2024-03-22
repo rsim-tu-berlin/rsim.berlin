@@ -5,7 +5,7 @@ year: 2024
 authors: Theresa Follath, David Mickisch, Jan Hemmerling, Stefan Erasmi, Marcel Schwieder, Begüm Demir
 published_at: IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024
 
-image: 2024-conferences-04.png
+image: 2024-conferences-04.PNG
 bibtex_link:
 pdf_link: 
 git_link:
