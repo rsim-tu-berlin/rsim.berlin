@@ -1,29 +1,27 @@
 ---
 layout: teaching_course
 #
-update_date: 2022-08-31
-title: Seminar Machine Learning for Remote Sensing (ML4RS)
-banner_image: ML4RS.gif
-semester: Winter semester 2023/24
+update_date: 2024-03-22
+title: Seminar Recent Trends in Deep Learning for Computer Vision
+banner_image: DL4RS.jpg
+semester: Summer semester 24
 credit_point: 2 SWS/3 ECTS
-participants: 16
-date_time: Thursday 10:00 - 12:00
+participants: 18
+date_time: Wednesday 14:00 - 16:00
 location: EN 148
-isis_link: https://isis.tu-berlin.de/course/view.php?id=34888
+isis_link: https://isis.tu-berlin.de/course/view.php?id=38098
 #
 description: |
-    In this seminar, students will review the current state of the art in the field of machine learning
-    applied to remote sensing image analysis in the framework of different Earth observation applications.
-    <br />
-    For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=40928&version=2&sprache=2" target="_blank">Moses</a> page. <br />
-    <br />
-    If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
+    The seminar aims to deepen the understanding of the participants in current research problems at the intersection of deep learning and computer vision. This year’s topics include: data augmentation techniques, semi-supervised learning, self-supervised learning, architectural differences between CNNs and vision transformer, explainable AI, memorization and generalization, the lottery ticket hypothesis, texture bias in CNNs and special aspects of learning (spurious correlation, double decent, curriculum learning).
+  <br />
+  <br />
+  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?number=41089&version=1&sprache=2" target="_blank">Moses</a> page. <br />
 
 # announcements:
 #   -
 
 # lecturers:
 lecturers:
-    - name: Martin Hermann Paul Fuchs
-      link_ext: martin-hermann-paul-fuchs
+    - name: Martin Tom Burgert
+      link_ext: tom-burgert
 ---
