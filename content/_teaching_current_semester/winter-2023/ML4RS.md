@@ -19,6 +19,6 @@ description: |
 
 
 lecturers:
-    - name: Martin Tom Burgert
+    - name: Tom Burgert
       link_ext: tom-burgert
 ---
