@@ -1,16 +1,16 @@
 ---
 layout: teaching_course
 #
-update_date: 2023-03-31
+update_date: 2024-03-22
 title: Seminar Recent Trends in Deep Learning for Computer Vision
 banner_image: DL4RS.jpg
 image_copyright: gemmo.ai
-semester: Summer semester 2023
+semester: Summer semester 2024
 credit_point: 2 SWS/3 ECTS
 participants: 18
-date_time: Wednesday 16:15-17:45
+date_time: Wednesday 14:00-16:00
 location: MAR 0.001
-isis_link: https://isis.tu-berlin.de/course/view.php?id=32771
+isis_link: https://isis.tu-berlin.de/course/view.php?id=38098
 
 description: |
   The seminar aims to deepen the understanding of the participants in current research problems at the intersection of deep learning and computer vision. This year’s topics include: data augmentation techniques, semi-supervised learning, self-supervised learning, architectural differences between CNNs and vision transformer, explainable AI, memorization and generalization, the lottery ticket hypothesis, texture bias in CNNs and special aspects of learning (spurious correlation, double decent, curriculum learning).
