@@ -10,7 +10,7 @@ member_first_name: Bethany
 member_last_name: Witte
 member_group: 2_Administration # 1 for head, 2 for admins, 3 for PhD Research Associates , 4 for student assistants
 member_position: Administrative Assistant
-member_email:
+member_email: b.witte [at] tu-berlin.de
 member_site:
 
 member_address: |
