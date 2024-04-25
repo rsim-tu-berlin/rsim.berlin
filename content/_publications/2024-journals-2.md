@@ -3,7 +3,7 @@ type: journals
 title: "ConfigILM: A General Purpose Configurable Library for Combining Image and Language Models for Visual Question Answering"
 year: 2024
 authors: Leonard Hackel, Kai Norman Clasen, Begüm Demir
-published_at: "SoftwareX, 2024"
+published_at: "SoftwareX, p.101731, doi: 10.1016/j.softx.2024.101731, 2024"
 
 image: 2024-journals-2.png
 bibtex_link:
