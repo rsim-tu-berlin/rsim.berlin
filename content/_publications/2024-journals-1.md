@@ -7,6 +7,6 @@ published_at: "MDPI Remote Sensing, 2024"
 
 image: 2024-journals-1.png
 bibtex_link:
-pdf_link: 
+pdf_link: https://www.mdpi.com/2072-4292/16/8/1462/pdf?version=1713932675
 git_link: 
 ---
