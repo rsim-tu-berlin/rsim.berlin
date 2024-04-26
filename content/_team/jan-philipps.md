@@ -34,7 +34,7 @@ member_experience_other:
   title: Work Experience
   list:
     - period: May 2024 - Now
-      title: Research Assistant, Remote Sensing Image Analysis Group at TU Berlin, Germany.
+      title: Research Assistant at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: Jul 2020 - Apr 2024
       title: Research Assistant, Fraunhofer Institute for Production Systems and Design Technology, Germany.
 ---

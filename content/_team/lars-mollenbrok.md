@@ -27,7 +27,7 @@ member_experience:
   title: Education
   list:
     - period: 2021-now
-      title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
+      title: Phd Researcher at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: 2015-2021
       title: MSc in Computer Science at University of Bonn, Germany.
     - period: 2015-2021

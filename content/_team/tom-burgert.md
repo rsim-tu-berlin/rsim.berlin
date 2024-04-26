@@ -27,7 +27,7 @@ member_experience:
   title: Education
   list:
     - period: 2022-Now
-      title: PhD in Faculty of Electrical Engineering and Computer Science, TU Berlin, Germany.
+      title: Phd Researcher at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: 2018-2022
       title: MSc in Computer Science, Technische Universität Berlin, Germany.
     - period: 2014-2018

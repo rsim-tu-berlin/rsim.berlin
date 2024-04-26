@@ -27,7 +27,7 @@ member_experience:
   title: Education and Academic Experience
   list:
     - period: Sep 2022 - Now
-      title: Post-Doctoral Researcher, Remote Sensing Image Analysis Group (RSiM), TU Berlin, Berlin, Germany.
+      title: Post-Doctoral Researcher at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: 2018-2022
       title: PhD in Information Engineering and Computer Science, University of Trento, Trento, Italy.
     - period: 2014-2018

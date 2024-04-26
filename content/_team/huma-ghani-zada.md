@@ -33,6 +33,8 @@ member_experience:
 member_experience_other:
   title: Work Experience
   list:
+    - period: 2023-Now
+      title: System Administrator, BIFOLD & TU Berlin, Germany.
     - period: 2021-2022
       title: Manager of Systems and Email Security, Presidential Office, Afghanistan.
     - period: 2016-2018
