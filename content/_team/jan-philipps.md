@@ -27,7 +27,7 @@ member_experience:
   title: Education
   list:
     - period: Oct 2020 - Now
-      title: MSc Digital Media and Technology, Technische Universität Berlin, Germany..
+      title: MSc Digital Media and Technology, Technische Universität Berlin, Germany.
     - period: Oct 2017 - Jan 2022
       title: BSc in Media Informatics, Berliner Hochschule für Technik, Germany.
 member_experience_other:
