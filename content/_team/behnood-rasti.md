@@ -38,7 +38,7 @@ member_experience_other:
   title: Work Experience
   list:
     - period: May 2024-Now
-      title: Project Manager at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
+      title: Senior Research Scientist at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: 2022-2023
       title: Principal Research Associate, Helmholtz-Zentrum Dresden-Rossendorf, Dresden, Germany.
     - period: 2020-2021
