@@ -4,7 +4,7 @@ order: 4.2
 title: Dr. Behnood Rasti - RSiM
 #
 member_alias: behnood-rasti
-member_image: rsim-team-member.png
+member_image: behnood-rasti.png
 member_title: Dr.
 member_first_name: Behnood
 member_last_name: Rasti
