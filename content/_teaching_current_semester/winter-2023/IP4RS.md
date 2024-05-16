@@ -7,8 +7,8 @@ banner_image: IP4RS.png
 semester: Summer semester 24
 credit_point: 4 SWS/6 ECTS
 participants: 50
-date_time: Monday and Friday 10.15-11.45
-location: MA042 (Monday) and MA041 (Friday)
+date_time: Monday and Thursday 10.15-11.45
+location: MA042 (Monday) and MA041 (Thursday)
 isis_link: https://isis.tu-berlin.de/course/view.php?id=38410
 #
 description: |
