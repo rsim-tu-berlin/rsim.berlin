@@ -7,7 +7,7 @@ published_at: IEEE International Geoscience and Remote Sensing Symposium, Athens
 
 image: 2024-conferences-03.png
 bibtex_link:
-pdf_link: 
-git_link:
+pdf_link: https://arxiv.org/abs/2405.15405
+git_link: https://git.tu-berlin.de/rsim/FL-Transformer
 
 ---
