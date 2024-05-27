@@ -10,7 +10,7 @@ member_first_name: Jan
 member_last_name: Philipps
 member_group: 4_Student Assistants # 1 for head, 2 for admins, 3 for PhD Research Associates , 4 for student assistants
 member_position: Student Assistant
-member_email: 
+member_email: jan.philipps [at] campus.tu-berlin.de 
 member_site:
 
 member_address: |
