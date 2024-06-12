@@ -10,7 +10,7 @@ member_first_name: Behnood
 member_last_name: Rasti
 member_group: 3_Research Associates
 member_position: Researcher
-member_email: 
+member_email: behnood.rasti [at] tu-berlin.de
 member_site: 
 
 member_address: |
