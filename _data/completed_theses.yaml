@@ -110,6 +110,16 @@
       institute: TU Berlin
       year: 2024
       pdf_file:
+    - author: Arend, Mathis
+      title: Multi-Query, Cross-Modal and Scalable Content-Based Image Retrieval in Remote Sensing
+      institute: TU Berlin
+      year: 2024
+      pdf_file:
+    - author: Klotz, Jonas
+      title: Explainable Artificial Intelligence for Multi-Label Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2024
+      pdf_file:
 
 
 - title: Bachelor Theses
