@@ -1,6 +1,6 @@
 ---
 layout: team_member
-order: 20
+order: 22
 title: Huma Ghani Zada - RSiM
 #
 member_alias: huma-ghani-zada

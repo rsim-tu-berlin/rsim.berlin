@@ -137,7 +137,12 @@ carousel:
       </div>
     
     <div class="row">
-      {% assign sorted_team = group.items | sort: "member_last_name" %}     
+      {% if group_name == "Administration" %}
+      {% assign sorted_team = group.items | sort: "order" %}     
+      {% else %}
+      {% assign sorted_team = group.items | sort: "member_last_name" %}
+      {% endif %}
+
       {% for member in sorted_team %}
         <!-- member -->
         <div class="col-lg-4 col-sm-6 mb-5 filtr-item d-flex">
