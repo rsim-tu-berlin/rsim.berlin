@@ -8,6 +8,6 @@ published_at: IEEE International Geoscience and Remote Sensing Symposium, Athens
 image: 2024-conferences-02.png
 bibtex_link:
 pdf_link: https://arxiv.org/abs/2403.14547 
-git_link:
+git_link: https://git.tu-berlin.de/rsim/physical-consistency
 
 ---
