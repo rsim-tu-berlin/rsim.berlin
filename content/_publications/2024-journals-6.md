@@ -1,0 +1,12 @@
+---
+type: journals
+title: "reBEN: Refined BigEarthNet Dataset for Remote Sensing Image Analysis"
+year: 2024
+authors: Kai Norman Clasen, Leonard Hackel, Tom Burgert, Gencer Sumbul, Begüm Demir, Volker Markl
+published_at: "IEEE Geoscience and Remote Sensing Letters (under review)"
+
+image: reBEN.png
+bibtex_link:
+pdf_link: https://arxiv.org/abs/2407.03653
+git_link: https://github.com/kai-tub/bigearthnet-pipeline
+---

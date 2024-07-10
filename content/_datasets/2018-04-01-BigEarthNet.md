@@ -2,7 +2,7 @@
 date: 2018-04-01
 code: BigEarthNet
 title: A Large Scale Multi-Modal Multi-Label Benchmark Archive
-link: https://bigearth.net
+link: https://bigearth.net/v1.0.html
 abstract:
 
 text: |

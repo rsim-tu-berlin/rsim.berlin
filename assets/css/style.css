@@ -1,14 +1,13 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
-PROJECT:	Project Name
-VERSION:	Versoin Number
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
 @font-face {
   font-family: "futura-bold";
   src: url("../fonts/Futura-Bold.woff") format("woff");
@@ -51,6 +50,7 @@ h1,
 }
 
 @media (max-width: 575px) {
+
   h1,
   .h1 {
     font-size: 45px;
@@ -63,6 +63,7 @@ h2,
 }
 
 @media (max-width: 575px) {
+
   h2,
   .h2 {
     font-size: 30px;
@@ -75,6 +76,7 @@ h3,
 }
 
 @media (max-width: 575px) {
+
   h3,
   .h3 {
     font-size: 20px;
@@ -87,6 +89,7 @@ h4,
 }
 
 @media (max-width: 575px) {
+
   h4,
   .h4 {
     font-size: 18px;
@@ -99,6 +102,7 @@ h5,
 }
 
 @media (max-width: 575px) {
+
   h5,
   .h5 {
     font-size: 16px;
@@ -111,6 +115,7 @@ h6,
 }
 
 @media (max-width: 575px) {
+
   h6,
   .h6 {
     font-size: 14px;
@@ -200,7 +205,7 @@ h6,
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
+.show>.btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #ffab08;
   border-color: #ffab08;
@@ -637,10 +642,10 @@ link:focus,
   color: #fff;
 }
 
-.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .show > .nav-link {
+.navbar-dark .navbar-nav .show>.nav-link {
   color: #fff;
 }
 
@@ -731,7 +736,7 @@ link:focus,
   background: transparent;
 }
 
-.navbar-nav > li > a {
+.navbar-nav>li>a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 0px;
@@ -825,6 +830,7 @@ link:focus,
     padding-left: 50px;
     padding-top: 30px;
   }
+
   .feature-blocks h3 {
     font-size: 20px;
   }
@@ -835,6 +841,7 @@ link:focus,
     margin-top: 0;
     padding: 50px;
   }
+
   .feature-blocks h3 {
     font-size: 25px;
   }
@@ -1071,6 +1078,7 @@ link:focus,
 .experience li:nth-child(odd) {
   background-color: #e1e1e1;
 }
+
 .experience li:nth-child(even) {
   background-color: #f8f8f8;
 }
@@ -1127,4 +1135,8 @@ ul.list-group.interest .list-group-item {
   padding-left: 10px;
   margin-bottom: 5px;
   list-style: square outside none;
+}
+
+.hero h1 {
+  text-shadow: 0 0 2rem black, 0.25rem 0.25rem 1rem black;
 }
