@@ -19,7 +19,7 @@ member_address: |
   Faculty IV<br/>
   Einsteinufer 17<br/>
   10587 Berlin
-member_phone: +49 30 314 1900
+member_phone: +49 30 314 77842
 member_room_no: EN 607
 member_office_hours:
 
