@@ -47,4 +47,10 @@ member_tags:
 member_interests:
   title: Research Interests
   list:
+    - Explainable Artificial Intelligence
+    - Big Data Management
+    - Multi-Modal Learning
+    - Deep Learning
+    - Computer Vision
+    - Remote Sensing
 ---
