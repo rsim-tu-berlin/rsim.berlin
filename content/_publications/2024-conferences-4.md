@@ -7,7 +7,7 @@ published_at: IEEE International Geoscience and Remote Sensing Symposium, Athens
 
 image: 2024-conferences-04.PNG
 bibtex_link:
-pdf_link: 
+pdf_link: https://arxiv.org/pdf/2406.16513v1
 git_link:
 
 ---
