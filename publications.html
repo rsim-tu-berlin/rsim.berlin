@@ -76,6 +76,9 @@ title: Publications
                 {% if pub.guide_link %}
                 <a href="{{ pub.guide_link }}" target="_blank"><i class="fas fa-link m-2"></i>Guide</a>
                 {% endif %}
+                {% if pub.web_site_link %}
+                <a href="{{ pub.web_site_link }}" target="_blank"><i class="fas fa-link m-2"></i>Web Site</a>
+                {% endif %}
               </p>
 
               {% if pub.authors contains "*" %}
