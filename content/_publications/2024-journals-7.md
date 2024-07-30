@@ -8,5 +8,6 @@ published_at: "IEEE Transactions on Geoscience and Remote Sensing, 2024"
 image: 2024-journals-6.png
 bibtex_link:
 pdf_link: https://arxiv.org/pdf/2406.10107
-git_link: 
+git_link: https://git.tu-berlin.de/rsim/anneal_tgrs
+
 ---
