@@ -1,12 +1,12 @@
 ---
 type: journals
-title: "ConfigILM: A General Purpose Configurable Library for Combining Image and Language Models for Visual Question Answering"
+title: "A Novel Semantic Content-based Retrieval System for Hyperspectral Remote Sensing Imagery"
 year: 2024
-authors: Leonard Hackel, Kai Norman Clasen, Begüm Demir
-published_at: "SoftwareX, p.101731, doi: 10.1016/j.softx.2024.101731, 2024"
+authors: Fatih Ömrüuzun, Yasemin Yardımcı Çetin, Uğur Murat Leloğlu, Begüm Demir
+published_at: "MDPI Remote Sensing, 2024"
 
 image: 2024-journals-2.png
 bibtex_link:
-pdf_link: https://www.sciencedirect.com/science/article/pii/S235271102400102X
-git_link: https://github.com/lhackel-tub/ConfigILM
+pdf_link: https://www.mdpi.com/2072-4292/16/8/1462/pdf?version=1713932675
+git_link: 
 ---

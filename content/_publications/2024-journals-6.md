@@ -1,14 +1,13 @@
 ---
 type: journals
-title: "reBEN: Refined BigEarthNet Dataset for Remote Sensing Image Analysis"
+title: "Annotation Cost-Efficient Active Learning for Deep Metric Learning Driven Remote Sensing Image Retrieval"
 year: 2024
-authors: Kai Norman Clasen, Leonard Hackel, Tom Burgert, Gencer Sumbul, Begüm Demir, Volker Markl
-published_at: "Under Review"
+authors: Genc Hoxha, Gencer Sumbul, Julia Henkel, Lars Möllenbrok, Begüm Demir
+published_at: "IEEE Transactions on Geoscience and Remote Sensing, 2024"
 
-image: reBEN.png
+image: 2024-journals-6.png
 bibtex_link:
-pdf_link: https://arxiv.org/abs/2407.03653
-git_link: https://github.com/rsim-tu-berlin/bigearthnet-pipeline
-web_site_link: https://bigearth.net
+pdf_link: https://arxiv.org/pdf/2406.10107
+git_link: https://git.tu-berlin.de/rsim/anneal_tgrs
 
 ---

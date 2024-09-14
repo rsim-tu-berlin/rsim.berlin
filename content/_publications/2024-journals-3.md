@@ -1,12 +1,12 @@
 ---
 type: journals
-title: "Federated Learning Across Decentralized and Unshared Archives for Remote Sensing Image Classification"
+title: "ConfigILM: A General Purpose Configurable Library for Combining Image and Language Models for Visual Question Answering"
 year: 2024
-authors: Barış Büyüktaş, Gencer Sumbul, Begüm Demir
-published_at: "IEEE Geoscience and Remote Sensing Magazine, doi: 10.1109/MGRS.2024.3415391, 2024"
+authors: Leonard Hackel, Kai Norman Clasen, Begüm Demir
+published_at: "SoftwareX, p.101731, doi: 10.1016/j.softx.2024.101731, 2024"
 
 image: 2024-journals-3.png
 bibtex_link:
-pdf_link: https://arxiv.org/pdf/2311.06141
-git_link: https://git.tu-berlin.de/rsim/FL-RS
+pdf_link: https://www.sciencedirect.com/science/article/pii/S235271102400102X
+git_link: https://github.com/lhackel-tub/ConfigILM
 ---

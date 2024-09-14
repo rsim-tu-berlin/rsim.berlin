@@ -1,12 +1,14 @@
 ---
 type: journals
-title: "High Resolution Optical and Acoustic Remote Sensing datasets of the Puck Lagoon"
+title: "reBEN: Refined BigEarthNet Dataset for Remote Sensing Image Analysis"
 year: 2024
-authors: Łukasz Janowski, Dimitrios Skarlatos, Panagiotis Agrafiotis, Paweł Tysiąc, Andrzej Pydyn, Mateusz Popek, Anna M. Kotarba-Morley, Gottfried Mandlburger, Łukasz Gajewski, Mateusz Kołakowski, Alexandra Papadaki, Juliusz Gajewski 
-published_at: "Scientific Data, doi: 10.1038/s41597-024-03199-y, 2024"
+authors: Kai Norman Clasen, Leonard Hackel, Tom Burgert, Gencer Sumbul, Begüm Demir, Volker Markl
+published_at: "Under Review"
 
-image: 2024-journals-5.png
+image: reBEN.png
 bibtex_link:
-pdf_link: https://www.nature.com/articles/s41597-024-03199-y
-git_link: 
+pdf_link: https://arxiv.org/abs/2407.03653
+git_link: https://github.com/rsim-tu-berlin/bigearthnet-pipeline
+web_site_link: https://bigearth.net
+
 ---

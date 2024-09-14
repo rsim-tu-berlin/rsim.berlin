@@ -1,12 +1,12 @@
 ---
 type: journals
-title: "A Novel Semantic Content-based Retrieval System for Hyperspectral Remote Sensing Imagery"
+title: "Unraveling Boreal Forest Composition and Drivers Across Scales in Eastern Siberia"
 year: 2024
-authors: Fatih Ömrüuzun, Yasemin Yardımcı Çetin, Uğur Murat Leloğlu, Begüm Demir
-published_at: "MDPI Remote Sensing, 2024"
+authors: Léa Chloé Marie Enguehard, Stefan Kruse, Birgit Heim, Ingmar Nitze, Nicola Falco, Begüm Demir, Ulrike Herzschuh
+published_at: "Environmental Research Letters, doi: 10.1088/1748-9326/ad5742, 2024"
 
 image: 2024-journals-1.png
 bibtex_link:
-pdf_link: https://www.mdpi.com/2072-4292/16/8/1462/pdf?version=1713932675
+pdf_link: https://automatedtest.iopscience.iop.org/article/10.1088/1748-9326/ad5742
 git_link: 
 ---

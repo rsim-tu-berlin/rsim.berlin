@@ -1,13 +1,12 @@
 ---
 type: journals
-title: "Annotation Cost-Efficient Active Learning for Deep Metric Learning Driven Remote Sensing Image Retrieval"
+title: "Artificial Intelligence to Advance Earth Observation: A Review of Models, Recent Trends, and Pathways Forward"
 year: 2024
-authors: Genc Hoxha, Gencer Sumbul, Julia Henkel, Lars Möllenbrok, Begüm Demir
-published_at: "IEEE Transactions on Geoscience and Remote Sensing, 2024"
+authors: Devis Tuia, Konrad Schindler, Begüm Demir, Xiao Xiang Zhu, Mrinalini Kochupillai, Sašo Džeroski, Jan N. van Rijn, Holger H. Hoos, Fabio Del Frate, Mihai Datcu, Volker Markl, Bertrand Le Saux, Rochelle Schneider, Gustau Camps-Valls
+published_at: "IEEE Geoscience and Remote Sensing Magazine, accepted for publication, 2024"
 
-image: 2024-journals-6.png
+image: 2024-journals-7.png
 bibtex_link:
-pdf_link: https://arxiv.org/pdf/2406.10107
-git_link: https://git.tu-berlin.de/rsim/anneal_tgrs
-
+pdf_link: https://ieeexplore.ieee.org/document/10669817
+git_link: 
 ---
