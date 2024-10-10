@@ -28,6 +28,8 @@ member_experience:
   list:
     - period: 2024-Now
       title: PhD Researcher at BIFOLD & RSiM, TU Berlin, Germany.
+    - period: Aug 2022-Feb 2023
+      title: Korea Advanced Institute of Science and Technology (KAIST), Exchange Semester, Daejeon, Korea.
     - period: 2021-2024
       title: MSc in Computer Science, TU Berlin, Germany.
     - period: 2017-2021
