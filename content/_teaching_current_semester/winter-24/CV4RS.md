@@ -16,7 +16,7 @@ description: |
   techniques to address Earth observation questions in a collaborative team and acquire knowledge
   on state-of-the-art topics in the field of computer vision for remote sensing.
   <br />
-  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/ansehen.html?number=41012" target="_blank">Moses</a> page.
+  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41012&version=2&sprache=2" target="_blank">Moses</a> page.
   <br />
   If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
 
