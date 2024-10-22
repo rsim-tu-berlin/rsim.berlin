@@ -10,7 +10,7 @@ member_first_name: Mathis
 member_last_name: Adler
 member_group: 3_Research Associates
 member_position: Researcher
-member_email: 
+member_email: arend@tu-berlin.de
 member_site:
 
 member_address: |
