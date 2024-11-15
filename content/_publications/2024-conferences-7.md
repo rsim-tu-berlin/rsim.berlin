@@ -3,6 +3,7 @@ type: conferences
 title: "Generative Adversarial Networks for Spatio-Spectral Compression of Hyperspectral Images"
 year: 2024
 authors: Martin Hermann Paul Fuchs, Akshara Preethy Byju, Alisa Walda, Behnood Rasti, Begüm Demir
+
 published_at: IEEE GRSS Workshop on Hyperspectral Image and Signal Processing: Evolution in Remote Sensing, Helsinki, Finland, 2024
 image: 2024-conferences-7.png
 bibtex_link:
