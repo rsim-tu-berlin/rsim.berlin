@@ -8,6 +8,6 @@ published_at: "IEEE GRSS Workshop on Hyperspectral Image and Signal Processing: 
 image: 2024-conferences-7.png
 bibtex_link:
 pdf_link: https://arxiv.org/abs/2305.08514
-git_link: ttps://git.tu-berlin.de/rsim/HSI-SSC
+git_link: https://git.tu-berlin.de/rsim/HSI-SSC
 
 ---
