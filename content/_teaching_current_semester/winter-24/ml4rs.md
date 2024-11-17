@@ -23,7 +23,6 @@ description: |
 #   -
 
 # lecturers:
-lecturers:
-    - name: Martin Hermann Paul Fuchs
-      link_ext: martin-hermann-paul-fuchs
+#     - name: Martin Hermann Paul Fuchs
+#       link_ext: martin-hermann-paul-fuchs
 ---

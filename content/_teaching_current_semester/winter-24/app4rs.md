@@ -22,9 +22,9 @@ description: |
   <br />
   If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
 
-lecturers:
-  - name: Kai Norman Clasen
-    link_ext: kai-norman-clasen
+# lecturers:
+#   - name: Kai Norman Clasen
+#     link_ext: kai-norman-clasen
 
 # announcements:
 # -

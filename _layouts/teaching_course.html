@@ -126,6 +126,8 @@
         </div>
         {% endif %}
 
+        <!-- Contacts -->
+        {% if page.lecturers %}
         <div class="row">
           <div class="col-12 mb-4">
             {% assign contact_title = "Contact Person" %}
@@ -150,6 +152,7 @@
           {% endfor %}
           </div>
         </div>
+        {% endif %}
 
         {% if content %}
         <div class="row">

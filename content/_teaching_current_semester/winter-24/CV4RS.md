@@ -6,7 +6,7 @@ title: Project Computer Vision for Remote Sensing (CV4RS)
 banner_image: CV4RS-2.jpg
 semester: Winter semester 2024/25
 credit_point: 6 SWS/9 ECTS
-participants: 12
+participants: 9
 date_time: Tuesday 12:00 - 18:00
 location: EN 148
 isis_link: https://isis.tu-berlin.de/course/view.php?id=39645
@@ -20,11 +20,9 @@ description: |
   <br />
   If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
 
-
-
-lecturers:
-  - name: Barış Büyüktaş
-    link_ext: baris-buyuktas
+# lecturers:
+#   - name: Barış Büyüktaş
+#     link_ext: baris-buyuktas
 
 # announcements:
 # -
