@@ -1,6 +1,6 @@
 ---
 type: conferences
-title: "HyCoT: A Transformer-Based Autoencoder for Hyperspectral Image Compression"
+title: "A Transformer-Based Autoencoder for Hyperspectral Image Compression"
 year: 2024
 authors: Martin Hermann Paul Fuchs, Behnood Rasti, Begüm Demir
 published_at: "IEEE GRSS Workshop on Hyperspectral Image and Signal Processing: Evolution in Remote Sensing (WHISPERS), Helsinki, Finland, 2024"
