@@ -3,7 +3,7 @@ layout: team_member
 order: 9
 title: Mathis Adler - RSiM
 #
-member_alias: mathis-adler
+member_alias: mathis-arend
 member_image: rsim-team-member.png
 member_title:
 member_first_name: Mathis
