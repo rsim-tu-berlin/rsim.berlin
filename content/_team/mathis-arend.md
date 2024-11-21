@@ -1,7 +1,7 @@
 ---
 layout: team_member
 order: 9
-title: Mathis Adler - RSiM
+title: Mathis Jürgen Adler - RSiM
 #
 member_alias: mathis-arend
 member_image: rsim-team-member.png
