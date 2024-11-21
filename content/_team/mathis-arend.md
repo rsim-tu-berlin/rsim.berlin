@@ -6,7 +6,7 @@ title: Mathis Jürgen Adler - RSiM
 member_alias: mathis-arend
 member_image: rsim-team-member.png
 member_title:
-member_first_name: Mathis
+member_first_name: Mathis Jürgen
 member_last_name: Adler
 member_group: 3_Research Associates
 member_position: Researcher
