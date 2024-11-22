@@ -1,0 +1,10 @@
+---
+date: 2024-11-22
+code: offer-167431
+title: Research Associate (PostDoc) - salary grade 14 TV-L Berliner Hochschulen
+link: https://www.jobs.tu-berlin.de/en/job-postings/188948
+image: /assets/images/logo/RSiM_Logo_1.png
+
+description: |
+  In recent years, foundation models have significantly advanced deep learning, especially in natural language processing, by capturing semantic relationships that improve performance across various domains. In remote sensing, foundation models offer a promising approach to handle the diverse data types resulting from different sensors, cloud coverage, or regional variations. However, applying foundation models to remote sensing data presents challenges due to the distinct characteristics of satellite/aerial images, such as sensor-specific variations and the complexity of captured scenes. At the Big Data Analytics for Earth Observation group (rsim.berlin) of BIFOLD, we are seeking to hire a Research Associate (Postdoctoral Researcher) interested in foundation models to the remote sensing domain. The research topics include (but are not limited to): (1) Remote sensing specific adaptation of foundation models; (2) Parameter-efficient finetuning of foundation models for remote sensing data; (3) Model distillation of foundation models; and (4) Continual learning in foundation models. 
+---
