@@ -4,7 +4,7 @@ order: 20
 title: Dominika Posse - RSiM
 #
 member_alias: dominika-posse
-member_image: dominika-posse.jpg
+member_image: dominika-posse.png
 member_title:
 member_first_name: Dominika
 member_last_name: Posse
