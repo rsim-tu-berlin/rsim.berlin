@@ -10,7 +10,7 @@ member_first_name: Jonas
 member_last_name: Klotz
 member_group: 3_Research Associates
 member_position: Researcher
-member_email:
+member_email: j.klotz@tu-berlin.de
 member_site:
 
 member_address: |
