@@ -17,7 +17,7 @@ description: |
     <br />
     For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=40928&version=3&sprache=2" target="_blank">Moses</a> page.
     <br />
-    If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:sekr@rsim.tu-berlin.de">sekr@rsim.tu-berlin.de</a>.
+    If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:b.witte [at] tu-berlin.de">b.witte [at] tu-berlin.de</a>.
 
 # announcements:
 #   -
