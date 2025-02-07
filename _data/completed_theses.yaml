@@ -120,6 +120,16 @@
       institute: TU Berlin
       year: 2024
       pdf_file:
+    - author: Zailskas, Felix
+      title: On the Effects of Learning Label Correlations in Multi-Label Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
+    - author: Stoll, Oliver
+      title: On the Prevalence of Texture Bias in Deep Learning Models for Remote Sensing
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
 
 
 - title: Bachelor Theses
