@@ -1,5 +1,5 @@
 ---
-date: 2018-04-01
+date: 2025-01-01
 code: BigEarth
 title: Accurate and Scalable Processing of Big Data in Earth Observation
 abstract:
