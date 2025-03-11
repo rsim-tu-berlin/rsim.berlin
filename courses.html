@@ -2,11 +2,9 @@
 layout: page
 title: Teaching
 ---
-
 <!-- courses -->
 <section class="section page-title-section">
   <div class="container">
-
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
@@ -15,26 +13,22 @@ title: Teaching
         </div>
       </div>
     </div>
-
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h3 class="mb-0 text-nowrap mr-3">Current Semester (WS 24/25)</h3>
+          <h3 class="mb-0 text-nowrap mr-3">Current Semester (SoSe 25)</h3>
           <!-- <div class="border-top w-100 border-primary d-none d-sm-block"></div> -->
         </div>
       </div>
     </div>
-
     <!-- course list -->
     <div class="row justify-content-left">
-
       {% if site.teaching_current_semester.size > 0 %}
       {% for course in site.teaching_current_semester %}
       <!-- course item -->
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="{{ site.baseurl }}/assets/images/teaching/{{ course.banner_image }}"
-            alt="course thumb">
+          <img class="card-img-top rounded-0" src="{{ site.baseurl }}/assets/images/teaching/{{ course.banner_image }}" alt="course thumb">
           <div class="card-body">
             <ul class="list-inline mb-2">
               <!-- <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>{{ course.update_date }}</li> -->
@@ -46,8 +40,7 @@ title: Teaching
             <p class="card-text mb-2"><i class="ti-book mr-1 text-color"></i>{{ course.semester }}</p>
             <p class="card-text mb-2"><i class="ti-alarm-clock mr-1 text-color"></i>{{ course.date_time }}</p>
             <p class="card-text mb-2"><i class="ti-location-pin mr-1 text-color"></i>{{ course.location }}</p>
-            <a href="{{ site.baseurl }}{{ course.url }}"
-              class="btn btn-primary btn-sm justify-content-center">Details</a>
+            <a href="{{ site.baseurl }}{{ course.url }}" class="btn btn-primary btn-sm justify-content-center">Details</a>
           </div>
         </div>
       </div>
@@ -55,9 +48,7 @@ title: Teaching
       {% else %}
       <p>No courses found for current semester.</p>
       {% endif %}
-
     </div>
-
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
@@ -66,17 +57,13 @@ title: Teaching
         </div>
       </div>
     </div>
-
     <!-- course list -->
     <div class="row justify-content-left">
-
       {% if site.teaching_past_semesters.size > 0 %}
       {% for course in site.teaching_past_semesters %}
-
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="{{ site.baseurl }}/assets/images/teaching/{{ course.banner_image }}"
-            alt="course thumb">
+          <img class="card-img-top rounded-0" src="{{ site.baseurl }}/assets/images/teaching/{{ course.banner_image }}" alt="course thumb">
           <div class="card-body">
             <ul class="list-inline mb-2">
               <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>{{ course.update_date }}</li>
@@ -90,16 +77,13 @@ title: Teaching
           </div>
         </div>
       </div>
-
       {% endfor %}
       {% else %}
       <div class="col-12">
         <p class="ml-2">No past semester courses found.</p>
       </div>
       {% endif %}
-
     </div>
-
     <!-- /course list -->
     <!-- mobile see all button -->
     <div class="row">
