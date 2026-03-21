@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  {% include header.html %}
+  <body>
+    <!-- preloader start -->
+    <!-- <div class="preloader">
+      <img src="{{ site.baseurl }}/assets/images/preloader.gif" alt="preloader">
+    </div> -->
+    <!-- preloader end -->
+
+    {% include page_header.html %}
+
+    <!-- page title -->
+    <!-- <section class="page-title-section overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="list-inline custom-breadcrumb">
+              <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="{{ site.baseurl }}/team/members/begum_demir.md"></a></li>
+              <li class="list-inline-item text-white h3 font-secondary nasted">{{ page.member_title }} {{ page.member_name }}</li>
+            </ul>
+            <p class="text-lighten"></p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- /page title -->
+
+    <!-- member details -->
+    <section class="section page-title-section">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3 mb-5">
+            <img class="img-circle mb-4 w-100" src="{{ site.baseurl }}/assets/images/team/members/{{ page.member_image }}" alt="teacher">
+
+            <h4>{{ page.member_title }} {{ page.member_first_name }} {{ page.member_last_name }}</h4>
+            <!-- <h6 class="text-color"></h6>
+            <p class="mb-5"></p> -->
+            <div class="row">
+              <div class="col-md-12 mb-5 mb-md-0">
+                <h6 class="mt-4">Contact:</h6>
+                <ul class="list-unstyled">
+
+                  <li class="mb-3"><i data-lucide="mail" class="mr-2"></i>{{ page.member_email }}</li>
+
+                {% if page.member_phone %}
+                  <li class="mb-3"><i data-lucide="phone" class="mr-2"></i>{{ page.member_phone }}</li>
+                {% endif %}
+
+                {% if page.member_site %}
+                  <li class="mb-3"><a class="text-color" href="{{ page.member_site }}"><i data-lucide="globe" class="mr-2"></i>{{ page.member_site }}</a></li>
+                {% endif %}
+
+                  <li class="mb-3 "><b>Address:</b> {{ page.member_address }}</li>
+
+                {% if page.member_room_no %}
+                  <li class="mb-3 "><b>Room:</b> {{ page.member_room_no }}</li>
+                {% endif %}
+
+                {% if page.member_office_hours %}
+                  <li class="mb-3 "><b>Office Hours:</b> {{ page.member_office_hours }}</li>
+                {% endif %}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-9">
+
+            <h4 class="mb-4">{{ page.member_experience.title }}</h4>
+
+            <!-- Member experience -->
+            <ul class="list-group experience mb-4">
+
+              {% for exp in page.member_experience.list %}
+
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-lg-3 col-md-2"><strong>{{ exp.period }}</strong></div>
+                  <div class="col-lg-9 col-md-10">{{ exp.title }}</div>
+                </div>
+
+              </li>
+
+              {% endfor %}
+            </ul>
+
+            {% if page.member_experience_other %}
+            <h4 class="mb-4">{{ page.member_experience_other.title }}</h4>
+
+            <!-- Member experience (Other) -->
+            <ul class="list-group experience mb-4">
+
+              {% for exp in page.member_experience_other.list %}
+
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-lg-3 col-md-2"><strong>{{ exp.period }}</strong></div>
+                  <div class="col-lg-9 col-md-10">{{ exp.title }}</div>
+                </div>
+
+              </li>
+
+              {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if page.member_interests %}
+            <h4 class="mb-4">{{ page.member_interests.title }}</h4>
+
+            <!-- Member interests -->
+            <ul class="list-group interest">
+              {% for interest in page.member_interests.list %}
+              <li class="list-group-item">
+                {{ interest }}
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+
+            <!-- custom content -->
+            {{ content }}
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /teacher details -->
+
+    {% include page_footer.html %}
+
+  </body>
+</html>

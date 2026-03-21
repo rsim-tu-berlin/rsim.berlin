@@ -1,0 +1,181 @@
+---
+layout: page
+title: Team
+---
+
+<style>
+  /* on non-mobile */
+  @media (min-width: 576px) {
+    .carousel-container {
+      width: 70%;
+    }
+
+    .carousel-item img {
+      width: auto !important;
+      margin: 0 auto;
+      height: 400px;
+      max-height: 400px;
+    }
+  }
+
+  /* on mobile */
+  @media (max-width: 576px) {
+    .carousel-container {
+      width: auto !important;
+    }
+
+    .carousel-item img {
+      width: auto !important;
+      margin: 0 auto;
+      height: 240px;
+      max-height: 240px;
+    }
+  }
+
+  ol.carousel-indicators {
+    position: absolute;
+    bottom: 20;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    z-index: 15;
+    list-style: none;
+    text-align: center;
+  }
+
+  ol.carousel-indicators li,
+  ol.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.5;
+    background-color: lightblue;
+  }
+
+  ol.carousel-indicators li.active {
+    opacity: 1;
+    background-color: darkblue;
+  }
+</style>
+
+
+<section class="section page-title-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+
+      
+    <!-- ------------------ -->
+    <!-- Do not touch below -->
+    <!-- ------------------ -->
+    <!-- member list -->
+    {% assign sorted_groups = site.team | group_by: "member_group" | sort: "name" %}
+    {% for group in sorted_groups %}
+
+    {% assign group_name_words = group.name | split: "_" %}
+    {% assign group_name = group_name_words[1] %}
+
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 mt-3">
+          <div class="d-flex align-items-center section-title justify-content-between">
+            <h4 class="mb-0 text-nowrap mr-2">{{ group_name }}</h4>
+            <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="row">
+      {% if group_name == "Administration" %}
+      {% assign sorted_team = group.items | sort: "order" %}     
+      {% else %}
+      {% assign sorted_team = group.items | sort: "member_last_name" %}
+      {% endif %}
+
+      {% for member in sorted_team %}
+        <!-- member -->
+        <div class="col-lg-4 col-sm-6 mb-5 filtr-item d-flex">
+          <div class="card border-1 align-items-center hover-shadow">
+            <div class="card-header text-center">
+              <a href="{{ site.baseurl }}{{ member.url }}">
+                <img class="rounded w-50" src="{{ site.baseurl }}/assets/images/team/members/{{ member.member_image }}"
+                  alt="{{ member.member_title }} {{ member.member_name }}">
+              </a>
+            </div>
+
+            <div class="card-body text-center">
+              <a href="{{ site.baseurl }}{{ member.url }}">
+                <h5 class="card-title">{{ member.member_title }} {{ member.member_first_name }} {{ member.member_last_name
+                  }}</h5>
+              </a>
+              {% if group_name == "Administration" %}
+              <p class="m-0">{{ member.member_position }}</p>
+              {% endif %}
+
+              <!-- add tags below -->
+              {% if member.member_tags %}
+              <div class="mt-3">
+                {% for tag in member.member_tags %}
+                <span class="badge badge-pill tag">{{ tag }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+    <!-- external members -->
+    {% for section in site.data.team_externals %}
+
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+          <h4 class="mb-0 text-nowrap mr-3">{{ section.title }}</h4>
+        </div>
+      </div>
+      <div class="col-12 m-0">
+
+        <ul class="list-group experience mb-4 w-100">
+          {% for member in section.members %}
+
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col-lg-3 col-sm-4">
+                {% if member.link %}
+                <a href="{{ member.link }}" target="_blank">{{ member.name }}</a>
+                {% else %}
+                {{ member.name }}
+                {% endif %}
+              </div>
+              <div class="col-lg-9 col-sm-8">{{ member.affiliation }}</div>
+            </div>
+          </li>
+
+          {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+
+    {% endfor %}
+
+    <div class="row">
+      <div class="col-12">
+        <div class="alert-secondary rounded p-3" style="border: 1px solid rgba(0,0,0,.125);">
+          For former members, please click <a href="{{ site.baseurl }}/team/alumni">Alumni</a>.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,35 @@
+---
+layout: page
+title: News
+---
+
+<section class="section page-title-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+
+    {% assign sorted_news = site.news | sort: 'date' | reverse %}
+    {% for news in sorted_news %}
+
+    <div class="row m-4 p-2 w-100 border-bottom hover-shadow rounded">
+      <div class="col-3">
+				<!-- <img class="publication-image" src="./assets/news/images/BigEarthNetMM_cover_S1.jpg" /> -->
+        <img class="card-img-top news-img rounded-0" src="{{ site.baseurl }}/assets/images/news/{{ news.main_page_image }}" alt="Post thumb">
+			</div>
+      <div class="col-9">
+        <h4 class="card-title">{{ news.title }}</h4>
+        <p class="mr-3 ml-0 small">{{ news.date | date: "%Y-%m-%d"}}</p>
+        <p class="text-justify">{{ news.text }}</p>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</section>

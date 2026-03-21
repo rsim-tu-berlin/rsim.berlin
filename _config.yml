@@ -1,0 +1,32 @@
+url: https://rsim.berlin
+baseurl: ""
+collections_dir: content
+include:
+  - "assets/data/bibtex"
+collections:
+  team:
+    output: true
+    sort_by: order
+    permalink: /:collection/members/:name
+  teaching_current_semester:
+    output: true
+    permalink: /teaching/:path
+  teaching_past_semesters:
+    output: true
+    permalink: /teaching/:path
+  news:
+    sort_by: date
+  projects:
+    sort_by: date
+  projects_completed:
+    sort_by: date
+  software:
+    sort_by: date
+  theses:
+    sort_by: date
+  datasets:
+    sort_by: date
+  publications:
+    sort_by: date
+  open_positions:
+    sort_by: date

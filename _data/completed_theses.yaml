@@ -1,0 +1,196 @@
+- title: Master Theses
+  theses:
+    - author: Chen, Xuelei
+      title: Generative Adversarial Networks for Content-based Retrieval of Multispectral Images
+      institute: TU Berlin
+      year: 2019
+      pdf_file: Chen-2019.pdf
+    - author: Möller, Peter
+      title: Deep Active Learning for Object Detection
+      institute: TU Berlin
+      year: 2019
+      pdf_file:
+    - author: Nayak, Sonali
+      title: Deep Captioning for Analysis of Remote Sensing Images in Large Archives
+      institute: TU Berlinss
+      year: 2019
+      pdf_file: Nayak-2019.pdf
+    - author: Reiche, Martin
+      title: Deep Generative Models for Nonlinear Inverse Problems and Phase Retrieval
+      institute: TU Berlin
+      year: 2019
+      pdf_file: Reiche-2019.pdf
+    - author: Yessou, Hichame
+      title: Analysis of Deep Learning Loss Functions for Multi-Label Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Yessou-2020.pdf
+    - author: Bahr, Viktor Florian
+      title: An End-to-End Framework for Processing and Analysis of Big Data in Earth Observation
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Bahr-2020.pdf
+    - author: Bank, Hasan
+      title: Deep Multi-Modal Hashing for Content-based Retrieval of Sentinel Images
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Bank-2020.pdf
+    - author: Chowdhury, Ananya Bhanja
+      title: Explaining and Interpreting CNNs for Classification of High Dimensional Satellite Images
+      institute: TU Berlin
+      year: 2021
+      pdf_file: Chowdhury-2021.pdf
+    - author: Clasen, Kai Norman
+      title: Large-Scale Contrastive Representation Learning for Content-based Remote Sensing Image Retrieval
+      institute: TU Berlin
+      year: 2021
+      pdf_file: Clasen-2021.pdf
+    - author: Feng, Xiaoxin
+      title: Semi-supervised Learning for Remote Sensing Image Retrieval based on Graph CNNs
+      institute: TU Berlin
+      year: 2021
+      pdf_file: Feng-2021.pdf
+    - author: Xiang, Jun
+      title: Deep Learning based Image Compression and Hashing in Large-Scale Remote Sensing Archives
+      institute: TU Berlin
+      year: 2021
+      pdf_file: Xiang-2021.pdf
+    - author: Burgert, Tom
+      title: "Sample-based Hardness Scores in Deep Learning Curricula: A new Perspective on Learning with Noisy Labels"
+      institute: TU Berlin
+      year: 2022
+      pdf_file: Burgert-2022.pdf
+    - author: Ha Minh, Thieu
+      title: "Domain Adaptation for Tree Species Classification Using Remote Sensing Image"
+      institute: TU Berlin
+      year: 2022
+      pdf_file:
+    - author: Hackel, Leonard Wayne
+      title:  Transformer-based Lightweight Visual Question Answering for Earth Observation
+      institute: TU Berlin
+      year: 2022
+      pdf_file: Hackel-2022.pdf
+    - author: Hoffmann, David Sebastian
+      title:  Multi-Modal Vision Transformers for Multi-Label Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2022
+      pdf_file: Hoffman-2022.pdf
+    - author: Happel, David
+      title: The Effects of Time Series Data Augmentation in Domain Generalization for Crop Type Mapping
+      institute: TU Berlin
+      year: 2022
+      pdf_file:
+    - author: Moran, Stephen
+      title: Physics-based Deep Learning for Precipitation Forecasting
+      institute: TU Berlin
+      year: 2022
+      pdf_file:
+    - author: Schwarz, Kim
+      title: Graph Data Augmentation in Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2023
+      pdf_file: Schwarz-2023.pdf
+    - author: Skowronek, Hanno
+      title: Multi-Scale Search and Retrieval for Large-Scale Remote Sensing Imagery
+      institute: TU Berlin
+      year: 2023
+      pdf_file:
+    - author: Sprengel, Niklas
+      title: Learning-Based Hyperspectral Image Compression Using A Spatio-Spectral Approach
+      institute: TU Berlin
+      year: 2023
+      pdf_file:
+    - author: Angyal, Oliver
+      title: Self-Supervised Hashing for Cross-Modal Content-Based Time Series Image Retrieval
+      institute: TU Berlin
+      year: 2023
+      pdf_file:
+    - author: Follath, Theresa
+      title: Multi-Modal Vision Transformers for Crop Mapping from Satellite Image Time Series
+      institute: TU Berlin
+      year: 2024
+      pdf_file:
+    - author: Arend, Mathis
+      title: Multi-Query, Cross-Modal and Scalable Content-Based Image Retrieval in Remote Sensing
+      institute: TU Berlin
+      year: 2024
+      pdf_file:
+    - author: Klotz, Jonas
+      title: Explainable Artificial Intelligence for Multi-Label Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2024
+      pdf_file:
+    - author: Zailskas, Felix
+      title: On the Effects of Learning Label Correlations in Multi-Label Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
+    - author: Stoll, Oliver
+      title: On the Prevalence of Texture Bias in Deep Learning Models for Remote Sensing
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
+    - author: Herzog, Johann-Ludwig
+      title: Advanced Vision-Language Models for Remote Sensing Image Understanding
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
+    - author: Mönch, Niels
+      title: Active Learning for Semantic Segmentation of Crops and Weeds
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
+    - author: Fabricius, Jan-Hendrik
+      title: Weakly Supervised Semantic Segmentation for Land Cover and Land Use Mapping
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
+    - author: Mitton, Guilhem
+      title: Martian Subsurface Analysis Using Radar Sounder and Deep Learning
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
+    - author: Stamer, Viola-Joanna
+      title: Development of Foundation Models for Ocean Remote Sensing
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
+    - author: Lösche, Simon
+      title: Federated Vision-Language Learning for Remote Sensing Image Classification
+      institute: TU Berlin
+      year: 2025
+      pdf_file:
+
+
+- title: Bachelor Theses
+  theses:
+    - author: Zhang, Kexin
+      title: Super-Resolution of Multispectral Multiresolution Images by Generative Adversarial Networks
+      institute: TU Berlin
+      year: 2019
+      pdf_file: Zhang-2019.pdf
+    - author: Aksoy, Ahmet Kerem
+      title: Collaborative Learning Models for Classification of Remote Sensing Images with Noisy Labels
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Aksoy-2020.pdf
+    - author: Wagner, Matthias Jost
+      title: Image Search and Retrieval from Remote Sensing Archives based on Similarity Ranking Functions
+      institute: TU Berlin
+      year: 2020
+      pdf_file: Wagner-2020.pdf
+    - author: Korytova, Alisa
+      title: Compression of Remote Sensing Images based on Generative Adversarial Networks
+      institute: TU Berlin
+      year: 2022
+      pdf_file: Korytova-2022.pdf
+    - author: Kromer, Maximilian
+      title: 'Learning-Based Enhancement of Aerial Ocean Imagery: Diffusion and Degradation-Aware Networks with a Synthetic Data Perspective'
+      institute: TU Berlin
+      year: 2025
+      pdf_file: 
+    - author: Hagen, Theodor
+      title: 'Analysis of Merging Strategies for Continual Parameter-Efficient Adaptation of Foundation Models for Earth Observation'
+      institute: TU Berlin
+      year: 2025
+      pdf_file: 

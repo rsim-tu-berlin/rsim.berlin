@@ -1,0 +1,90 @@
+---
+layout: page
+title: Theses
+---
+
+<section class="section page-title-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ page.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-justify">
+        <p>
+          We offer Bachelor and Master theses opportunities in the field of processing and
+          analysis of remote sensing images acquired by satellite systems for Earth observation.
+        </p>
+        <p>
+          <b>Prerequisites:</b> You should have knowledge and experience on machine learning, deep learning
+          and image analysis. Your programming skills should be excellent (e.g., Python).
+        </p>
+        <p>
+        If you are interested in, please contact <a href="{{ site.baseurl }}/team/members/begum-demir">Prof. Dr. Demir</a> with the following information:
+        1) topic that you are interested in;
+        2) your knowledge and prior experiences relevant to that topic. We suggest you to see "<a href="{{ site.baseurl }}/completed-theses">Completed Theses</a>" for the completed
+          bachelor and master theses at our group and "<a href="{{ site.baseurl }}/publications">Publications</a>" for our recent research activities.
+        </p>
+        <p>
+          <b>General Note:</b> Currently we cannot supervise Bachelor or Master theses of students
+          outside of Berlin. We do not offer any internships and will not respond to corresponding emails.
+        </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          {% for thesis in site.theses %}
+          <a class="list-group-item list-group-item-action {% if forloop.index == 1 %}{% endif %}" id="list-{{ forloop.index }}-list" data-toggle="list" href="#list-{{ forloop.index }}" role="tab" aria-controls="{{ forloop.index }}">
+            {{ thesis.title }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+          {% for thesis in site.theses %}
+          <div class="tab-pane fade {% if forloop.index == 1 %}{% endif %}" id="list-{{ forloop.index }}" role="tabpanel" aria-labelledby="list-{{ forloop.index }}-list">
+            <h5>{{ thesis.title }}</h5>
+            <p class="text-justify">
+              {{ thesis.description }}
+            </p>
+
+            {% if thesis.contact %}
+            {% assign contact_people = "" | split: "|" %}
+            {% for person in thesis.contact %}
+            {% if person.link %}
+            {%    capture person_with_link %} <a href="{{ site.baseurl }}{{ person.link }}" target="_blank">{{ person.name }}</a>{% endcapture %}
+            {%    assign contact_people = contact_people | push: person_with_link %}
+            {% else %}
+            {%    assign contact_people = contact_people | push: person.name %}
+            {% endif %}
+
+            {% endfor %}
+            <p>
+              <b>Contact:</b> {{ contact_people | join: ", " }}
+            </p>
+            {% endif %}
+
+            <p class="small">
+            {% for ref in thesis.references %}
+              [{{ forloop.index }}] {{ ref.authors}}, "{{ ref.title }}", <i>{{ ref.published_in }}</i>, {{ ref.page_number}}, {{ ref.year }}. <br />
+            {% endfor %}
+            </p>
+          </div>
+          {% endfor %}
+          <!-- <div class="tab-pane fade" id="list-deep-learning" role="tabpanel" aria-labelledby="list-deep-learning-list">2</div> -->
+        </div>
+      </div>
+    </div>
+
+</section>
