@@ -16,7 +16,7 @@ member_site:
 member_address: |
   BIFOLD and Faculty IV, TU Berlin<br/><br/>
   Remote Sensing Image Analysis (RSiM) Group, Sekr. FR 6-2<br/>
-  Franklinstr. 28/29<br/>
+  Franklinstr. 28/29, 6th floor<br/>
   10587 Berlin
 member_phone: +49 30 314 70039
 member_room_no: FR 619

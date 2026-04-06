@@ -17,7 +17,7 @@ member_site:
 member_address: |
   BIFOLD and Faculty IV, TU Berlin<br/><br/>
   Remote Sensing Image Analysis (RSiM) Group, Sekr. FR 6-2<br/>
-  Franklinstr. 28/29<br/>
+  Franklinstr. 28/29, 6th floor<br/>
   10587 Berlin
 member_phone: +49 30 314 23771
 member_room_no: FR 604
@@ -26,6 +26,8 @@ member_office_hours: Currently only available via email.
 member_experience:
   title: Academic Experience
   list:
+    - period: 2026-now
+      title: Vice Director, BIFOLD - Berlin Institute for the Foundations of Learning and Data, Germany.
     - period: 2020-now
       title: Full Professor, BIFOLD & Faculty of Electrical Engineering and Computer Science, TU Berlin, Berlin, Germany.
     - period: 2022-now
