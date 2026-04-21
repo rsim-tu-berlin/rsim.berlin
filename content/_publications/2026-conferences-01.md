@@ -7,7 +7,7 @@ published_at: Proceedings of the IEEE/CVF Winter Conference on Applications of C
 
 image: 2026-conferences-01.png
 bibtex_link:
-pdf_link: 
+pdf_link: https://arxiv.org/abs/2601.02289
 git_link: 
 
 ---
