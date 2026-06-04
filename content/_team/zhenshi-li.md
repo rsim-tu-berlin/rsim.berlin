@@ -41,7 +41,7 @@ member_experience_other:
   list:
     - period: Jun 2026-Now
       title: Post-Doctoral Researcher at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
-    - period: 2022-2026
+    - period: 2022-2023
       title: Teaching Assistant, Nanjing University, China.
 
 member_tags:
