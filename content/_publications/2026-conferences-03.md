@@ -7,7 +7,7 @@ published_at: International Conference on Very Large Databases, Boston, USA, Sep
 
 image: 2026-conferences-03.png
 bibtex_link:
-pdf_link: https://shuyansy.github.io/terrascope/
-git_link: https://github.com/shuyansy/Earth-Observation-VLMs
+pdf_link: 
+git_link: 
 
 ---
