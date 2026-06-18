@@ -6,7 +6,7 @@ title: Dikshyant Acharya - RSiM
 member_alias: dikshyant-acharya
 member_image: rsim-team-member.png
 member_title:
-member_first_name: Dikshyant Acharya
+member_first_name: Dikshyant
 member_last_name: Acharya
 member_group: 4_Teaching Assistants
 member_position: Researcher
