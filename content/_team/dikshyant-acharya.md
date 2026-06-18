@@ -8,7 +8,7 @@ member_image: rsim-team-member.png
 member_title:
 member_first_name: Dikshyant
 member_last_name: Acharya
-member_group: 4_Teaching Assistants
+member_group: 4_Student Research Assistants
 member_position: Researcher
 member_email: dikshyant.acharya [at] campus.tu-berlin.de
 member_site:
