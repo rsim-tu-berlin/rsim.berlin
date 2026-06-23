@@ -38,6 +38,10 @@ member_experience_other:
       title: Working Student Customer Application Support, Telit Cinterion Deutschland GmbH, Berlin, Germany
     - period: 2021-2022
       title: Working Student Application Engineering, Thales DIS AIS Deutschland GmbH, Berlin, Germany
+
+member_tags:
+  - AI Agents
+  - Vision Language Models
     
 member_interests:
   title: Research Interests
