@@ -4,7 +4,7 @@ order: 10
 title: Simon Lösche - RSiM
 #
 member_alias: simon-lösche
-member_image: simon.jpeg
+member_image: simon-losche.jpeg
 member_title:
 member_first_name: Simon
 member_last_name: Lösche
