@@ -25,15 +25,19 @@ member_office_hours:
 member_experience:
   title: Education and Academic Experience
   list:
-    - period: 2022-2026 MSc in Information Systems Management, Technische Universität Berlin, Germany.
-    - period: 2019-2022 BSc in Information Systems Management, Technische Universität Berlin, Germany.
+    - period: 2022-2026
+      title: MSc in Information Systems Management, Technische Universität Berlin, Germany.
+    - period: 2019-2022
+      title: BSc in Information Systems Management, Technische Universität Berlin, Germany.
 
 
 member_experience_other:
   title: Work Experience
   list:
-    - period: 2022-2024 Working Student Customer Application Support, Telit Cinterion Deutschland GmbH, Berlin, Germany
-    - period: 2021-2022 Working Student Application Engineering, Thales DIS AIS Deutschland GmbH, Berlin, Germany
+    - period: 2022-2024
+      title: Working Student Customer Application Support, Telit Cinterion Deutschland GmbH, Berlin, Germany
+    - period: 2021-2022
+      title: Working Student Application Engineering, Thales DIS AIS Deutschland GmbH, Berlin, Germany
     
 member_interests:
   title: Research Interests
