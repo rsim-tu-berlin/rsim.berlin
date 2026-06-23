@@ -6,8 +6,8 @@ title: Simon Lösche - RSiM
 member_alias: simon-lösche
 member_image: simon.jpeg
 member_title:
-member_first_name: Ana
-member_last_name: Lomashvili
+member_first_name: Simon
+member_last_name: Lösche
 member_group: 3_Research Associates
 member_position: Researcher
 member_email: 
