@@ -42,11 +42,11 @@ member_experience_other:
 member_interests:
   title: Research Interests
   list:
-    - AI Agents
-    - Vision Language Models
-    - Parameter Efficient Fine-tuning
-    - Federated Learning
-    - Representation Learning
-    - Computer Vision
-    - Remote Sensing
+  -  AI Agents
+  -  Vision Language Models
+  -  Parameter Efficient Fine-tuning
+  -  Federated Learning
+  -  Representation Learning
+  -  Computer Vision
+  -  Remote Sensing
 ---
