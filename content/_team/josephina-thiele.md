@@ -1,13 +1,13 @@
 ---
 layout: team_member
-order: 10
-title: Simon Lösche - RSiM
+order: 11
+title: Josephina Thiele - RSiM
 #
-member_alias: simon-lösche
-member_image: simon-losche.jpeg
+member_alias: Josephina-thiele
+member_image: 
 member_title:
-member_first_name: Simon
-member_last_name: Lösche
+member_first_name: Josephina 
+member_last_name: Thiele
 member_group: 3_Research Associates
 member_position: Researcher
 member_email: 
@@ -25,32 +25,42 @@ member_office_hours:
 member_experience:
   title: Education and Academic Experience
   list:
-    - period: 2022-2026
-      title: MSc in Information Systems Management, Technische Universität Berlin, Germany.
-    - period: 2019-2022
-      title: BSc in Information Systems Management, Technische Universität Berlin, Germany.
-
+    - period: October 2026
+      title: PhD Researcher at BIFOLD & RSiM, TU Berlin, Germany
+    - period: 2023-2026
+      title: MSc in Data Science, Freie Universität Berlin, Germany
+    -  period: 2019-2023
+       title: BSc in Mathematics, Julius-Maximilians Universität Würzburg, Germany
 
 member_experience_other:
   title: Work Experience
   list:
-    - period: 2022-2024
-      title: Working Student Customer Application Support, Telit Cinterion Deutschland GmbH, Berlin, Germany
-    - period: 2021-2022
-      title: Working Student Application Engineering, Thales DIS AIS Deutschland GmbH, Berlin, Germany
+  - period: 2024-2026
+    title: Data Science Working Student, &effect data solutions GmbH, Berlin, Germany
+  - period: 2022-2023
+    title: Prototype Development Working Student, Decentrale – Trainings und Projektbegleitung e.V., Germany
+  - periode: 2020-2023
+    title: Teaching Student Assistant, Julius-Maximilians Universität Würzburg, Germany
+    
+   
 
 member_tags:
-  - AI Agents
-  - Vision Language Models
+  - Remote Sensing
+  - Multi-modal Learning
     
 member_interests:
   title: Research Interests
   list:
-  -  AI Agents
-  -  Vision Language Models
-  -  Parameter Efficient Fine-tuning
-  -  Federated Learning
-  -  Representation Learning
-  -  Computer Vision
+  -  Data Science
   -  Remote Sensing
+  -  Deep Learning
+  -  Multi-modal Learning
+  -  Federated Learning
+  -  Explainable Artificial Intelligence
+  - 
+  -  
+  -  
+  -  
+  - 
+  -  
 ---
