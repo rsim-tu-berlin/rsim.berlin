@@ -18,8 +18,8 @@ member_address: |
   Remote Sensing Image Analysis (RSiM) Group, Sekr. FR 6-2<br/>
   Franklinstr. 28/29, 6th floor<br/>
   10587 Berlin
-member_phone: +49 30 314 70039
-member_room_no: FR 619
+member_phone: 
+member_room_no: 
 member_office_hours:
 
 member_experience:
@@ -39,7 +39,7 @@ member_experience_other:
     title: Data Science Working Student, &effect data solutions GmbH, Berlin, Germany
   - period: 2022-2023
     title: Prototype Development Working Student, Decentrale – Trainings und Projektbegleitung e.V., Germany
-  - periode: 2020-2023
+  - period: 2020-2023
     title: Teaching Student Assistant, Julius-Maximilians Universität Würzburg, Germany
     
    
@@ -57,10 +57,4 @@ member_interests:
   -  Multi-modal Learning
   -  Federated Learning
   -  Explainable Artificial Intelligence
-  - 
-  -  
-  -  
-  -  
-  - 
-  -  
 ---
