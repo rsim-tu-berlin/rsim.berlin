@@ -29,8 +29,8 @@ member_experience:
       title: PhD Researcher at BIFOLD & RSiM, TU Berlin, Germany
     - period: 2023-2026
       title: MSc in Data Science, Freie Universität Berlin, Germany
-    -  period: 2019-2023
-       title: BSc in Mathematics, Julius-Maximilians Universität Würzburg, Germany
+    - period: 2019-2023
+      title: BSc in Mathematics, Julius-Maximilians Universität Würzburg, Germany
 
 member_experience_other:
   title: Work Experience
