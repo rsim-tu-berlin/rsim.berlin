@@ -4,7 +4,7 @@ order: 9
 title: Dikshyant Acharya - RSiM
 #
 member_alias: dikshyant-acharya
-member_image: rsim-team-member.png
+member_image: dikshyant-acharya.png
 member_title:
 member_first_name: Dikshyant
 member_last_name: Acharya
