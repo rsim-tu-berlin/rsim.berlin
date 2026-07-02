@@ -12,7 +12,7 @@ member_last_name: Li
 member_group: 3_Research Associates # 1 for head, 2 for admins, 3 for PhD Research Associates , 4 for student assistants
 
 member_position: Researcher
-member_email: 
+member_email: zhenshi.li [at] tu-berlin.de
 member_site:
 
 member_address: |
