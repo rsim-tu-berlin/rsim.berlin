@@ -8,6 +8,6 @@ published_at: International Conference on Very Large Databases, Boston, USA, Sep
 image: 2026-conferences-03.png
 bibtex_link:
 pdf_link: 
-git_link: 
+git_link: https://github.com/polydbms/earthlake/
 
 ---
