@@ -6,7 +6,7 @@ link: https://txt.bigearth.net
 abstract:
 
 text: |
-  BigEarthNet.txt contains 464 044 co-registered Sentinel-1 synthetic aperture radar and Sentinel-2 multispectral images with 9.6 M text annotations, including: i) geographically anchored captions describing land-use/land-cover classes, their spatial relations, and environmental context; ii) visual question answering pairs relevant for different tasks; and iii) referring expression detection instructions for bounding box pre-diction.
+  BigEarthNet.txt contains 464 044 co-registered Sentinel-1 synthetic aperture radar and Sentinel-2 multispectral images with 9.6 M text annotations, including: i) geographically anchored captions describing land-use/land-cover classes, their spatial relations, and environmental context; ii) visual question answering pairs relevant for different tasks; and iii) referring expression detection instructions for bounding box prediction.
   
 
 main_page_image: bigearth.net.txt.jpg
