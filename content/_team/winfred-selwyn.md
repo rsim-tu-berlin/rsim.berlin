@@ -25,35 +25,35 @@ member_office_hours:
 member_experience:
   title: Education
   list:
-    - period: Apr 2024 - Now
+    - period: Apr 2024-Now
       title: MSc. in Space Engineering, Technische Universität Berlin, Germany.
-    - period: Oct 2022 – Now
+    - period: Oct 2022–Now
       title: MPhys. in Physics, The Open University, United Kingdom.
-    - period: Apr 2019 - Nov 2022
+    - period: Apr 2019-Nov 2022
       title: BSc in Computer Science, University of London, United Kingdom.
 
 member_experience_other:
   title: Work Experience
   list:
-    - period: Aug 2026 - Now
+    - period: Aug 2026-Now
       title: Research Engineer at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
-    - period: Jun 2025 – May 2026
+    - period: Jun 2025–May 2026
       title: Senior Engineer, Spacecraft and Rovers, NEUROSPACE GmbH, Germany.
-    - period: Apr 2025 - Feb 2026
+    - period: Apr 2025-Feb 2026
       title: Student Assistant, Mission Analysis and Astrodynamics, Chair of Space Technology, TU Berlin, Germany.
-    - period: Aug 2025 – Jan 2026
+    - period: Aug 2025–Jan 2026
       title: Researcher, Astraeus e.V., Germany.
-    - period: Feb 2025 – Feb 2026
+    - period: Feb 2025–Feb 2026
       title: Aerodynamics and AI Software Engineer, Astra e.V., Germany.
-    - period: Dec 2023 - Jan 2025
+    - period: Dec 2023-Jan 2025
       title: Senior AI Software Engineer, IntentAI Pte. Ltd., Singapore.
-    - period: May 2022 - Dec 2023
+    - period: May 2022-Dec 2023
       title: Senior Software Engineer, Carsome Sdn. Bhd., Malaysia.
-    - period: Dec 2019 – May 2023
+    - period: Dec 2019–May 2023
       title: Senior Software Engineer, Nindatech Sdn. Bhd., Malaysia.
-    - period: Sep 2018 – Nov 2019
+    - period: Sep 2018–Nov 2019
       title: Lead Developer, OneRelief, United States of America.
-    - period: Sep 2018 - Nov 2019
+    - period: Sep 2018-Nov 2019
       title: Software Developer & Project Reviewer, Udacity Inc., United States of America.
 
 member_tags:
