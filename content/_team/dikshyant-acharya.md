@@ -34,6 +34,8 @@ member_experience:
 member_experience_other:
   title: Work Experience
   list:
+    - period: Jun 2026-Now
+      title: Student Research Assistant at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: 2022-2026
       title: Software Engineer, trivelope GmbH, Hamburg, Germany.
     - period: 2021-2022
