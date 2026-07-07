@@ -25,6 +25,8 @@ member_office_hours:
 member_experience:
   title: Education and Academic Experience
   list:
+    - period: Jul 2026-Now
+      title: Phd Researcher at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: 2022-2026
       title: MSc in Information Systems Management, Technische Universität Berlin, Germany.
     - period: 2019-2022
