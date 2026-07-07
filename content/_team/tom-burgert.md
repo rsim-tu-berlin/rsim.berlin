@@ -1,11 +1,11 @@
 ---
 layout: team_member
 order: 9
-title: Tom Burgert - RSiM
+title: Dr. Tom Burgert - RSiM
 #
 member_alias: tom-burgert
 member_image: tom-burgert1.png
-member_title:
+member_title: Dr.
 member_first_name: Tom
 member_last_name: Burgert
 member_group: 3_Research Associates
