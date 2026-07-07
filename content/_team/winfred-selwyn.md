@@ -35,7 +35,7 @@ member_experience:
 member_experience_other:
   title: Work Experience
   list:
-     - period: Aug 2026 - Now
+    - period: Aug 2026 - Now
       title: Research Engineer at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: Jun 2025 – May 2026
       title: Senior Engineer, Spacecraft and Rovers, NEUROSPACE GmbH, Germany.
