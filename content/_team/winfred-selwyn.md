@@ -4,7 +4,7 @@ order: 11
 title: Winfred Selwyn - RSiM
 #
 member_alias: winfred-selwyn
-member_image: winfred-selwyn.jpg
+member_image: winfred-selwyn.png
 member_title:
 member_first_name: Winfred
 member_last_name: Selwyn
