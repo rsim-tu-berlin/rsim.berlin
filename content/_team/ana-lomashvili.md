@@ -43,14 +43,14 @@ member_experience_other:
     
 
 member_tags:
-  - FPGA
-  - Channel Coding and Cryptography
+  - Spectral Super-Resolution
+  - Hyperspectral Imaging
 
 member_interests:
   title: Research Interests
   list:
-    - FPGA
-    - Channel Coding and Cryptography
+    - Spectral Super-Resolution
+    - Hyperspectral Imaging
     - Deep Learning
     - Computer Vision
     - Remote Sensing
