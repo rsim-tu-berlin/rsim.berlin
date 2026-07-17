@@ -30,7 +30,7 @@ member_experience:
     - period: 2023 - 2025
       title: MSc in Computer Science, Technische Universität Berlin, Germany.
     - period: 2020 - 2023
-      title: BSc in Computer Science and Digital Media, Berliner Hochschule für Technik, Germany.
+      title: Undergraduate Studies in Computer Science and Digital Media, Berliner Hochschule für Technik, Germany.
     - period: 2014 - 2019
       title: BA in Architecture, Universität der Künste Berlin, Germany.
 member_experience_other:
