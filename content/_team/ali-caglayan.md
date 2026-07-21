@@ -39,7 +39,7 @@ member_experience_other:
     - period: Dec 2018 - Aug 2019
       title:  Research Assistant & Assistant Professor, Department of Computer Engineering,  Bingol University, Bingol, Turkey
     - period: Feb 2011 - Dec 2018
-      title:Research & Teaching Assistant, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
+      title:  Research & Teaching Assistant, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
 member_tags:
   - Foundation models
   - Remote sensing and SAR data analysis
