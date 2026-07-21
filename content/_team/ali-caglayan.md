@@ -1,11 +1,11 @@
 ---
 layout: team_member
 order: 16
-title: Dr.Ali Caglayan - RSiM
+title: Ali Caglayan - RSiM
 #
 member_alias:
 member_image: ali-caglayan.jpg
-member_title:
+member_title: Dr.
 member_first_name: Ali
 member_last_name: Caglayan
 member_group: 3_Research Associates
