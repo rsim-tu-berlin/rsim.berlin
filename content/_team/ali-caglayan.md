@@ -25,7 +25,7 @@ member_office_hours:
 member_experience:
   title: Education
   list:
-    - period: 2011 -2018
+    - period: 2011 - 2018
       title:  Ph.D. in Computer Engineering, Hacettepe University, Ankara, Turkey
     - period: 2005 - 2009
       title:  B.Sc. in Computer Engineering, Hacettepe University, Ankara, Turkey
@@ -34,12 +34,12 @@ member_experience_other:
   list:
     - period: Oct 2026 - Current
       title:  Visiting Postdoc Researcher at BigEarth, BIFOLD & RSiM, TU Berlin, Germany
-    - period: Sept 2019 - current
+    - period: Sept 2019 - Current
       title:  Research Scientist, National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan
     - period: Dec 2018 - Aug 2019
       title:  Research Assistant & Assistant Professor, Department of Computer Engineering,  Bingol University, Bingol, Turkey
     -period:  Feb 2011 - Dec 2018
-      title:Research & Teaching Assistant, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
+      title: Research & Teaching Assistant, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
 member_tags:
   - Foundation models
   - Remote sensing and SAR data analysis
