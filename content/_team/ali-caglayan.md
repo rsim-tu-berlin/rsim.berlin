@@ -25,7 +25,7 @@ member_office_hours:
 member_experience:
   title: Education
   list:
-    - period: 2011 -2018
+    - period: 2011 - 2018
       title:  Ph.D. in Computer Engineering, Hacettepe University, Ankara, Turkey
     - period: 2005 - 2009
       title:  B.Sc. in Computer Engineering, Hacettepe University, Ankara, Turkey
