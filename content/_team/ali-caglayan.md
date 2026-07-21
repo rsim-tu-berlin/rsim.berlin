@@ -38,7 +38,7 @@ member_experience_other:
       title:  Research Scientist, National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan
     - period: Dec 2018 - Aug 2019
       title:  Research Assistant & Assistant Professor, Department of Computer Engineering,  Bingol University, Bingol, Turkey
-    - period:  Feb 2011 - Dec 2018
+    - period: Feb 2011 - Dec 2018
       title:Research & Teaching Assistant, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
 member_tags:
   - Foundation models
