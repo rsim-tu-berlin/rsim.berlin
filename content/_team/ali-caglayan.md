@@ -32,9 +32,9 @@ member_experience:
 member_experience_other:
   title: Work Experience
   list:
-    - period: Oct 2026 - Current
+    - period: Oct 2026 - Now
       title:  Visiting Postdoc Researcher at BigEarth, BIFOLD & RSiM, TU Berlin, Germany
-    - period: Sept 2019 - current
+    - period: Sept 2019 - Now
       title:  Research Scientist, National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan
     - period: Dec 2018 - Aug 2019
       title:  Research Assistant & Assistant Professor, Department of Computer Engineering,  Bingol University, Bingol, Turkey
