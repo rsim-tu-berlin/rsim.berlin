@@ -42,14 +42,14 @@ member_experience_other:
       title:  Research & Teaching Assistant, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
 member_tags:
   - Foundation models
-  - Remote sensing and SAR data analysis
+  - Remote sensing 
 
 member_interests:
   title: Research Interests
   list:
-    - Foundation models
-    - Remote sensing and SAR data analysis
-    - 2D/3D scene understanding
-    - Point cloud understanding
-    - Computer vision
+    - Foundation Models
+    - Remote Sensing and SAR Data Analysis
+    - 2D/3D Scene Understanding
+    - Point Cloud Understanding
+    - Computer Vision
 ---
