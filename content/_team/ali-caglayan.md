@@ -41,8 +41,8 @@ member_experience_other:
     - period: Feb 2011 - Dec 2018
       title:  Research & Teaching Assistant, Department of Computer Engineering, Hacettepe University, Ankara, Turkey
 member_tags:
-  - Foundation models
-  - Remote sensing 
+  - Foundation Models
+  - Remote Sensing 
 
 member_interests:
   title: Research Interests
