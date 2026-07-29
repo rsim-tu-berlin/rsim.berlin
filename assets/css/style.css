@@ -500,7 +500,13 @@ a h4:hover {
 
 /* page title */
 .page-title-section {
-  padding: 200px 0 80px;
+  padding: 130px 0 80px;
+}
+
+@media (max-width: 991px) {
+  .page-title-section {
+    padding: 100px 0 60px;
+  }
 }
 
 .custom-breadcrumb li.nasted {
@@ -568,15 +574,29 @@ textarea.form-control {
 }
 
 .navigation {
-  height: 125px;
-  padding-top: 25px;
+  height: 96px;
+  padding-top: 12px;
   transition: 0.2s ease;
   border-bottom: 1px solid #ededf1;
 }
 
 @media (max-width: 991px) {
   .navigation {
-    height: 100px;
+    height: 72px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navigation {
+    padding-top: 12px;
+  }
+  .navigation .navbar-brand {
+    margin-right: 0.5rem;
+  }
+  .navigation .navbar-brand img {
+    height: 30px;
+    width: auto;
+    max-width: 100%;
   }
 }
 
@@ -662,7 +682,7 @@ link:focus,
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 40px 0px;
+  padding: 28px 0px;
 }
 
 @media (max-width: 991px) {
