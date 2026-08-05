@@ -6,7 +6,7 @@ title: Dr.Ali Caglayan - RSiM
 member_alias:
 member_image: rsim-team-member.png
 member_title:
-member_first_name:  
+member_first_name: Angelika
 member_last_name: Liberacka
 member_group: 5_Student Research Assistants
 member_position: Researcher
