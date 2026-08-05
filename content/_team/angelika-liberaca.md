@@ -29,7 +29,7 @@ member_experience:
       title:  MSc in Information Systems Management, Technische Universität Berlin, Germany 
     - period: Aug 2024 - Jan 2025
       title:  Erasmus+ Exchange, Kungliga Tekniska högskolan (KTH Royal Institut of Technology), Stockholm, Sweden
-    - period: 2022 -2025
+    - period: 2022- 2025
       title:  BSc in Information Systems Management, Technische Universität Berlin, Germany
 member_experience_other:
   title: Work Experience
