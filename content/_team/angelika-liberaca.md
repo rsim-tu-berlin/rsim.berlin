@@ -4,7 +4,7 @@ order: 22
 title: Angelika Liberacka- RSiM
 #
 member_alias:
-member_image: rsim-team-member.png
+member_image: angelika-liberecka.png
 member_title:
 member_first_name: Angelika
 member_last_name: Liberacka
