@@ -36,7 +36,7 @@ member_experience_other:
   list:
     - period: Aug 2026 - Now
       title:  Student Research Assistant at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
-    - period: Sep 2025 -Jul 2026
+    - period: Sep 2025 - Jul 2026
       title:  Project Assistant, TeachCom Edutainment gGmbH, Berlin, Germany
 member_tags:
   - AI Agents
