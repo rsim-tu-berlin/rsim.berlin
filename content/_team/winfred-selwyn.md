@@ -8,8 +8,8 @@ member_image: winfred-selwyn.png
 member_title:
 member_first_name: Winfred
 member_last_name: Selwyn
-member_group: 4_Research Engineer
-member_position: Researcher
+member_group: 4_Research Engineers & Research Assistants
+member_position: Research Engineer
 member_email: 
 member_site:
 

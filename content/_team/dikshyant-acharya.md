@@ -8,8 +8,8 @@ member_image: dikshyant-acharya.png
 member_title:
 member_first_name: Dikshyant
 member_last_name: Acharya
-member_group: 5_Student Research Assistants
-member_position: Researcher
+member_group: 4_Research Engineers & Research Assistants
+member_position: Student Research Assistant
 member_email: dikshyant.acharya [at] campus.tu-berlin.de
 member_site:
 

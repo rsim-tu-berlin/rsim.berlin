@@ -8,7 +8,7 @@ member_image: angelika-liberecka.png
 member_title:
 member_first_name: Angelika
 member_last_name: Liberacka
-member_group: 5_Student Research Assistants
+member_group: 4_Research Engineers & Research Assistants
 member_position: Researcher
 member_email: a.liberacka [at] campus.tu-berlin.de
 member_site:
