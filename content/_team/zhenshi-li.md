@@ -20,8 +20,8 @@ member_address: |
   Remote Sensing Image Analysis (RSiM) Group, Sekr. FR 6-2<br/>
   Franklinstr. 28/29, 6th floor<br/>
   10587 Berlin
-member_phone: 
-member_room_no: 
+member_phone: +493031470035 
+member_room_no: FR 614
 member_office_hours:
 
 member_experience:
