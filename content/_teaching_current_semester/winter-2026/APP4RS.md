@@ -2,7 +2,7 @@
 layout: teaching_course
 #
 update_date: 2026-08-06
-title: Advanced Python Programming for Remote Sensing (APP4RS)
+title: Advanced Python Programming for Remote Sensing (APP4EO)
 banner_image: app4rs.png
 semester: Winter semester 26/27
 credit_point: 6 SWS/9 ECTS
