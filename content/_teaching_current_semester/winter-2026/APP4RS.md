@@ -18,7 +18,7 @@ description: |
   Relevant data and storage formats will be introduced, alongside modern deep learning methods and architectures, giving particular attention to efficiency, flexibility and seamless conduction of experiments in Python to enable efficient large-scale remote sensing image analytics with deep learning.
   Practical applications will be provided throughout the course.
   <br />
-  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41199&version=1" target="_blank">MOSES</a> page.
+  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41199&version=3" target="_blank">MOSES</a> page.
   <br />
   If you have any questions regarding the organization of the course, do not hesitate to contact us at: <a href="mailto:j.klotz [at] tu-berlin.de">j.klotz [at] tu-berlin.de</a>.
 
