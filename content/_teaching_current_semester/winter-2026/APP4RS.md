@@ -2,10 +2,10 @@
 layout: teaching_course
 #
 update_date: 2026-08-06
-title: Advanced Python Programming for Remote Sensing (APP4EO)
+title: Advanced Python Programming for Deep Learning in Earth Observation (APP4EO)
 banner_image: app4rs.png
 semester: Winter semester 26/27
-credit_point: 6 SWS/9 ECTS
+credit_point: 4 SWS/6 ECTS
 participants: 24
 date_time: Wednesday 12:00 - 16:00
 location: 
