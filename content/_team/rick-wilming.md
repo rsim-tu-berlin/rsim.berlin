@@ -37,7 +37,7 @@ member_experience:
 member_experience_other:
   title: Work Experience
   list:
-    - period: Sep 2026 - Now
+    - period: Sep 2026 -Now
       title: Post-Doctoral Researcher at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: 2020-2026
       title: Research Scientist at QAI Labs at TU Berlin, Charité Berlin, and PTB Berlin, Germany.
