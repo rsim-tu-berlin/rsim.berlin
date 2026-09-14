@@ -4,7 +4,7 @@ order: 22
 title: Huma Ghani Zada - RSiM
 #
 member_alias: huma-ghani-zada
-member_image: huma-ghani-zada.jpg
+member_image: huma-ghani-zada.jpeg
 member_title:
 member_first_name: Huma Ghani
 member_last_name: Zada
