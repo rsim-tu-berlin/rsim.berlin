@@ -180,6 +180,16 @@
       institute: TU Berlin
       year: 2026
       pdf_file:
+    - author: Jan Philipps
+    - title: "Time Series Adaptation of Remote Sensing Foundation Models"
+      institute: TU Berlin
+      year: 2026
+      pdf_file:
+    - author: Filipe Alexandre Fabian Borges
+    - title: "On Detecting Hallucinations in Vision-Language Model Generated Captions for Remote Sensing Imagery"
+      institute: TU Berlin
+      year: 2026
+      pdf_file:
     
 
 
