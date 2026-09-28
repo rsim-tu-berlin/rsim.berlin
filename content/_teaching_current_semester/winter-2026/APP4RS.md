@@ -9,7 +9,7 @@ credit_point: 4 SWS/6 ECTS
 participants: 24
 date_time: Wednesday 12:00 - 16:00
 location: 
-isis_link: 
+isis_link: https://isis.tu-berlin.de/login/index.php
 
 description: |
   The course aims to provide practical knowledge for deep learning-based processing and analysis of remote sensing images.
