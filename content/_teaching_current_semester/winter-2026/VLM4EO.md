@@ -9,7 +9,7 @@ credit_point: 2 SWS/3 ECTS
 participants: 18
 date_time: Monday 10:00–12:00
 location: FR 713
-isis_link: 
+isis_link: https://isis.tu-berlin.de/enrol/index.php?id=49490
 
 description: |
   Participants of this seminar acquire knowledge in advancements in the field of Vision-Language Models (VLMs) for Earth observation.
