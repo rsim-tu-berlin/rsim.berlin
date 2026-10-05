@@ -8,7 +8,7 @@ semester: Winter semester 26/27
 credit_point: 4 SWS/6 ECTS
 participants: 24
 date_time: Wednesday 12:00 - 16:00
-location: 
+location: KWT-A 014
 isis_link: https://isis.tu-berlin.de/enrol/index.php?id=49877
 
 description: |
