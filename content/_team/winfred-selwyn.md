@@ -10,7 +10,7 @@ member_first_name: Winfred
 member_last_name: Selwyn
 member_group: 4_Research Engineers & Research Assistants
 member_position: Research Engineer
-member_email: 
+member_email: w.ooh.azlin [at] campus.tu-berlin.de
 member_site:
 
 member_address: |
