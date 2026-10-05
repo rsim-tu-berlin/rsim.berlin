@@ -10,7 +10,7 @@ member_first_name: Josephina
 member_last_name: Thiele
 member_group: 3_Research Associates
 member_position: Researcher
-member_email: j.thiele[at]tu-berlin.de
+member_email: j.thiele [at] tu-berlin.de
 member_site:
 
 member_address: |
