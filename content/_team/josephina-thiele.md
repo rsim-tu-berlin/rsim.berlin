@@ -4,13 +4,13 @@ order: 11
 title: Josephina Thiele - RSiM
 #
 member_alias: Josephina-thiele
-member_image: josephina-thiele
+member_image: josephina-thiele.jpg
 member_title:
 member_first_name: Josephina 
 member_last_name: Thiele
 member_group: 3_Research Associates
 member_position: Researcher
-member_email: j.thiele@tu-berlin.de
+member_email: j.thiele[at]tu-berlin.de
 member_site:
 
 member_address: |
