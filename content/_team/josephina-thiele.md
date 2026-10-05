@@ -4,13 +4,13 @@ order: 11
 title: Josephina Thiele - RSiM
 #
 member_alias: Josephina-thiele
-member_image: rsim-team-member.png
+member_image: Josephina.jpg
 member_title:
 member_first_name: Josephina 
 member_last_name: Thiele
 member_group: 3_Research Associates
 member_position: Researcher
-member_email: 
+member_email: j.thiele@tu-berlin.de
 member_site:
 
 member_address: |
@@ -19,7 +19,7 @@ member_address: |
   Franklinstr. 28/29, 6th floor<br/>
   10587 Berlin
 member_phone: 
-member_room_no: 
+member_room_no: FR 619
 member_office_hours:
 
 member_experience:
