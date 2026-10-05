@@ -4,7 +4,7 @@ order: 11
 title: Josephina Thiele - RSiM
 #
 member_alias: Josephina-thiele
-member_image: Josephina.jpg
+member_image: josephina-thiele
 member_title:
 member_first_name: Josephina 
 member_last_name: Thiele
