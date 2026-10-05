@@ -20,7 +20,7 @@ member_address: |
   10587 Berlin
 member_phone: 
 member_room_no:
-member_office_hours:
+member_office_hours: FR 612
 
 member_experience:
   title: Education
