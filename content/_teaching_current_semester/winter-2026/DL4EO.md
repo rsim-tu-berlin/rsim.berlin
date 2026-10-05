@@ -9,7 +9,7 @@ credit_point: 6 SWS/9 ECTS
 participants: 12
 date_time: Tuesday 12:00–18:00
 location: FR 713
-isis_link: 
+isis_link: https://isis.tu-berlin.de/enrol/index.php?id=49106
 
 description: |
   Participants of this project course gain practical experience in applying deep learning techniques to address Earth observation questions in a collaborative team and acquire knowledge on state-of-the-art topics in the field of deep learning for remote sensing.
