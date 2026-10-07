@@ -25,10 +25,10 @@ member_office_hours:
 member_experience:
   title: Education
   list:
-    - period:2025-now
-      title: Msc in Computer Science, Technische Universität Berlin, Germany.
-    - period:2022-2026
-      title:BSc in Computer Science, Technische Universität Berlin, Germany.
+    - period: 2025-now
+      title:  Msc in Computer Science, Technische Universität Berlin, Germany.
+    - period: 2022-2026
+      title: BSc in Computer Science, Technische Universität Berlin, Germany.
 
 member_experience_other:
   title: Work Experience
