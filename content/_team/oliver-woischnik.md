@@ -33,7 +33,7 @@ member_experience:
 member_experience_other:
   title: Work Experience
   list:
-    - period:Oct 2026-Now
+    - period: Oct 2026-Now
       title: Student Research Assistant at BigEarth, BIFOLD & RSiM, TU Berlin, Germany.
     - period: 2025-2026
       title: Student Teaching Assistant, Technische Universität Berlin, Germany.
