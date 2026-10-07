@@ -47,5 +47,4 @@ member_tags:
 member_interests:
   title: Research Interests
   list:
-    -
 ---
