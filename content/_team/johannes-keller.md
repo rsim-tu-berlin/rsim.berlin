@@ -1,13 +1,13 @@
 ---
 layout: team_member
 order: 7
-title: Johannes Keller - RSiM
+title: Johannes Lehmann - RSiM
 #
-member_alias:
+member_alias: johannes lehmann
 member_image: johannes-keller.png
 member_title:
 member_first_name: Johannes
-member_last_name: Keller
+member_last_name: Lehmann
 member_group: 3_Research Associates
 member_position: Researcher
 member_email: 
