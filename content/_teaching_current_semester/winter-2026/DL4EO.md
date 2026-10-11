@@ -18,7 +18,11 @@ description: |
   For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41012&version=6" target="_blank">Moses</a> page. <br />
 
 lecturers:
+  - name:  Yi-Wei Fu
+    detail: (for administration related questions)
+    link_ext: yi-wei-fu
   - name: Ana Lomashvili
+    detail: (for course related questions)
     link_ext: ana-lomashvili
 
 # announcements:
