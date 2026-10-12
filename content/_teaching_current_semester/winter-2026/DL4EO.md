@@ -15,7 +15,7 @@ description: |
   Participants of this project course gain practical experience in applying deep learning techniques to address Earth observation questions in a collaborative team and acquire knowledge on state-of-the-art topics in the field of deep learning for remote sensing.
   <br/>
   <br/>
-  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41012&version=6" target="_blank">Moses</a> page. <br />
+  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41012&version=7" target="_blank">Moses</a> page. <br />
 
 lecturers:
   - name:  Yi-Wei Fu
