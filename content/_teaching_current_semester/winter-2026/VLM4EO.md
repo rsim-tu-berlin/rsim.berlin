@@ -15,7 +15,7 @@ description: |
   Participants of this seminar acquire knowledge in advancements in the field of Vision-Language Models (VLMs) for Earth observation.
   <br/>
   <br/>
-  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41274&version=2" target="_blank">Moses</a> page. <br />
+  For the details about the course content, please visit the <a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41274&version=3" target="_blank">Moses</a> page. <br />
 
 lecturers:
   - name:  Yi-Wei Fu
