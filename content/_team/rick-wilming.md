@@ -1,13 +1,13 @@
 ---
 layout: team_member
 order: 18
-title: Rick Wilming - RSiM
+title: Rick Bryant-Wilming - RSiM
 #
-member_alias: rick-wilming
+member_alias: rick-bryant-wilming
 member_image: rick-wilming.jpeg
 member_title: Dr.
 member_first_name: Rick
-member_last_name: Wilming
+member_last_name: Bryant-Wilming
 
 member_group: 3_Research Associates # 1 for head, 2 for admins, 3 for PhD Research Associates , 4 for student assistants
 
