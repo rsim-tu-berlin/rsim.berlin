@@ -10,7 +10,7 @@ member_first_name: Johannes
 member_last_name: Lehmann
 member_group: 3_Research Associates
 member_position: Researcher
-member_email: 
+member_email: keller [] tu-berlin.de
 member_site:
 
 member_address: |
