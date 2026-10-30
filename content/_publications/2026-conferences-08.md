@@ -8,6 +8,6 @@ published_at: Advances in Neural Information Processing Systems (NeurIPS), Sydne
 image: 2026-conferences-08.png
 bibtex_link:
 pdf_link: https://arxiv.org/abs/2601.22841
-git_link: 
+git_link: https://github.com/hackelle/slimmable-remote-sensing-foundation-models
 
 ---
