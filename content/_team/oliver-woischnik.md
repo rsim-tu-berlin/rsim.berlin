@@ -42,9 +42,13 @@ member_experience_other:
     
 
 member_tags:
-  - 
+  - AI Agents
+  - Remote Sensing
 
 member_interests:
   title: Research Interests
   list:
+  - AI Agents
+  - Vision Language Models
+  - Remote Sensing
 ---
