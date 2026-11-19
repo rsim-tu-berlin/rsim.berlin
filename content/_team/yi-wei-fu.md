@@ -4,7 +4,7 @@ order: 21
 title: Yi-Wei Fu - RSiM
 #
 member_alias: yi-wei-fu
-member_image: rsim-team-member.png
+member_image: yi-wei-fu.jpg
 member_title:
 member_first_name: Yi-Wei
 member_last_name: Fu
